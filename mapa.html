@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <title>Piękno, Radość, Szczęście</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Strona Główna</a>
+      <a class="disabled">Mapa</a>
+      <a>Wykresy</a>
+    </nav>
+    <section>
+      <div id="map"></div>
+      <menu>
+        <h4>Kontrolki Danych</h4>
+        <label for="electionType">Rodzaj wyborów</label>
+        <select id="electionType">
+          <option selected value="prezy">Prezydenckie</option>
+          <option value="parla">Parlamentarne</option>
+        </select>
+        <select id="electionYear"></select>
+        <select id="electionRound">
+          <option value="1">1 Tura</option>
+          <option selected value="2">2 Tura</option>
+        </select>
+        <br />
+        <label for="SecondElectionCheckbox">porównaj z innymi wyborami</label>
+        <input type="checkbox" id="SecondElectionCheckbox" />
+        <div class="secondElectionContainer">
+          <label for="electionType">Rodzaj wyborów</label>
+          <select id="electionTypeSecond">
+            <option selected value="prezy">Prezydenckie</option>
+            <option value="parla">Parlamentarne</option>
+          </select>
+          <select id="electionYearSecond"></select>
+          <select id="electionRoundSecond">
+            <option value="1">1 Tura</option>
+            <option selected value="2">2 Tura</option>
+          </select>
+        </div>
+        <br />
+        <label for="administrativeDivision">Podział administracyjny</label>
+        <select id="administrativeDivision">
+          <option value="gminy">Gminy</option>
+          <option selected value="powiaty">Powiaty</option>
+          <option value="wojewodztwa">Województwa</option>
+        </select>
+        <br />
+        <label for="dataType">dane do wyświetlenia:</label>
+        <select id="dataType">
+          <option selected value="turnout">Frekwencja</option>
+          <option value="results">Wyniki Kandydatów</option>
+          <option value="turnoutAndResults">Frekwencja z Wynikami</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <h4>Kontrolki Mapy</h4>
+        <input id="precentageMinSlide" type="range" step="5" value="45" />
+        <label id="precentageMinValue">tn</label><br />
+        <input id="precentageMaxSlide" type="range" step="5" value="85" />
+        <label id="precentageMaxValue">tn</label><br />
+        <input id="intervalCount" type="number" value="4" min="2" max="12" />
+        <p>grupowanie kandydatów</p>
+        <div id="candidateList"></div>
+        <p>kolory</p>
+        <input type="color" id="colorBegin" value="#ffffff" />
+        <input type="color" id="colorEnd" value="#cc0000" />
+        <div id="gradientLegend"></div>
+        <button id="refresh">Odśwież</button>
+      </menu>
+    </section>
+  </body>
+  <script type="module" src="js/mapControler.js"></script>
+</html>
