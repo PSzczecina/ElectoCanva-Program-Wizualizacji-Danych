@@ -2,8 +2,10 @@
  * wyciąga dane do pobrania i karze zaktualizować wykresy/mapy
  */
 export async function fetchAndUpdateData(type, year, round, adminDiv) {
-    // Nazwa repo jest potrzebna - inaczej ścieżka nie działa
-    var fetchURL = '..ElectoCanva-Program-Wizualizacji-Danych/data/';
+    //
+    // albo i nie - jak będziesz pracować u siebie to używaj "../data/" zamiast "data/""
+    //
+    var fetchURL = 'data/';
     if (type == 'prezy') {
         fetchURL += `prezydenckie/${year}_prezy_${round}tura.json`;
     } else if (type == 'parla') {
