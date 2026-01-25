@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,11 +19,53 @@
   </head>
   <body>
     <nav>
-      <a>Strona Główna</a>
+      <a class="disabled">Strona Główna</a>
       <a href="mapa.html">Mapa</a>
       <a>Wykresy</a>
+      <a>Do Pobrania</a>
     </nav>
-    <section></section>
+    <section>
+      <h1>ElectoCanva* - Program wizualizacji danych</h1>
+      <p>Aplikacja ta stanowi główną część projektu licencjackiego.</p>
+      <p>
+        Celem projektu jest aplikacja do przystępnej prezentacja danych
+        wyborczych w Polsce. Funkcjonalność obejmuje:
+      </p>
+      <ul>
+        <li>
+          Użycie kartogramów, wykresów słupkowych, liniowych, bąbelkowych,
+        </li>
+        <li>
+          Wyświetlanie danych frekwencji, zwycięzców/zwycięskich bloków w
+          poszczególnych regionach, wspólne wyświetlenie informaci o frekwencji
+          z różnicą wyników,
+        </li>
+        <li>
+          Grupowanie kandydatów w wyborach na bloki
+          (prawica/centrum/lewica/inni),
+        </li>
+        <li>
+          Porównywanie danych z dwóch różnych wyborów (np. Zmiana frekwencji
+          między wyborami parlamentranymi 2019 a prezydenckimi 2020, zmiana
+          poparcia między kandydatami "prawicy" z wyborów parlamentarnych 2019 a
+          prezydenckich 2025, etc.)
+        </li>
+      </ul>
+      <p>
+        Dane przekonwertowano z xls/xlsx na pliki Json o ustandaryzowanym
+        formacie za pomocą programu w Pythonie. Oryginalne dane wybrocze wzięto
+        z
+        <a
+          target="_blank"
+          href="https://danewyborcze.kbw.gov.pl/indexc4fa.html?title=Strona_g%C5%82%C3%B3wna"
+          >oficjalnej strony Państwowej Komisji Wyborczej</a
+        >. Gotowe dane Json granic administracyjnych wzięto z
+        <a href="https://github.com/jusuff/PolandGeoJson" target="_blank">
+          dostępnego publicznie repozytorium na GitHubie </a
+        >.
+      </p>
+      <h6>*nazwa w.i.p.</h6>
+    </section>
   </body>
   <!--script type="module">
     //jak na razie dla samych gmin. Trzeba dorobić dla powiatów/województw jeszcze

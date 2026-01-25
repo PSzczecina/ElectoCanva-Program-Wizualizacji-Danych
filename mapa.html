@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!--Ogólnie to renderowanie lubi czasem wybuchać. Trzeba się tym zająć-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -22,6 +23,7 @@
       <a href="index.html">Strona Główna</a>
       <a class="disabled">Mapa</a>
       <a>Wykresy</a>
+      <a>Do Pobrania</a>
     </nav>
     <section>
       <div id="map"></div>
@@ -38,13 +40,13 @@
           <option selected value="2">2 Tura</option>
         </select>
         <br />
-        <label for="SecondElectionCheckbox">porównaj z innymi wyborami</label>
-        <input type="checkbox" id="SecondElectionCheckbox" />
+        <label for="secondElectionCheckbox">porównaj z innymi wyborami</label>
+        <input type="checkbox" id="secondElectionCheckbox" />
         <div class="secondElectionContainer">
-          <label for="electionType">Rodzaj wyborów</label>
+          <label for="electionTypeSecond">Rodzaj wyborów</label>
           <select id="electionTypeSecond">
-            <option selected value="prezy">Prezydenckie</option>
-            <option value="parla">Parlamentarne</option>
+            <option value="prezy">Prezydenckie</option>
+            <option selected value="parla">Parlamentarne</option>
           </select>
           <select id="electionYearSecond"></select>
           <select id="electionRoundSecond">
@@ -64,24 +66,42 @@
         <select id="dataType">
           <option selected value="turnout">Frekwencja</option>
           <option value="results">Wyniki Kandydatów</option>
-          <option value="turnoutAndResults">Frekwencja z Wynikami</option>
+          <option value="population">Populacja</option>
         </select>
         <br />
-        <br />
-        <br />
+        <button id="refresh">Załaduj ponownie dane</button>
         <h4>Kontrolki Mapy</h4>
-        <input id="precentageMinSlide" type="range" step="5" value="45" />
+        <input
+          id="precentageMinSlide"
+          type="range"
+          step="3"
+          value="45"
+          min="0"
+          max="100"
+        />
         <label id="precentageMinValue">tn</label><br />
-        <input id="precentageMaxSlide" type="range" step="5" value="85" />
+        <input
+          id="precentageMaxSlide"
+          type="range"
+          step="3"
+          value="75"
+          min="0"
+          max="100"
+        />
         <label id="precentageMaxValue">tn</label><br />
+        <!--wyświetlanie wyników i ustalanie grup-->
+        <h4>grupowanie kandydatów</h4>
+        <label for="intervalCount">ilość kroków w podziałce: </label>
         <input id="intervalCount" type="number" value="4" min="2" max="12" />
-        <p>grupowanie kandydatów</p>
         <div id="candidateList"></div>
-        <p>kolory</p>
-        <input type="color" id="colorBegin" value="#ffffff" />
-        <input type="color" id="colorEnd" value="#cc0000" />
-        <div id="gradientLegend"></div>
-        <button id="refresh">Odśwież</button>
+        <div id="turnoutColorSegment" style="display: none">
+          <h5>kolor legendy</h5>
+          <input type="color" id="colorBegin" value="#ffffff" />
+          <input type="color" id="colorEnd" value="#aa0000" />
+          <div id="gradientLegend"></div>
+        </div>
+        <br />
+        <button id="refreshDisplay">Odśwież Mapę</button>
       </menu>
     </section>
   </body>

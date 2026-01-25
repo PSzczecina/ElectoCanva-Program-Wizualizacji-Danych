@@ -14,7 +14,7 @@ html {
     repeating-conic-gradient(var(--c1) 0 25%, #0000 0 50%) 0 0 / var(--_s),
     radial-gradient(var(--_c)) 0 calc(var(--s) / 2) / var(--s) var(--s)
       var(--c1);
-  color: white;
+  color: rgb(252, 221, 221);
 }
 body {
   font-family:
@@ -44,16 +44,142 @@ body {
   margin-left: 5%;
   border: 6px outset #524800;
 }
+
 menu {
   float: left;
-  width: 30vw;
+  min-width: 520px;
+  width: 35vw;
+
+  h4 {
+    margin: 15px 0;
+  }
+
+  button {
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 3px outset goldenrod;
+    &:hover {
+      background-color: darkgoldenrod;
+      cursor: pointer;
+    }
+  }
+
+  #refresh {
+    margin: 20px 0;
+    font-size: 15px;
+    height: 40px;
+    width: 170px;
+  }
+  #refreshDisplay {
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+    height: 50px;
+    width: 80px;
+  }
+  select {
+    font-weight: bold;
+    padding: 2px;
+    margin: 5px;
+    border: none;
+    background-color: goldenrod;
+    &:hover {
+      background-color: darkgoldenrod;
+      cursor: pointer;
+    }
+  }
+  input[type='range'] {
+    appearance: none;
+    background: rgb(35, 0, 0);
+    height: 20px;
+    width: 70%;
+    border-radius: 15px;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    appearance: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    cursor: pointer;
+  }
+  label[for='secondElectionCheckbox'] {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  input[type='checkbox'] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    &:hover {
+      background-color: lightgoldenrodyellow;
+      cursor: pointer;
+    }
+    &:checked {
+      background-color: darkgoldenrod;
+      &:hover {
+        background-color: goldenrod;
+      }
+    }
+  }
+
+  input[type='radio'] {
+    margin: 0;
+    appearance: none;
+    width: 65px;
+    height: 25px;
+    background-color: rgb(35, 0, 0);
+    &:hover {
+      border: 2px solid goldenrod;
+    }
+    &:checked {
+      &[value='centrum'] {
+        background-color: #ffff99;
+      }
+      &[value='prawica'] {
+        background-color: #9999ff;
+      }
+      &[value='lewica'] {
+        background-color: #ff5555;
+      }
+      &[value='inni'] {
+        background-color: dimgray;
+      }
+      &[value='zignoruj'] {
+        background-color: pink;
+      }
+    }
+  }
+  input[type='color'] {
+    background-color: rgb(35, 0, 0);
+  }
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: rgba(74, 74, 74, 0.4);
+  }
+  th,
+  td {
+    height: 25px;
+    padding: 0;
+    border: 1px solid black;
+    user-select: none;
+    white-space: nowrap;
+  }
 }
 nav {
+  overflow-x: hidden;
   width: 100%;
-  height: 90px;
+  min-height: 90px;
   background-color: rgb(35, 0, 0);
   a {
-    margin: 20px 6vw;
+    margin: 20px max(3vw, 30px);
     padding: 10px 0;
     text-align: center;
     display: border-box;
@@ -62,7 +188,7 @@ nav {
     background-color: #4c1010;
     font-size: 30px;
     min-width: 200px;
-    width: 20vw;
+    width: 15vw;
     text-decoration: none;
     border: 1px solid #4c1010;
     border-radius: 15px;
@@ -73,38 +199,90 @@ nav {
     &.disabled {
       color: goldenrod;
       background-color: black;
+      &:hover {
+        background-color: black;
+        cursor: default;
+        border: 1px solid #4c1010;
+      }
     }
   }
 }
 
-input[type='range'] {
-  appearance: none;
-  background: rgb(35, 0, 0);
-  height: 20px;
-  width: 70%;
-  border-radius: 15px;
-}
-input[type='range']::-webkit-slider-thumb {
-  appearance: none;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: goldenrod;
-  cursor: pointer;
-}
-
 #gradientLegend {
-  margin: 10px;
+  margin: 10px 0;
   width: 150px;
-  height: 50px;
+  height: 30px;
   border: 5px outset #524800;
   background-color: black;
 }
 
-.secondElectionContainer {
+input:not(:checked) + .secondElectionContainer {
   color: dimgray;
   select,
   imput {
     background-color: dimgray;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+}
+p {
+  font-size: 30px;
+  margin: 30px 100px;
+  a {
+    text-decoration: none;
+    color: palevioletred;
+    &:visited {
+      color: violet;
+    }
+    &:hover {
+      color: lightblue;
+    }
+  }
+}
+ul {
+  font-size: 25px;
+  margin: 30px 100px;
+}
+h6 {
+  font-weight: normal;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1px;
+}
+
+.info {
+  border-radius: 20px;
+  border: 1px solid gray;
+  position: relative;
+  overflow-y: scroll;
+  height: 175px;
+  width: 420px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-justify: inter-word;
+  h4 {
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: block;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 6px dimgray;
+    top: 0;
+    margin-top: 0;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 18px;
   }
 }

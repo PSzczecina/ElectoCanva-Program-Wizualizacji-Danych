@@ -21,7 +21,7 @@
     "Polska Partia Pracy",
     "Ruch Patriotyczny"
   ],
-  "20101": {
+  "020101": {
     "liczba_wyborców_uprawnionych": 34041,
     "liczba_wyborców_obecnych": 13306,
     "łączna_ilość_głosów": 12803,
@@ -44,7 +44,7 @@
     "Polska Partia Pracy": 88,
     "Ruch Patriotyczny": 273.0
   },
-  "20102": {
+  "020102": {
     "liczba_wyborców_uprawnionych": 9391,
     "liczba_wyborców_obecnych": 2970,
     "łączna_ilość_głosów": 2856,
@@ -67,7 +67,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 38.0
   },
-  "20103": {
+  "020103": {
     "liczba_wyborców_uprawnionych": 4341,
     "liczba_wyborców_obecnych": 1480,
     "łączna_ilość_głosów": 1393,
@@ -90,7 +90,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 13.0
   },
-  "20104": {
+  "020104": {
     "liczba_wyborców_uprawnionych": 11312,
     "liczba_wyborców_obecnych": 3351,
     "łączna_ilość_głosów": 3130,
@@ -113,7 +113,7 @@
     "Polska Partia Pracy": 41,
     "Ruch Patriotyczny": 31.0
   },
-  "20105": {
+  "020105": {
     "liczba_wyborców_uprawnionych": 5077,
     "liczba_wyborców_obecnych": 1510,
     "łączna_ilość_głosów": 1413,
@@ -136,7 +136,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 21.0
   },
-  "20106": {
+  "020106": {
     "liczba_wyborców_uprawnionych": 5992,
     "liczba_wyborców_obecnych": 1942,
     "łączna_ilość_głosów": 1833,
@@ -159,7 +159,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 13.0
   },
-  "20301": {
+  "020301": {
     "liczba_wyborców_uprawnionych": 57694,
     "liczba_wyborców_obecnych": 22965,
     "łączna_ilość_głosów": 22061,
@@ -182,7 +182,7 @@
     "Polska Partia Pracy": 157,
     "Ruch Patriotyczny": 108.0
   },
-  "20302": {
+  "020302": {
     "liczba_wyborców_uprawnionych": 4134,
     "liczba_wyborców_obecnych": 1437,
     "łączna_ilość_głosów": 1355,
@@ -205,7 +205,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 6.0
   },
-  "20303": {
+  "020303": {
     "liczba_wyborców_uprawnionych": 2343,
     "liczba_wyborców_obecnych": 818,
     "łączna_ilość_głosów": 771,
@@ -228,7 +228,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 2.0
   },
-  "20304": {
+  "020304": {
     "liczba_wyborców_uprawnionych": 3123,
     "liczba_wyborców_obecnych": 1007,
     "łączna_ilość_głosów": 942,
@@ -251,7 +251,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 3.0
   },
-  "20305": {
+  "020305": {
     "liczba_wyborców_uprawnionych": 1765,
     "liczba_wyborców_obecnych": 596,
     "łączna_ilość_głosów": 549,
@@ -274,7 +274,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 1.0
   },
-  "20306": {
+  "020306": {
     "liczba_wyborców_uprawnionych": 2712,
     "liczba_wyborców_obecnych": 777,
     "łączna_ilość_głosów": 741,
@@ -297,7 +297,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 8.0
   },
-  "20501": {
+  "020501": {
     "liczba_wyborców_uprawnionych": 20248,
     "liczba_wyborców_obecnych": 7827,
     "łączna_ilość_głosów": 7525,
@@ -320,7 +320,7 @@
     "Polska Partia Pracy": 39,
     "Ruch Patriotyczny": 36.0
   },
-  "20502": {
+  "020502": {
     "liczba_wyborców_uprawnionych": 9033,
     "liczba_wyborców_obecnych": 3081,
     "łączna_ilość_głosów": 2922,
@@ -343,7 +343,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 106.0
   },
-  "20503": {
+  "020503": {
     "liczba_wyborców_uprawnionych": 3774,
     "liczba_wyborców_obecnych": 1046,
     "łączna_ilość_głosów": 1001,
@@ -366,7 +366,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 4.0
   },
-  "20504": {
+  "020504": {
     "liczba_wyborców_uprawnionych": 3269,
     "liczba_wyborców_obecnych": 1273,
     "łączna_ilość_głosów": 1213,
@@ -389,7 +389,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 5.0
   },
-  "20505": {
+  "020505": {
     "liczba_wyborców_uprawnionych": 3101,
     "liczba_wyborców_obecnych": 949,
     "łączna_ilość_głosów": 902,
@@ -412,7 +412,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 15.0
   },
-  "20506": {
+  "020506": {
     "liczba_wyborców_uprawnionych": 3214,
     "liczba_wyborców_obecnych": 903,
     "łączna_ilość_głosów": 856,
@@ -435,7 +435,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 7.0
   },
-  "20601": {
+  "020601": {
     "liczba_wyborców_uprawnionych": 4496,
     "liczba_wyborców_obecnych": 1603,
     "łączna_ilość_głosów": 1553,
@@ -458,7 +458,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 13.0
   },
-  "20602": {
+  "020602": {
     "liczba_wyborców_uprawnionych": 9980,
     "liczba_wyborców_obecnych": 3322,
     "łączna_ilość_głosów": 3140,
@@ -481,7 +481,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 71.0
   },
-  "20603": {
+  "020603": {
     "liczba_wyborców_uprawnionych": 5448,
     "liczba_wyborców_obecnych": 1982,
     "łączna_ilość_głosów": 1908,
@@ -504,7 +504,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 29.0
   },
-  "20604": {
+  "020604": {
     "liczba_wyborców_uprawnionych": 6183,
     "liczba_wyborców_obecnych": 2314,
     "łączna_ilość_głosów": 2217,
@@ -527,7 +527,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 50.0
   },
-  "20605": {
+  "020605": {
     "liczba_wyborców_uprawnionych": 3429,
     "liczba_wyborców_obecnych": 1125,
     "łączna_ilość_głosów": 1026,
@@ -550,7 +550,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 7.0
   },
-  "20606": {
+  "020606": {
     "liczba_wyborców_uprawnionych": 4835,
     "liczba_wyborców_obecnych": 1719,
     "łączna_ilość_głosów": 1631,
@@ -573,7 +573,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 7.0
   },
-  "20607": {
+  "020607": {
     "liczba_wyborców_uprawnionych": 7995,
     "liczba_wyborców_obecnych": 2907,
     "łączna_ilość_głosów": 2719,
@@ -596,7 +596,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 21.0
   },
-  "20608": {
+  "020608": {
     "liczba_wyborców_uprawnionych": 6442,
     "liczba_wyborców_obecnych": 2124,
     "łączna_ilość_głosów": 2018,
@@ -619,7 +619,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 15.0
   },
-  "20609": {
+  "020609": {
     "liczba_wyborców_uprawnionych": 4076,
     "liczba_wyborców_obecnych": 1262,
     "łączna_ilość_głosów": 1167,
@@ -642,7 +642,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 18.0
   },
-  "20701": {
+  "020701": {
     "liczba_wyborców_uprawnionych": 18007,
     "liczba_wyborców_obecnych": 6139,
     "łączna_ilość_głosów": 5885,
@@ -665,7 +665,7 @@
     "Polska Partia Pracy": 32,
     "Ruch Patriotyczny": 58.0
   },
-  "20702": {
+  "020702": {
     "liczba_wyborców_uprawnionych": 6618,
     "liczba_wyborców_obecnych": 2265,
     "łączna_ilość_głosów": 2118,
@@ -688,7 +688,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 28.0
   },
-  "20703": {
+  "020703": {
     "liczba_wyborców_uprawnionych": 9563,
     "liczba_wyborców_obecnych": 3010,
     "łączna_ilość_głosów": 2796,
@@ -711,7 +711,7 @@
     "Polska Partia Pracy": 58,
     "Ruch Patriotyczny": 41.0
   },
-  "20704": {
+  "020704": {
     "liczba_wyborców_uprawnionych": 3778,
     "liczba_wyborców_obecnych": 1230,
     "łączna_ilość_głosów": 1132,
@@ -734,7 +734,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 5.0
   },
-  "20901": {
+  "020901": {
     "liczba_wyborców_uprawnionych": 11689,
     "liczba_wyborców_obecnych": 3911,
     "łączna_ilość_głosów": 3762,
@@ -757,7 +757,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 39.0
   },
-  "20902": {
+  "020902": {
     "liczba_wyborców_uprawnionych": 7249,
     "liczba_wyborców_obecnych": 2335,
     "łączna_ilość_głosów": 2226,
@@ -780,7 +780,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 9.0
   },
-  "20903": {
+  "020903": {
     "liczba_wyborców_uprawnionych": 2321,
     "liczba_wyborców_obecnych": 832,
     "łączna_ilość_głosów": 803,
@@ -803,7 +803,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 7.0
   },
-  "20904": {
+  "020904": {
     "liczba_wyborców_uprawnionych": 3944,
     "liczba_wyborców_obecnych": 1559,
     "łączna_ilość_głosów": 1482,
@@ -826,7 +826,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 11.0
   },
-  "20905": {
+  "020905": {
     "liczba_wyborców_uprawnionych": 3860,
     "liczba_wyborców_obecnych": 1202,
     "łączna_ilość_głosów": 1155,
@@ -849,7 +849,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 14.0
   },
-  "20906": {
+  "020906": {
     "liczba_wyborców_uprawnionych": 4890,
     "liczba_wyborców_obecnych": 1703,
     "łączna_ilość_głosów": 1616,
@@ -872,7 +872,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 18.0
   },
-  "20907": {
+  "020907": {
     "liczba_wyborców_uprawnionych": 5831,
     "liczba_wyborców_obecnych": 2333,
     "łączna_ilość_głosów": 2219,
@@ -895,7 +895,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 7.0
   },
-  "20908": {
+  "020908": {
     "liczba_wyborców_uprawnionych": 2134,
     "liczba_wyborców_obecnych": 690,
     "łączna_ilość_głosów": 655,
@@ -918,7 +918,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 5.0
   },
-  "21001": {
+  "021001": {
     "liczba_wyborców_uprawnionych": 19021,
     "liczba_wyborców_obecnych": 7146,
     "łączna_ilość_głosów": 6868,
@@ -941,7 +941,7 @@
     "Polska Partia Pracy": 39,
     "Ruch Patriotyczny": 41.0
   },
-  "21002": {
+  "021002": {
     "liczba_wyborców_uprawnionych": 3885,
     "liczba_wyborców_obecnych": 1418,
     "łączna_ilość_głosów": 1353,
@@ -964,7 +964,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 20.0
   },
-  "21003": {
+  "021003": {
     "liczba_wyborców_uprawnionych": 8530,
     "liczba_wyborców_obecnych": 2758,
     "łączna_ilość_głosów": 2613,
@@ -987,7 +987,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 18.0
   },
-  "21004": {
+  "021004": {
     "liczba_wyborców_uprawnionych": 4985,
     "liczba_wyborców_obecnych": 1589,
     "łączna_ilość_głosów": 1504,
@@ -1010,7 +1010,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 13.0
   },
-  "21005": {
+  "021005": {
     "liczba_wyborców_uprawnionych": 5471,
     "liczba_wyborców_obecnych": 1899,
     "łączna_ilość_głosów": 1802,
@@ -1033,7 +1033,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 16.0
   },
-  "21006": {
+  "021006": {
     "liczba_wyborców_uprawnionych": 1310,
     "liczba_wyborców_obecnych": 520,
     "łączna_ilość_głosów": 481,
@@ -1056,7 +1056,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 4.0
   },
-  "21007": {
+  "021007": {
     "liczba_wyborców_uprawnionych": 4085,
     "liczba_wyborców_obecnych": 1581,
     "łączna_ilość_głosów": 1496,
@@ -1079,7 +1079,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 13.0
   },
-  "21101": {
+  "021101": {
     "liczba_wyborców_uprawnionych": 63724,
     "liczba_wyborców_obecnych": 25559,
     "łączna_ilość_głosów": 24708,
@@ -1102,7 +1102,7 @@
     "Polska Partia Pracy": 167,
     "Ruch Patriotyczny": 96.0
   },
-  "21102": {
+  "021102": {
     "liczba_wyborców_uprawnionych": 8293,
     "liczba_wyborców_obecnych": 2830,
     "łączna_ilość_głosów": 2705,
@@ -1125,7 +1125,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 17.0
   },
-  "21103": {
+  "021103": {
     "liczba_wyborców_uprawnionych": 5477,
     "liczba_wyborców_obecnych": 2129,
     "łączna_ilość_głosów": 2017,
@@ -1148,7 +1148,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 5.0
   },
-  "21104": {
+  "021104": {
     "liczba_wyborców_uprawnionych": 8397,
     "liczba_wyborców_obecnych": 2839,
     "łączna_ilość_głosów": 2704,
@@ -1171,7 +1171,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 23.0
   },
-  "21201": {
+  "021201": {
     "liczba_wyborców_uprawnionych": 8392,
     "liczba_wyborców_obecnych": 2851,
     "łączna_ilość_głosów": 2706,
@@ -1194,7 +1194,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 28.0
   },
-  "21202": {
+  "021202": {
     "liczba_wyborców_uprawnionych": 4916,
     "liczba_wyborców_obecnych": 1611,
     "łączna_ilość_głosów": 1515,
@@ -1217,7 +1217,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 9.0
   },
-  "21203": {
+  "021203": {
     "liczba_wyborców_uprawnionych": 14445,
     "liczba_wyborców_obecnych": 4616,
     "łączna_ilość_głosów": 4375,
@@ -1240,7 +1240,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 43.0
   },
-  "21204": {
+  "021204": {
     "liczba_wyborców_uprawnionych": 7380,
     "liczba_wyborców_obecnych": 2229,
     "łączna_ilość_głosów": 2088,
@@ -1263,7 +1263,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 19.0
   },
-  "21205": {
+  "021205": {
     "liczba_wyborców_uprawnionych": 3772,
     "liczba_wyborców_obecnych": 1259,
     "łączna_ilość_głosów": 1184,
@@ -1286,7 +1286,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 15.0
   },
-  "21601": {
+  "021601": {
     "liczba_wyborców_uprawnionych": 9916,
     "liczba_wyborców_obecnych": 4085,
     "łączna_ilość_głosów": 3917,
@@ -1309,7 +1309,7 @@
     "Polska Partia Pracy": 23,
     "Ruch Patriotyczny": 29.0
   },
-  "21602": {
+  "021602": {
     "liczba_wyborców_uprawnionych": 2906,
     "liczba_wyborców_obecnych": 1308,
     "łączna_ilość_głosów": 1215,
@@ -1332,7 +1332,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 10.0
   },
-  "21603": {
+  "021603": {
     "liczba_wyborców_uprawnionych": 4039,
     "liczba_wyborców_obecnych": 1248,
     "łączna_ilość_głosów": 1183,
@@ -1355,7 +1355,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 6.0
   },
-  "21604": {
+  "021604": {
     "liczba_wyborców_uprawnionych": 20007,
     "liczba_wyborców_obecnych": 7127,
     "łączna_ilość_głosów": 6817,
@@ -1378,7 +1378,7 @@
     "Polska Partia Pracy": 53,
     "Ruch Patriotyczny": 36.0
   },
-  "21605": {
+  "021605": {
     "liczba_wyborców_uprawnionych": 7041,
     "liczba_wyborców_obecnych": 2027,
     "łączna_ilość_głosów": 1938,
@@ -1401,7 +1401,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 14.0
   },
-  "21606": {
+  "021606": {
     "liczba_wyborców_uprawnionych": 3363,
     "liczba_wyborców_obecnych": 1021,
     "łączna_ilość_głosów": 967,
@@ -1424,7 +1424,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 2.0
   },
-  "22501": {
+  "022501": {
     "liczba_wyborców_uprawnionych": 3550,
     "liczba_wyborców_obecnych": 1369,
     "łączna_ilość_głosów": 1293,
@@ -1447,7 +1447,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 3.0
   },
-  "22502": {
+  "022502": {
     "liczba_wyborców_uprawnionych": 28020,
     "liczba_wyborców_obecnych": 11004,
     "łączna_ilość_głosów": 10593,
@@ -1470,7 +1470,7 @@
     "Polska Partia Pracy": 74,
     "Ruch Patriotyczny": 68.0
   },
-  "22503": {
+  "022503": {
     "liczba_wyborców_uprawnionych": 20184,
     "liczba_wyborców_obecnych": 7388,
     "łączna_ilość_głosów": 7015,
@@ -1493,7 +1493,7 @@
     "Polska Partia Pracy": 54,
     "Ruch Patriotyczny": 38.0
   },
-  "22504": {
+  "022504": {
     "liczba_wyborców_uprawnionych": 7428,
     "liczba_wyborców_obecnych": 2210,
     "łączna_ilość_głosów": 2081,
@@ -1516,7 +1516,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 10.0
   },
-  "22505": {
+  "022505": {
     "liczba_wyborców_uprawnionych": 4701,
     "liczba_wyborców_obecnych": 1542,
     "łączna_ilość_głosów": 1478,
@@ -1539,7 +1539,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 10.0
   },
-  "22506": {
+  "022506": {
     "liczba_wyborców_uprawnionych": 7217,
     "liczba_wyborców_obecnych": 2406,
     "łączna_ilość_głosów": 2232,
@@ -1562,7 +1562,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 11.0
   },
-  "22507": {
+  "022507": {
     "liczba_wyborców_uprawnionych": 6093,
     "liczba_wyborców_obecnych": 1939,
     "łączna_ilość_głosów": 1836,
@@ -1585,7 +1585,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 23.0
   },
-  "22601": {
+  "022601": {
     "liczba_wyborców_uprawnionych": 3201,
     "liczba_wyborców_obecnych": 907,
     "łączna_ilość_głosów": 848,
@@ -1608,7 +1608,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 5.0
   },
-  "22602": {
+  "022602": {
     "liczba_wyborców_uprawnionych": 13771,
     "liczba_wyborców_obecnych": 5057,
     "łączna_ilość_głosów": 4840,
@@ -1631,7 +1631,7 @@
     "Polska Partia Pracy": 35,
     "Ruch Patriotyczny": 42.0
   },
-  "22603": {
+  "022603": {
     "liczba_wyborców_uprawnionych": 3680,
     "liczba_wyborców_obecnych": 1156,
     "łączna_ilość_głosów": 1064,
@@ -1654,7 +1654,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 6.0
   },
-  "22604": {
+  "022604": {
     "liczba_wyborców_uprawnionych": 6296,
     "liczba_wyborców_obecnych": 1979,
     "łączna_ilość_głosów": 1824,
@@ -1677,7 +1677,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 15.0
   },
-  "22605": {
+  "022605": {
     "liczba_wyborców_uprawnionych": 4505,
     "liczba_wyborców_obecnych": 1682,
     "łączna_ilość_głosów": 1591,
@@ -1700,7 +1700,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 6.0
   },
-  "22606": {
+  "022606": {
     "liczba_wyborców_uprawnionych": 5494,
     "liczba_wyborców_obecnych": 1757,
     "łączna_ilość_głosów": 1679,
@@ -1723,7 +1723,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 10.0
   },
-  "26101": {
+  "026101": {
     "liczba_wyborców_uprawnionych": 71416,
     "liczba_wyborców_obecnych": 29762,
     "łączna_ilość_głosów": 28729,
@@ -1746,7 +1746,7 @@
     "Polska Partia Pracy": 178,
     "Ruch Patriotyczny": 484.0
   },
-  "26201": {
+  "026201": {
     "liczba_wyborców_uprawnionych": 83413,
     "liczba_wyborców_obecnych": 33491,
     "łączna_ilość_głosów": 32479,
@@ -1769,7 +1769,7 @@
     "Polska Partia Pracy": 275,
     "Ruch Patriotyczny": 197.0
   },
-  "20201": {
+  "020201": {
     "liczba_wyborców_uprawnionych": 26760,
     "liczba_wyborców_obecnych": 9415,
     "łączna_ilość_głosów": 9119,
@@ -1792,7 +1792,7 @@
     "Polska Partia Pracy": 69,
     "Ruch Patriotyczny": 71.0
   },
-  "20202": {
+  "020202": {
     "liczba_wyborców_uprawnionych": 29917,
     "liczba_wyborców_obecnych": 11420,
     "łączna_ilość_głosów": 11046,
@@ -1815,7 +1815,7 @@
     "Polska Partia Pracy": 78,
     "Ruch Patriotyczny": 77.0
   },
-  "20203": {
+  "020203": {
     "liczba_wyborców_uprawnionych": 7866,
     "liczba_wyborców_obecnych": 2718,
     "łączna_ilość_głosów": 2618,
@@ -1838,7 +1838,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 30.0
   },
-  "20204": {
+  "020204": {
     "liczba_wyborców_uprawnionych": 5349,
     "liczba_wyborców_obecnych": 1743,
     "łączna_ilość_głosów": 1659,
@@ -1861,7 +1861,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 18.0
   },
-  "20205": {
+  "020205": {
     "liczba_wyborców_uprawnionych": 7748,
     "liczba_wyborców_obecnych": 3016,
     "łączna_ilość_głosów": 2870,
@@ -1884,7 +1884,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 29.0
   },
-  "20206": {
+  "020206": {
     "liczba_wyborców_uprawnionych": 5942,
     "liczba_wyborców_obecnych": 2060,
     "łączna_ilość_głosów": 1976,
@@ -1907,7 +1907,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 10.0
   },
-  "20207": {
+  "020207": {
     "liczba_wyborców_uprawnionych": 4983,
     "liczba_wyborców_obecnych": 1737,
     "łączna_ilość_głosów": 1637,
@@ -1930,7 +1930,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 17.0
   },
-  "20801": {
+  "020801": {
     "liczba_wyborców_uprawnionych": 4448,
     "liczba_wyborców_obecnych": 1702,
     "łączna_ilość_głosów": 1645,
@@ -1953,7 +1953,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 9.0
   },
-  "20802": {
+  "020802": {
     "liczba_wyborców_uprawnionych": 25054,
     "liczba_wyborców_obecnych": 10118,
     "łączna_ilość_głosów": 9798,
@@ -1976,7 +1976,7 @@
     "Polska Partia Pracy": 46,
     "Ruch Patriotyczny": 184.0
   },
-  "20803": {
+  "020803": {
     "liczba_wyborców_uprawnionych": 8683,
     "liczba_wyborców_obecnych": 3245,
     "łączna_ilość_głosów": 3141,
@@ -1999,7 +1999,7 @@
     "Polska Partia Pracy": 48,
     "Ruch Patriotyczny": 19.0
   },
-  "20804": {
+  "020804": {
     "liczba_wyborców_uprawnionych": 20759,
     "liczba_wyborców_obecnych": 6814,
     "łączna_ilość_głosów": 6562,
@@ -2022,7 +2022,7 @@
     "Polska Partia Pracy": 76,
     "Ruch Patriotyczny": 50.0
   },
-  "20805": {
+  "020805": {
     "liczba_wyborców_uprawnionych": 5835,
     "liczba_wyborców_obecnych": 2302,
     "łączna_ilość_głosów": 2230,
@@ -2045,7 +2045,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 25.0
   },
-  "20806": {
+  "020806": {
     "liczba_wyborców_uprawnionych": 16732,
     "liczba_wyborców_obecnych": 6029,
     "łączna_ilość_głosów": 5792,
@@ -2068,7 +2068,7 @@
     "Polska Partia Pracy": 48,
     "Ruch Patriotyczny": 42.0
   },
-  "20807": {
+  "020807": {
     "liczba_wyborców_uprawnionych": 13688,
     "liczba_wyborców_obecnych": 5716,
     "łączna_ilość_głosów": 5461,
@@ -2091,7 +2091,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 40.0
   },
-  "20808": {
+  "020808": {
     "liczba_wyborców_uprawnionych": 7587,
     "liczba_wyborców_obecnych": 2666,
     "łączna_ilość_głosów": 2547,
@@ -2114,7 +2114,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 29.0
   },
-  "20809": {
+  "020809": {
     "liczba_wyborców_uprawnionych": 1622,
     "liczba_wyborców_obecnych": 503,
     "łączna_ilość_głosów": 477,
@@ -2137,7 +2137,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 1.0
   },
-  "20810": {
+  "020810": {
     "liczba_wyborców_uprawnionych": 6254,
     "liczba_wyborców_obecnych": 2114,
     "łączna_ilość_głosów": 2001,
@@ -2160,7 +2160,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 30.0
   },
-  "20811": {
+  "020811": {
     "liczba_wyborców_uprawnionych": 10170,
     "liczba_wyborców_obecnych": 3116,
     "łączna_ilość_głosów": 2971,
@@ -2183,7 +2183,7 @@
     "Polska Partia Pracy": 27,
     "Ruch Patriotyczny": 31.0
   },
-  "20812": {
+  "020812": {
     "liczba_wyborców_uprawnionych": 7577,
     "liczba_wyborców_obecnych": 2537,
     "łączna_ilość_głosów": 2384,
@@ -2206,7 +2206,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 57.0
   },
-  "20813": {
+  "020813": {
     "liczba_wyborców_uprawnionych": 6138,
     "liczba_wyborców_obecnych": 2074,
     "łączna_ilość_głosów": 1959,
@@ -2229,7 +2229,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 11.0
   },
-  "20814": {
+  "020814": {
     "liczba_wyborców_uprawnionych": 6031,
     "liczba_wyborców_obecnych": 2046,
     "łączna_ilość_głosów": 1968,
@@ -2252,7 +2252,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 13.0
   },
-  "21901": {
+  "021901": {
     "liczba_wyborców_uprawnionych": 50237,
     "liczba_wyborców_obecnych": 20177,
     "łączna_ilość_głosów": 19614,
@@ -2275,7 +2275,7 @@
     "Polska Partia Pracy": 157,
     "Ruch Patriotyczny": 113.0
   },
-  "21902": {
+  "021902": {
     "liczba_wyborców_uprawnionych": 19128,
     "liczba_wyborców_obecnych": 6517,
     "łączna_ilość_głosów": 6312,
@@ -2298,7 +2298,7 @@
     "Polska Partia Pracy": 65,
     "Ruch Patriotyczny": 32.0
   },
-  "21903": {
+  "021903": {
     "liczba_wyborców_uprawnionych": 4350,
     "liczba_wyborców_obecnych": 1362,
     "łączna_ilość_głosów": 1283,
@@ -2321,7 +2321,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 12.0
   },
-  "21904": {
+  "021904": {
     "liczba_wyborców_uprawnionych": 8151,
     "liczba_wyborców_obecnych": 2863,
     "łączna_ilość_głosów": 2726,
@@ -2344,7 +2344,7 @@
     "Polska Partia Pracy": 55,
     "Ruch Patriotyczny": 12.0
   },
-  "21905": {
+  "021905": {
     "liczba_wyborców_uprawnionych": 4999,
     "liczba_wyborców_obecnych": 1629,
     "łączna_ilość_głosów": 1577,
@@ -2367,7 +2367,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 17.0
   },
-  "21906": {
+  "021906": {
     "liczba_wyborców_uprawnionych": 22064,
     "liczba_wyborców_obecnych": 7476,
     "łączna_ilość_głosów": 7156,
@@ -2390,7 +2390,7 @@
     "Polska Partia Pracy": 68,
     "Ruch Patriotyczny": 50.0
   },
-  "21907": {
+  "021907": {
     "liczba_wyborców_uprawnionych": 12222,
     "liczba_wyborców_obecnych": 3969,
     "łączna_ilość_głosów": 3785,
@@ -2413,7 +2413,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 16.0
   },
-  "21908": {
+  "021908": {
     "liczba_wyborców_uprawnionych": 9910,
     "liczba_wyborców_obecnych": 3576,
     "łączna_ilość_głosów": 3449,
@@ -2436,7 +2436,7 @@
     "Polska Partia Pracy": 23,
     "Ruch Patriotyczny": 16.0
   },
-  "22101": {
+  "022101": {
     "liczba_wyborców_uprawnionych": 13977,
     "liczba_wyborców_obecnych": 4237,
     "łączna_ilość_głosów": 4038,
@@ -2459,7 +2459,7 @@
     "Polska Partia Pracy": 42,
     "Ruch Patriotyczny": 44.0
   },
-  "22102": {
+  "022102": {
     "liczba_wyborców_uprawnionych": 4218,
     "liczba_wyborców_obecnych": 1444,
     "łączna_ilość_głosów": 1371,
@@ -2482,7 +2482,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 9.0
   },
-  "22103": {
+  "022103": {
     "liczba_wyborców_uprawnionych": 4994,
     "liczba_wyborców_obecnych": 2183,
     "łączna_ilość_głosów": 2121,
@@ -2505,7 +2505,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 12.0
   },
-  "22104": {
+  "022104": {
     "liczba_wyborców_uprawnionych": 3697,
     "liczba_wyborców_obecnych": 1421,
     "łączna_ilość_głosów": 1364,
@@ -2528,7 +2528,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 15.0
   },
-  "22105": {
+  "022105": {
     "liczba_wyborców_uprawnionych": 7686,
     "liczba_wyborców_obecnych": 2377,
     "łączna_ilość_głosów": 2291,
@@ -2551,7 +2551,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 14.0
   },
-  "22106": {
+  "022106": {
     "liczba_wyborców_uprawnionych": 6143,
     "liczba_wyborców_obecnych": 1871,
     "łączna_ilość_głosów": 1756,
@@ -2574,7 +2574,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 15.0
   },
-  "22107": {
+  "022107": {
     "liczba_wyborców_uprawnionych": 3289,
     "liczba_wyborców_obecnych": 1137,
     "łączna_ilość_głosów": 1073,
@@ -2597,7 +2597,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 7.0
   },
-  "22108": {
+  "022108": {
     "liczba_wyborców_uprawnionych": 4701,
     "liczba_wyborców_obecnych": 1462,
     "łączna_ilość_głosów": 1383,
@@ -2620,7 +2620,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 11.0
   },
-  "22109": {
+  "022109": {
     "liczba_wyborców_uprawnionych": 105092,
     "liczba_wyborców_obecnych": 36961,
     "łączna_ilość_głosów": 35800,
@@ -2643,7 +2643,7 @@
     "Polska Partia Pracy": 274,
     "Ruch Patriotyczny": 210.0
   },
-  "22401": {
+  "022401": {
     "liczba_wyborców_uprawnionych": 4514,
     "liczba_wyborców_obecnych": 1651,
     "łączna_ilość_głosów": 1555,
@@ -2666,7 +2666,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 19.0
   },
-  "22402": {
+  "022402": {
     "liczba_wyborców_uprawnionych": 2538,
     "liczba_wyborców_obecnych": 724,
     "łączna_ilość_głosów": 695,
@@ -2689,7 +2689,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 1.0
   },
-  "22403": {
+  "022403": {
     "liczba_wyborców_uprawnionych": 6888,
     "liczba_wyborców_obecnych": 2412,
     "łączna_ilość_głosów": 2304,
@@ -2712,7 +2712,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 25.0
   },
-  "22404": {
+  "022404": {
     "liczba_wyborców_uprawnionych": 4477,
     "liczba_wyborców_obecnych": 1608,
     "łączna_ilość_głosów": 1552,
@@ -2735,7 +2735,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 13.0
   },
-  "22405": {
+  "022405": {
     "liczba_wyborców_uprawnionych": 19000,
     "liczba_wyborców_obecnych": 7356,
     "łączna_ilość_głosów": 7066,
@@ -2758,7 +2758,7 @@
     "Polska Partia Pracy": 59,
     "Ruch Patriotyczny": 59.0
   },
-  "22406": {
+  "022406": {
     "liczba_wyborców_uprawnionych": 14908,
     "liczba_wyborców_obecnych": 4816,
     "łączna_ilość_głosów": 4625,
@@ -2781,7 +2781,7 @@
     "Polska Partia Pracy": 35,
     "Ruch Patriotyczny": 35.0
   },
-  "22407": {
+  "022407": {
     "liczba_wyborców_uprawnionych": 3965,
     "liczba_wyborców_obecnych": 1486,
     "łączna_ilość_głosów": 1409,
@@ -2804,7 +2804,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 12.0
   },
-  "20401": {
+  "020401": {
     "liczba_wyborców_uprawnionych": 16365,
     "liczba_wyborców_obecnych": 5385,
     "łączna_ilość_głosów": 5165,
@@ -2827,7 +2827,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 47.0
   },
-  "20402": {
+  "020402": {
     "liczba_wyborców_uprawnionych": 2454,
     "liczba_wyborców_obecnych": 667,
     "łączna_ilość_głosów": 640,
@@ -2850,7 +2850,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 4.0
   },
-  "20403": {
+  "020403": {
     "liczba_wyborców_uprawnionych": 3911,
     "liczba_wyborców_obecnych": 1259,
     "łączna_ilość_głosów": 1172,
@@ -2873,7 +2873,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 6.0
   },
-  "20404": {
+  "020404": {
     "liczba_wyborców_uprawnionych": 5848,
     "liczba_wyborców_obecnych": 1664,
     "łączna_ilość_głosów": 1563,
@@ -2896,7 +2896,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 9.0
   },
-  "21301": {
+  "021301": {
     "liczba_wyborców_uprawnionych": 3656,
     "liczba_wyborców_obecnych": 1299,
     "łączna_ilość_głosów": 1219,
@@ -2919,7 +2919,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 6.0
   },
-  "21302": {
+  "021302": {
     "liczba_wyborców_uprawnionych": 6249,
     "liczba_wyborców_obecnych": 1978,
     "łączna_ilość_głosów": 1829,
@@ -2942,7 +2942,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 28.0
   },
-  "21303": {
+  "021303": {
     "liczba_wyborców_uprawnionych": 19057,
     "liczba_wyborców_obecnych": 7205,
     "łączna_ilość_głosów": 6903,
@@ -2965,7 +2965,7 @@
     "Polska Partia Pracy": 47,
     "Ruch Patriotyczny": 124.0
   },
-  "21401": {
+  "021401": {
     "liczba_wyborców_uprawnionych": 29895,
     "liczba_wyborców_obecnych": 11633,
     "łączna_ilość_głosów": 11280,
@@ -2988,7 +2988,7 @@
     "Polska Partia Pracy": 68,
     "Ruch Patriotyczny": 99.0
   },
-  "21402": {
+  "021402": {
     "liczba_wyborców_uprawnionych": 8105,
     "liczba_wyborców_obecnych": 2356,
     "łączna_ilość_głosów": 2233,
@@ -3011,7 +3011,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 24.0
   },
-  "21403": {
+  "021403": {
     "liczba_wyborców_uprawnionych": 4585,
     "liczba_wyborców_obecnych": 1380,
     "łączna_ilość_głosów": 1298,
@@ -3034,7 +3034,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 17.0
   },
-  "21404": {
+  "021404": {
     "liczba_wyborców_uprawnionych": 3486,
     "liczba_wyborców_obecnych": 986,
     "łączna_ilość_głosów": 961,
@@ -3057,7 +3057,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 5.0
   },
-  "21405": {
+  "021405": {
     "liczba_wyborców_uprawnionych": 3795,
     "liczba_wyborców_obecnych": 1065,
     "łączna_ilość_głosów": 994,
@@ -3080,7 +3080,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 5.0
   },
-  "21406": {
+  "021406": {
     "liczba_wyborców_uprawnionych": 8564,
     "liczba_wyborców_obecnych": 2348,
     "łączna_ilość_głosów": 2241,
@@ -3103,7 +3103,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 32.0
   },
-  "21407": {
+  "021407": {
     "liczba_wyborców_uprawnionych": 12722,
     "liczba_wyborców_obecnych": 4723,
     "łączna_ilość_głosów": 4558,
@@ -3126,7 +3126,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 36.0
   },
-  "21408": {
+  "021408": {
     "liczba_wyborców_uprawnionych": 10000,
     "liczba_wyborców_obecnych": 2927,
     "łączna_ilość_głosów": 2797,
@@ -3149,7 +3149,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 17.0
   },
-  "21501": {
+  "021501": {
     "liczba_wyborców_uprawnionych": 25457,
     "liczba_wyborców_obecnych": 10409,
     "łączna_ilość_głosów": 10082,
@@ -3172,7 +3172,7 @@
     "Polska Partia Pracy": 46,
     "Ruch Patriotyczny": 221.0
   },
-  "21502": {
+  "021502": {
     "liczba_wyborców_uprawnionych": 4053,
     "liczba_wyborców_obecnych": 1390,
     "łączna_ilość_głosów": 1321,
@@ -3195,7 +3195,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 10.0
   },
-  "21503": {
+  "021503": {
     "liczba_wyborców_uprawnionych": 16968,
     "liczba_wyborców_obecnych": 6089,
     "łączna_ilość_głosów": 5877,
@@ -3218,7 +3218,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 153.0
   },
-  "21504": {
+  "021504": {
     "liczba_wyborców_uprawnionych": 10275,
     "liczba_wyborców_obecnych": 3632,
     "łączna_ilość_głosów": 3504,
@@ -3241,7 +3241,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 54.0
   },
-  "21701": {
+  "021701": {
     "liczba_wyborców_uprawnionych": 4185,
     "liczba_wyborców_obecnych": 1686,
     "łączna_ilość_głosów": 1614,
@@ -3264,7 +3264,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 11.0
   },
-  "21702": {
+  "021702": {
     "liczba_wyborców_uprawnionych": 3744,
     "liczba_wyborców_obecnych": 1348,
     "łączna_ilość_głosów": 1309,
@@ -3287,7 +3287,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 12.0
   },
-  "21703": {
+  "021703": {
     "liczba_wyborców_uprawnionych": 4174,
     "liczba_wyborców_obecnych": 1406,
     "łączna_ilość_głosów": 1358,
@@ -3310,7 +3310,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 21.0
   },
-  "21704": {
+  "021704": {
     "liczba_wyborców_uprawnionych": 18375,
     "liczba_wyborców_obecnych": 6637,
     "łączna_ilość_głosów": 6302,
@@ -3333,7 +3333,7 @@
     "Polska Partia Pracy": 80,
     "Ruch Patriotyczny": 104.0
   },
-  "21705": {
+  "021705": {
     "liczba_wyborców_uprawnionych": 5906,
     "liczba_wyborców_obecnych": 1794,
     "łączna_ilość_głosów": 1720,
@@ -3356,7 +3356,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 22.0
   },
-  "21801": {
+  "021801": {
     "liczba_wyborców_uprawnionych": 5481,
     "liczba_wyborców_obecnych": 1625,
     "łączna_ilość_głosów": 1535,
@@ -3379,7 +3379,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 15.0
   },
-  "21802": {
+  "021802": {
     "liczba_wyborców_uprawnionych": 4699,
     "liczba_wyborców_obecnych": 1361,
     "łączna_ilość_głosów": 1298,
@@ -3402,7 +3402,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 10.0
   },
-  "21803": {
+  "021803": {
     "liczba_wyborców_uprawnionych": 8894,
     "liczba_wyborców_obecnych": 2804,
     "łączna_ilość_głosów": 2695,
@@ -3425,7 +3425,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 14.0
   },
-  "21804": {
+  "021804": {
     "liczba_wyborców_uprawnionych": 15198,
     "liczba_wyborców_obecnych": 4760,
     "łączna_ilość_głosów": 4607,
@@ -3448,7 +3448,7 @@
     "Polska Partia Pracy": 82,
     "Ruch Patriotyczny": 32.0
   },
-  "21805": {
+  "021805": {
     "liczba_wyborców_uprawnionych": 4429,
     "liczba_wyborców_obecnych": 1194,
     "łączna_ilość_głosów": 1125,
@@ -3471,7 +3471,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 3.0
   },
-  "22001": {
+  "022001": {
     "liczba_wyborców_uprawnionych": 14002,
     "liczba_wyborców_obecnych": 5251,
     "łączna_ilość_głosów": 5063,
@@ -3494,7 +3494,7 @@
     "Polska Partia Pracy": 23,
     "Ruch Patriotyczny": 183.0
   },
-  "22002": {
+  "022002": {
     "liczba_wyborców_uprawnionych": 7157,
     "liczba_wyborców_obecnych": 1885,
     "łączna_ilość_głosów": 1789,
@@ -3517,7 +3517,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 38.0
   },
-  "22003": {
+  "022003": {
     "liczba_wyborców_uprawnionych": 17218,
     "liczba_wyborców_obecnych": 6163,
     "łączna_ilość_głosów": 5957,
@@ -3540,7 +3540,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 39.0
   },
-  "22004": {
+  "022004": {
     "liczba_wyborców_uprawnionych": 6149,
     "liczba_wyborców_obecnych": 2300,
     "łączna_ilość_głosów": 2246,
@@ -3563,7 +3563,7 @@
     "Polska Partia Pracy": 23,
     "Ruch Patriotyczny": 20.0
   },
-  "22005": {
+  "022005": {
     "liczba_wyborców_uprawnionych": 4162,
     "liczba_wyborców_obecnych": 1108,
     "łączna_ilość_głosów": 1070,
@@ -3586,7 +3586,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 19.0
   },
-  "22006": {
+  "022006": {
     "liczba_wyborców_uprawnionych": 11682,
     "liczba_wyborców_obecnych": 3739,
     "łączna_ilość_głosów": 3574,
@@ -3609,7 +3609,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 20.0
   },
-  "22201": {
+  "022201": {
     "liczba_wyborców_uprawnionych": 13232,
     "liczba_wyborców_obecnych": 4890,
     "łączna_ilość_głosów": 4719,
@@ -3632,7 +3632,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 34.0
   },
-  "22202": {
+  "022202": {
     "liczba_wyborców_uprawnionych": 6887,
     "liczba_wyborców_obecnych": 2020,
     "łączna_ilość_głosów": 1858,
@@ -3655,7 +3655,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 18.0
   },
-  "22203": {
+  "022203": {
     "liczba_wyborców_uprawnionych": 19450,
     "liczba_wyborców_obecnych": 7016,
     "łączna_ilość_głosów": 6652,
@@ -3678,7 +3678,7 @@
     "Polska Partia Pracy": 63,
     "Ruch Patriotyczny": 70.0
   },
-  "22301": {
+  "022301": {
     "liczba_wyborców_uprawnionych": 6390,
     "liczba_wyborców_obecnych": 2770,
     "łączna_ilość_głosów": 2697,
@@ -3701,7 +3701,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 43.0
   },
-  "22302": {
+  "022302": {
     "liczba_wyborców_uprawnionych": 14976,
     "liczba_wyborców_obecnych": 5614,
     "łączna_ilość_głosów": 5408,
@@ -3724,7 +3724,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 34.0
   },
-  "22303": {
+  "022303": {
     "liczba_wyborców_uprawnionych": 2377,
     "liczba_wyborców_obecnych": 903,
     "łączna_ilość_głosów": 862,
@@ -3747,7 +3747,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 3.0
   },
-  "22304": {
+  "022304": {
     "liczba_wyborców_uprawnionych": 13888,
     "liczba_wyborców_obecnych": 5051,
     "łączna_ilość_głosów": 4851,
@@ -3770,7 +3770,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 34.0
   },
-  "22305": {
+  "022305": {
     "liczba_wyborców_uprawnionych": 10057,
     "liczba_wyborców_obecnych": 3681,
     "łączna_ilość_głosów": 3558,
@@ -3793,7 +3793,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 33.0
   },
-  "22306": {
+  "022306": {
     "liczba_wyborców_uprawnionych": 3029,
     "liczba_wyborców_obecnych": 1138,
     "łączna_ilość_głosów": 1082,
@@ -3816,7 +3816,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 6.0
   },
-  "22307": {
+  "022307": {
     "liczba_wyborców_uprawnionych": 9724,
     "liczba_wyborców_obecnych": 3301,
     "łączna_ilość_głosów": 3150,
@@ -3839,7 +3839,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 26.0
   },
-  "22308": {
+  "022308": {
     "liczba_wyborców_uprawnionych": 10363,
     "liczba_wyborców_obecnych": 4495,
     "łączna_ilość_głosów": 4364,
@@ -3862,7 +3862,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 99.0
   },
-  "22309": {
+  "022309": {
     "liczba_wyborców_uprawnionych": 6270,
     "liczba_wyborców_obecnych": 1923,
     "łączna_ilość_głosów": 1833,
@@ -3885,7 +3885,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 20.0
   },
-  "26401": {
+  "026401": {
     "liczba_wyborców_uprawnionych": 508364,
     "liczba_wyborców_obecnych": 242680,
     "łączna_ilość_głosów": 237886,
@@ -3908,7 +3908,7 @@
     "Polska Partia Pracy": 1339,
     "Ruch Patriotyczny": 2995.0
   },
-  "40301": {
+  "040301": {
     "liczba_wyborców_uprawnionych": 9765,
     "liczba_wyborców_obecnych": 3723,
     "łączna_ilość_głosów": 3494,
@@ -3931,7 +3931,7 @@
     "Polska Partia Pracy": 43,
     "Ruch Patriotyczny": 35.0
   },
-  "40302": {
+  "040302": {
     "liczba_wyborców_uprawnionych": 5272,
     "liczba_wyborców_obecnych": 1578,
     "łączna_ilość_głosów": 1453,
@@ -3954,7 +3954,7 @@
     "Polska Partia Pracy": 32,
     "Ruch Patriotyczny": 29.0
   },
-  "40303": {
+  "040303": {
     "liczba_wyborców_uprawnionych": 6941,
     "liczba_wyborców_obecnych": 2304,
     "łączna_ilość_głosów": 2095,
@@ -3977,7 +3977,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 31.0
   },
-  "40304": {
+  "040304": {
     "liczba_wyborców_uprawnionych": 18166,
     "liczba_wyborców_obecnych": 5648,
     "łączna_ilość_głosów": 5258,
@@ -4000,7 +4000,7 @@
     "Polska Partia Pracy": 85,
     "Ruch Patriotyczny": 96.0
   },
-  "40305": {
+  "040305": {
     "liczba_wyborców_uprawnionych": 5939,
     "liczba_wyborców_obecnych": 1772,
     "łączna_ilość_głosów": 1633,
@@ -4023,7 +4023,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 22.0
   },
-  "40306": {
+  "040306": {
     "liczba_wyborców_uprawnionych": 6094,
     "liczba_wyborców_obecnych": 2661,
     "łączna_ilość_głosów": 2504,
@@ -4046,7 +4046,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 34.0
   },
-  "40307": {
+  "040307": {
     "liczba_wyborców_uprawnionych": 6805,
     "liczba_wyborców_obecnych": 2334,
     "łączna_ilość_głosów": 2132,
@@ -4069,7 +4069,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 81.0
   },
-  "40308": {
+  "040308": {
     "liczba_wyborców_uprawnionych": 12333,
     "liczba_wyborców_obecnych": 4373,
     "łączna_ilość_głosów": 4020,
@@ -4092,7 +4092,7 @@
     "Polska Partia Pracy": 65,
     "Ruch Patriotyczny": 72.0
   },
-  "40701": {
+  "040701": {
     "liczba_wyborców_uprawnionych": 63468,
     "liczba_wyborców_obecnych": 23389,
     "łączna_ilość_głosów": 21738,
@@ -4115,7 +4115,7 @@
     "Polska Partia Pracy": 402,
     "Ruch Patriotyczny": 313.0
   },
-  "40702": {
+  "040702": {
     "liczba_wyborców_uprawnionych": 4068,
     "liczba_wyborców_obecnych": 1009,
     "łączna_ilość_głosów": 851,
@@ -4138,7 +4138,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 14.0
   },
-  "40703": {
+  "040703": {
     "liczba_wyborców_uprawnionych": 11599,
     "liczba_wyborców_obecnych": 3379,
     "łączna_ilość_głosów": 3077,
@@ -4161,7 +4161,7 @@
     "Polska Partia Pracy": 64,
     "Ruch Patriotyczny": 76.0
   },
-  "40704": {
+  "040704": {
     "liczba_wyborców_uprawnionych": 8567,
     "liczba_wyborców_obecnych": 2459,
     "łączna_ilość_głosów": 2311,
@@ -4184,7 +4184,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 38.0
   },
-  "40705": {
+  "040705": {
     "liczba_wyborców_uprawnionych": 10679,
     "liczba_wyborców_obecnych": 3319,
     "łączna_ilość_głosów": 3043,
@@ -4207,7 +4207,7 @@
     "Polska Partia Pracy": 78,
     "Ruch Patriotyczny": 58.0
   },
-  "40706": {
+  "040706": {
     "liczba_wyborców_uprawnionych": 16004,
     "liczba_wyborców_obecnych": 5099,
     "łączna_ilość_głosów": 4674,
@@ -4230,7 +4230,7 @@
     "Polska Partia Pracy": 101,
     "Ruch Patriotyczny": 114.0
   },
-  "40707": {
+  "040707": {
     "liczba_wyborców_uprawnionych": 7848,
     "liczba_wyborców_obecnych": 2487,
     "łączna_ilość_głosów": 2275,
@@ -4253,7 +4253,7 @@
     "Polska Partia Pracy": 50,
     "Ruch Patriotyczny": 40.0
   },
-  "40708": {
+  "040708": {
     "liczba_wyborców_uprawnionych": 3503,
     "liczba_wyborców_obecnych": 1135,
     "łączna_ilość_głosów": 1052,
@@ -4276,7 +4276,7 @@
     "Polska Partia Pracy": 29,
     "Ruch Patriotyczny": 27.0
   },
-  "40709": {
+  "040709": {
     "liczba_wyborców_uprawnionych": 6910,
     "liczba_wyborców_obecnych": 2212,
     "łączna_ilość_głosów": 1987,
@@ -4299,7 +4299,7 @@
     "Polska Partia Pracy": 48,
     "Ruch Patriotyczny": 56.0
   },
-  "40901": {
+  "040901": {
     "liczba_wyborców_uprawnionych": 3605,
     "liczba_wyborców_obecnych": 1108,
     "łączna_ilość_głosów": 999,
@@ -4322,7 +4322,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 9.0
   },
-  "40902": {
+  "040902": {
     "liczba_wyborców_uprawnionych": 3891,
     "liczba_wyborców_obecnych": 1118,
     "łączna_ilość_głosów": 997,
@@ -4345,7 +4345,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 18.0
   },
-  "40903": {
+  "040903": {
     "liczba_wyborców_uprawnionych": 19453,
     "liczba_wyborców_obecnych": 6760,
     "łączna_ilość_głosów": 6272,
@@ -4368,7 +4368,7 @@
     "Polska Partia Pracy": 94,
     "Ruch Patriotyczny": 92.0
   },
-  "40904": {
+  "040904": {
     "liczba_wyborców_uprawnionych": 9603,
     "liczba_wyborców_obecnych": 3191,
     "łączna_ilość_głosów": 2817,
@@ -4391,7 +4391,7 @@
     "Polska Partia Pracy": 98,
     "Ruch Patriotyczny": 64.0
   },
-  "41001": {
+  "041001": {
     "liczba_wyborców_uprawnionych": 10551,
     "liczba_wyborców_obecnych": 3437,
     "łączna_ilość_głosów": 3088,
@@ -4414,7 +4414,7 @@
     "Polska Partia Pracy": 40,
     "Ruch Patriotyczny": 39.0
   },
-  "41002": {
+  "041002": {
     "liczba_wyborców_uprawnionych": 6828,
     "liczba_wyborców_obecnych": 2250,
     "łączna_ilość_głosów": 2079,
@@ -4437,7 +4437,7 @@
     "Polska Partia Pracy": 44,
     "Ruch Patriotyczny": 54.0
   },
-  "41003": {
+  "041003": {
     "liczba_wyborców_uprawnionych": 26379,
     "liczba_wyborców_obecnych": 9385,
     "łączna_ilość_głosów": 8755,
@@ -4460,7 +4460,7 @@
     "Polska Partia Pracy": 156,
     "Ruch Patriotyczny": 144.0
   },
-  "41004": {
+  "041004": {
     "liczba_wyborców_uprawnionych": 5392,
     "liczba_wyborców_obecnych": 1963,
     "łączna_ilość_głosów": 1769,
@@ -4483,7 +4483,7 @@
     "Polska Partia Pracy": 47,
     "Ruch Patriotyczny": 23.0
   },
-  "41005": {
+  "041005": {
     "liczba_wyborców_uprawnionych": 17270,
     "liczba_wyborców_obecnych": 5858,
     "łączna_ilość_głosów": 5437,
@@ -4506,7 +4506,7 @@
     "Polska Partia Pracy": 92,
     "Ruch Patriotyczny": 108.0
   },
-  "41301": {
+  "041301": {
     "liczba_wyborców_uprawnionych": 5280,
     "liczba_wyborców_obecnych": 1641,
     "łączna_ilość_głosów": 1425,
@@ -4529,7 +4529,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 32.0
   },
-  "41302": {
+  "041302": {
     "liczba_wyborców_uprawnionych": 12387,
     "liczba_wyborców_obecnych": 4133,
     "łączna_ilość_głosów": 3753,
@@ -4552,7 +4552,7 @@
     "Polska Partia Pracy": 67,
     "Ruch Patriotyczny": 51.0
   },
-  "41303": {
+  "041303": {
     "liczba_wyborców_uprawnionych": 3955,
     "liczba_wyborców_obecnych": 1327,
     "łączna_ilość_głosów": 1227,
@@ -4575,7 +4575,7 @@
     "Polska Partia Pracy": 42,
     "Ruch Patriotyczny": 25.0
   },
-  "41304": {
+  "041304": {
     "liczba_wyborców_uprawnionych": 10193,
     "liczba_wyborców_obecnych": 3560,
     "łączna_ilość_głosów": 3231,
@@ -4598,7 +4598,7 @@
     "Polska Partia Pracy": 75,
     "Ruch Patriotyczny": 63.0
   },
-  "41401": {
+  "041401": {
     "liczba_wyborców_uprawnionych": 3892,
     "liczba_wyborców_obecnych": 1272,
     "łączna_ilość_głosów": 1142,
@@ -4621,7 +4621,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 23.0
   },
-  "41402": {
+  "041402": {
     "liczba_wyborców_uprawnionych": 5633,
     "liczba_wyborców_obecnych": 1713,
     "łączna_ilość_głosów": 1546,
@@ -4644,7 +4644,7 @@
     "Polska Partia Pracy": 47,
     "Ruch Patriotyczny": 30.0
   },
-  "41403": {
+  "041403": {
     "liczba_wyborców_uprawnionych": 3832,
     "liczba_wyborców_obecnych": 1244,
     "łączna_ilość_głosów": 1128,
@@ -4667,7 +4667,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 18.0
   },
-  "41404": {
+  "041404": {
     "liczba_wyborców_uprawnionych": 5896,
     "liczba_wyborców_obecnych": 1934,
     "łączna_ilość_głosów": 1770,
@@ -4690,7 +4690,7 @@
     "Polska Partia Pracy": 39,
     "Ruch Patriotyczny": 25.0
   },
-  "41405": {
+  "041405": {
     "liczba_wyborców_uprawnionych": 3108,
     "liczba_wyborców_obecnych": 1063,
     "łączna_ilość_głosów": 959,
@@ -4713,7 +4713,7 @@
     "Polska Partia Pracy": 27,
     "Ruch Patriotyczny": 27.0
   },
-  "41406": {
+  "041406": {
     "liczba_wyborców_uprawnionych": 8599,
     "liczba_wyborców_obecnych": 2548,
     "łączna_ilość_głosów": 2338,
@@ -4736,7 +4736,7 @@
     "Polska Partia Pracy": 59,
     "Ruch Patriotyczny": 49.0
   },
-  "41407": {
+  "041407": {
     "liczba_wyborców_uprawnionych": 4020,
     "liczba_wyborców_obecnych": 1302,
     "łączna_ilość_głosów": 1151,
@@ -4759,7 +4759,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 14.0
   },
-  "41408": {
+  "041408": {
     "liczba_wyborców_uprawnionych": 7159,
     "liczba_wyborców_obecnych": 2456,
     "łączna_ilość_głosów": 2206,
@@ -4782,7 +4782,7 @@
     "Polska Partia Pracy": 67,
     "Ruch Patriotyczny": 63.0
   },
-  "41409": {
+  "041409": {
     "liczba_wyborców_uprawnionych": 26898,
     "liczba_wyborców_obecnych": 9102,
     "łączna_ilość_głosów": 8510,
@@ -4805,7 +4805,7 @@
     "Polska Partia Pracy": 149,
     "Ruch Patriotyczny": 124.0
   },
-  "41410": {
+  "041410": {
     "liczba_wyborców_uprawnionych": 2629,
     "liczba_wyborców_obecnych": 910,
     "łączna_ilość_głosów": 797,
@@ -4828,7 +4828,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 10.0
   },
-  "41411": {
+  "041411": {
     "liczba_wyborców_uprawnionych": 4997,
     "liczba_wyborców_obecnych": 1466,
     "łączna_ilość_głosów": 1313,
@@ -4851,7 +4851,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 20.0
   },
-  "41601": {
+  "041601": {
     "liczba_wyborców_uprawnionych": 4955,
     "liczba_wyborców_obecnych": 1778,
     "łączna_ilość_głosów": 1591,
@@ -4874,7 +4874,7 @@
     "Polska Partia Pracy": 34,
     "Ruch Patriotyczny": 27.0
   },
-  "41602": {
+  "041602": {
     "liczba_wyborców_uprawnionych": 4041,
     "liczba_wyborców_obecnych": 1610,
     "łączna_ilość_głosów": 1456,
@@ -4897,7 +4897,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 21.0
   },
-  "41603": {
+  "041603": {
     "liczba_wyborców_uprawnionych": 3346,
     "liczba_wyborców_obecnych": 1142,
     "łączna_ilość_głosów": 1037,
@@ -4920,7 +4920,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 19.0
   },
-  "41604": {
+  "041604": {
     "liczba_wyborców_uprawnionych": 4345,
     "liczba_wyborców_obecnych": 1861,
     "łączna_ilość_głosów": 1690,
@@ -4943,7 +4943,7 @@
     "Polska Partia Pracy": 30,
     "Ruch Patriotyczny": 27.0
   },
-  "41605": {
+  "041605": {
     "liczba_wyborców_uprawnionych": 4160,
     "liczba_wyborców_obecnych": 1616,
     "łączna_ilość_głosów": 1472,
@@ -4966,7 +4966,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 34.0
   },
-  "41606": {
+  "041606": {
     "liczba_wyborców_uprawnionych": 15412,
     "liczba_wyborców_obecnych": 6635,
     "łączna_ilość_głosów": 6268,
@@ -4989,7 +4989,7 @@
     "Polska Partia Pracy": 98,
     "Ruch Patriotyczny": 73.0
   },
-  "41901": {
+  "041901": {
     "liczba_wyborców_uprawnionych": 11770,
     "liczba_wyborców_obecnych": 3709,
     "łączna_ilość_głosów": 3414,
@@ -5012,7 +5012,7 @@
     "Polska Partia Pracy": 67,
     "Ruch Patriotyczny": 55.0
   },
-  "41902": {
+  "041902": {
     "liczba_wyborców_uprawnionych": 4081,
     "liczba_wyborców_obecnych": 1507,
     "łączna_ilość_głosów": 1390,
@@ -5035,7 +5035,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 21.0
   },
-  "41903": {
+  "041903": {
     "liczba_wyborców_uprawnionych": 7496,
     "liczba_wyborców_obecnych": 2450,
     "łączna_ilość_głosów": 2179,
@@ -5058,7 +5058,7 @@
     "Polska Partia Pracy": 44,
     "Ruch Patriotyczny": 39.0
   },
-  "41904": {
+  "041904": {
     "liczba_wyborców_uprawnionych": 7083,
     "liczba_wyborców_obecnych": 2227,
     "łączna_ilość_głosów": 2016,
@@ -5081,7 +5081,7 @@
     "Polska Partia Pracy": 58,
     "Ruch Patriotyczny": 64.0
   },
-  "41905": {
+  "041905": {
     "liczba_wyborców_uprawnionych": 5329,
     "liczba_wyborców_obecnych": 2053,
     "łączna_ilość_głosów": 1719,
@@ -5104,7 +5104,7 @@
     "Polska Partia Pracy": 27,
     "Ruch Patriotyczny": 35.0
   },
-  "41906": {
+  "041906": {
     "liczba_wyborców_uprawnionych": 19190,
     "liczba_wyborców_obecnych": 7418,
     "łączna_ilość_głosów": 6689,
@@ -5127,7 +5127,7 @@
     "Polska Partia Pracy": 77,
     "Ruch Patriotyczny": 50.0
   },
-  "46101": {
+  "046101": {
     "liczba_wyborców_uprawnionych": 297074,
     "liczba_wyborców_obecnych": 131584,
     "łączna_ilość_głosów": 125983,
@@ -5150,7 +5150,7 @@
     "Polska Partia Pracy": 1597,
     "Ruch Patriotyczny": 1548.0
   },
-  "40101": {
+  "040101": {
     "liczba_wyborców_uprawnionych": 10184,
     "liczba_wyborców_obecnych": 3437,
     "łączna_ilość_głosów": 3293,
@@ -5173,7 +5173,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 27.0
   },
-  "40102": {
+  "040102": {
     "liczba_wyborców_uprawnionych": 9762,
     "liczba_wyborców_obecnych": 4749,
     "łączna_ilość_głosów": 4615,
@@ -5196,7 +5196,7 @@
     "Polska Partia Pracy": 31,
     "Ruch Patriotyczny": 33.0
   },
-  "40103": {
+  "040103": {
     "liczba_wyborców_uprawnionych": 1626,
     "liczba_wyborców_obecnych": 807,
     "łączna_ilość_głosów": 754,
@@ -5219,7 +5219,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 21.0
   },
-  "40104": {
+  "040104": {
     "liczba_wyborców_uprawnionych": 8075,
     "liczba_wyborców_obecnych": 2203,
     "łączna_ilość_głosów": 2098,
@@ -5242,7 +5242,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 8.0
   },
-  "40105": {
+  "040105": {
     "liczba_wyborców_uprawnionych": 3709,
     "liczba_wyborców_obecnych": 1418,
     "łączna_ilość_głosów": 1365,
@@ -5265,7 +5265,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 5.0
   },
-  "40106": {
+  "040106": {
     "liczba_wyborców_uprawnionych": 2663,
     "liczba_wyborców_obecnych": 940,
     "łączna_ilość_głosów": 888,
@@ -5288,7 +5288,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 4.0
   },
-  "40107": {
+  "040107": {
     "liczba_wyborców_uprawnionych": 2317,
     "liczba_wyborców_obecnych": 808,
     "łączna_ilość_głosów": 769,
@@ -5311,7 +5311,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 10.0
   },
-  "40108": {
+  "040108": {
     "liczba_wyborców_uprawnionych": 3455,
     "liczba_wyborców_obecnych": 1116,
     "łączna_ilość_głosów": 1048,
@@ -5334,7 +5334,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 5.0
   },
-  "40109": {
+  "040109": {
     "liczba_wyborców_uprawnionych": 2990,
     "liczba_wyborców_obecnych": 1055,
     "łączna_ilość_głosów": 993,
@@ -5357,7 +5357,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 3.0
   },
-  "40201": {
+  "040201": {
     "liczba_wyborców_uprawnionych": 21580,
     "liczba_wyborców_obecnych": 8495,
     "łączna_ilość_głosów": 8264,
@@ -5380,7 +5380,7 @@
     "Polska Partia Pracy": 39,
     "Ruch Patriotyczny": 47.0
   },
-  "40202": {
+  "040202": {
     "liczba_wyborców_uprawnionych": 4899,
     "liczba_wyborców_obecnych": 1639,
     "łączna_ilość_głosów": 1572,
@@ -5403,7 +5403,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 5.0
   },
-  "40203": {
+  "040203": {
     "liczba_wyborców_uprawnionych": 4792,
     "liczba_wyborców_obecnych": 1564,
     "łączna_ilość_głosów": 1497,
@@ -5426,7 +5426,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 20.0
   },
-  "40204": {
+  "040204": {
     "liczba_wyborców_uprawnionych": 2787,
     "liczba_wyborców_obecnych": 1021,
     "łączna_ilość_głosów": 960,
@@ -5449,7 +5449,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 10.0
   },
-  "40205": {
+  "040205": {
     "liczba_wyborców_uprawnionych": 3016,
     "liczba_wyborców_obecnych": 1200,
     "łączna_ilość_głosów": 1145,
@@ -5472,7 +5472,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 12.0
   },
-  "40206": {
+  "040206": {
     "liczba_wyborców_uprawnionych": 3512,
     "liczba_wyborców_obecnych": 1330,
     "łączna_ilość_głosów": 1264,
@@ -5495,7 +5495,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 11.0
   },
-  "40207": {
+  "040207": {
     "liczba_wyborców_uprawnionych": 7086,
     "liczba_wyborców_obecnych": 2477,
     "łączna_ilość_głosów": 2394,
@@ -5518,7 +5518,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 15.0
   },
-  "40208": {
+  "040208": {
     "liczba_wyborców_uprawnionych": 3178,
     "liczba_wyborców_obecnych": 1001,
     "łączna_ilość_głosów": 986,
@@ -5541,7 +5541,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 1.0
   },
-  "40209": {
+  "040209": {
     "liczba_wyborców_uprawnionych": 3878,
     "liczba_wyborców_obecnych": 1546,
     "łączna_ilość_głosów": 1506,
@@ -5564,7 +5564,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 3.0
   },
-  "40210": {
+  "040210": {
     "liczba_wyborców_uprawnionych": 3572,
     "liczba_wyborców_obecnych": 1321,
     "łączna_ilość_głosów": 1275,
@@ -5587,7 +5587,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 9.0
   },
-  "40401": {
+  "040401": {
     "liczba_wyborców_uprawnionych": 16639,
     "liczba_wyborców_obecnych": 5765,
     "łączna_ilość_głosów": 5536,
@@ -5610,7 +5610,7 @@
     "Polska Partia Pracy": 45,
     "Ruch Patriotyczny": 31.0
   },
-  "40402": {
+  "040402": {
     "liczba_wyborców_uprawnionych": 3879,
     "liczba_wyborców_obecnych": 1003,
     "łączna_ilość_głosów": 958,
@@ -5633,7 +5633,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 5.0
   },
-  "40403": {
+  "040403": {
     "liczba_wyborców_uprawnionych": 3320,
     "liczba_wyborców_obecnych": 1100,
     "łączna_ilość_głosów": 1045,
@@ -5656,7 +5656,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 14.0
   },
-  "40404": {
+  "040404": {
     "liczba_wyborców_uprawnionych": 4014,
     "liczba_wyborców_obecnych": 1221,
     "łączna_ilość_głosów": 1180,
@@ -5679,7 +5679,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 6.0
   },
-  "40405": {
+  "040405": {
     "liczba_wyborców_uprawnionych": 3304,
     "liczba_wyborców_obecnych": 1004,
     "łączna_ilość_głosów": 955,
@@ -5702,7 +5702,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 3.0
   },
-  "40406": {
+  "040406": {
     "liczba_wyborców_uprawnionych": 3851,
     "liczba_wyborców_obecnych": 1037,
     "łączna_ilość_głosów": 980,
@@ -5725,7 +5725,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 17.0
   },
-  "40407": {
+  "040407": {
     "liczba_wyborców_uprawnionych": 5223,
     "liczba_wyborców_obecnych": 1574,
     "łączna_ilość_głosów": 1511,
@@ -5748,7 +5748,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 12.0
   },
-  "40501": {
+  "040501": {
     "liczba_wyborców_uprawnionych": 9944,
     "liczba_wyborców_obecnych": 3645,
     "łączna_ilość_głosów": 3496,
@@ -5771,7 +5771,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 22.0
   },
-  "40502": {
+  "040502": {
     "liczba_wyborców_uprawnionych": 2932,
     "liczba_wyborców_obecnych": 972,
     "łączna_ilość_głosów": 918,
@@ -5794,7 +5794,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 2.0
   },
-  "40503": {
+  "040503": {
     "liczba_wyborców_uprawnionych": 6252,
     "liczba_wyborców_obecnych": 1827,
     "łączna_ilość_głosów": 1741,
@@ -5817,7 +5817,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 16.0
   },
-  "40504": {
+  "040504": {
     "liczba_wyborców_uprawnionych": 8681,
     "liczba_wyborców_obecnych": 2955,
     "łączna_ilość_głosów": 2827,
@@ -5840,7 +5840,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 22.0
   },
-  "40505": {
+  "040505": {
     "liczba_wyborców_uprawnionych": 3146,
     "liczba_wyborców_obecnych": 1007,
     "łączna_ilość_głosów": 984,
@@ -5863,7 +5863,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 5.0
   },
-  "40506": {
+  "040506": {
     "liczba_wyborców_uprawnionych": 3366,
     "liczba_wyborców_obecnych": 1069,
     "łączna_ilość_głosów": 1031,
@@ -5886,7 +5886,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 3.0
   },
-  "40601": {
+  "040601": {
     "liczba_wyborców_uprawnionych": 7913,
     "liczba_wyborców_obecnych": 2336,
     "łączna_ilość_głosów": 2236,
@@ -5909,7 +5909,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 16.0
   },
-  "40602": {
+  "040602": {
     "liczba_wyborców_uprawnionych": 5080,
     "liczba_wyborców_obecnych": 1510,
     "łączna_ilość_głosów": 1459,
@@ -5932,7 +5932,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 5.0
   },
-  "40603": {
+  "040603": {
     "liczba_wyborców_uprawnionych": 6544,
     "liczba_wyborców_obecnych": 2135,
     "łączna_ilość_głosów": 2011,
@@ -5955,7 +5955,7 @@
     "Polska Partia Pracy": 29,
     "Ruch Patriotyczny": 13.0
   },
-  "40604": {
+  "040604": {
     "liczba_wyborców_uprawnionych": 3719,
     "liczba_wyborców_obecnych": 1198,
     "łączna_ilość_głosów": 1135,
@@ -5978,7 +5978,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 6.0
   },
-  "40605": {
+  "040605": {
     "liczba_wyborców_uprawnionych": 3106,
     "liczba_wyborców_obecnych": 884,
     "łączna_ilość_głosów": 843,
@@ -6001,7 +6001,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 4.0
   },
-  "40606": {
+  "040606": {
     "liczba_wyborców_uprawnionych": 3412,
     "liczba_wyborców_obecnych": 984,
     "łączna_ilość_głosów": 933,
@@ -6024,7 +6024,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 4.0
   },
-  "40801": {
+  "040801": {
     "liczba_wyborców_uprawnionych": 11752,
     "liczba_wyborców_obecnych": 4022,
     "łączna_ilość_głosów": 3855,
@@ -6047,7 +6047,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 21.0
   },
-  "40802": {
+  "040802": {
     "liczba_wyborców_uprawnionych": 2291,
     "liczba_wyborców_obecnych": 692,
     "łączna_ilość_głosów": 669,
@@ -6070,7 +6070,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 5.0
   },
-  "40803": {
+  "040803": {
     "liczba_wyborców_uprawnionych": 2436,
     "liczba_wyborców_obecnych": 692,
     "łączna_ilość_głosów": 676,
@@ -6093,7 +6093,7 @@
     "Polska Partia Pracy": 0,
     "Ruch Patriotyczny": 3.0
   },
-  "40804": {
+  "040804": {
     "liczba_wyborców_uprawnionych": 6244,
     "liczba_wyborców_obecnych": 1927,
     "łączna_ilość_głosów": 1814,
@@ -6116,7 +6116,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 9.0
   },
-  "40805": {
+  "040805": {
     "liczba_wyborców_uprawnionych": 5512,
     "liczba_wyborców_obecnych": 1681,
     "łączna_ilość_głosów": 1616,
@@ -6139,7 +6139,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 5.0
   },
-  "40806": {
+  "040806": {
     "liczba_wyborców_uprawnionych": 8539,
     "liczba_wyborców_obecnych": 2188,
     "łączna_ilość_głosów": 2119,
@@ -6162,7 +6162,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 10.0
   },
-  "40807": {
+  "040807": {
     "liczba_wyborców_uprawnionych": 5889,
     "liczba_wyborców_obecnych": 1897,
     "łączna_ilość_głosów": 1821,
@@ -6185,7 +6185,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 9.0
   },
-  "40808": {
+  "040808": {
     "liczba_wyborców_uprawnionych": 3563,
     "liczba_wyborców_obecnych": 1098,
     "łączna_ilość_głosów": 1056,
@@ -6208,7 +6208,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 4.0
   },
-  "40809": {
+  "040809": {
     "liczba_wyborców_uprawnionych": 5067,
     "liczba_wyborców_obecnych": 1508,
     "łączna_ilość_głosów": 1425,
@@ -6231,7 +6231,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 5.0
   },
-  "41101": {
+  "041101": {
     "liczba_wyborców_uprawnionych": 5041,
     "liczba_wyborców_obecnych": 1799,
     "łączna_ilość_głosów": 1721,
@@ -6254,7 +6254,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 6.0
   },
-  "41102": {
+  "041102": {
     "liczba_wyborców_uprawnionych": 3042,
     "liczba_wyborców_obecnych": 1033,
     "łączna_ilość_głosów": 988,
@@ -6277,7 +6277,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 1.0
   },
-  "41103": {
+  "041103": {
     "liczba_wyborców_uprawnionych": 4445,
     "liczba_wyborców_obecnych": 1441,
     "łączna_ilość_głosów": 1369,
@@ -6300,7 +6300,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 6.0
   },
-  "41104": {
+  "041104": {
     "liczba_wyborców_uprawnionych": 6559,
     "liczba_wyborców_obecnych": 1994,
     "łączna_ilość_głosów": 1882,
@@ -6323,7 +6323,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 8.0
   },
-  "41105": {
+  "041105": {
     "liczba_wyborców_uprawnionych": 7649,
     "liczba_wyborców_obecnych": 2307,
     "łączna_ilość_głosów": 2181,
@@ -6346,7 +6346,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 14.0
   },
-  "41106": {
+  "041106": {
     "liczba_wyborców_uprawnionych": 3490,
     "liczba_wyborców_obecnych": 1102,
     "łączna_ilość_głosów": 1053,
@@ -6369,7 +6369,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 1.0
   },
-  "41107": {
+  "041107": {
     "liczba_wyborców_uprawnionych": 4118,
     "liczba_wyborców_obecnych": 1431,
     "łączna_ilość_głosów": 1344,
@@ -6392,7 +6392,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 15.0
   },
-  "41201": {
+  "041201": {
     "liczba_wyborców_uprawnionych": 13147,
     "liczba_wyborców_obecnych": 4420,
     "łączna_ilość_głosów": 4265,
@@ -6415,7 +6415,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 22.0
   },
-  "41202": {
+  "041202": {
     "liczba_wyborców_uprawnionych": 4223,
     "liczba_wyborców_obecnych": 1323,
     "łączna_ilość_głosów": 1293,
@@ -6438,7 +6438,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 1.0
   },
-  "41203": {
+  "041203": {
     "liczba_wyborców_uprawnionych": 3814,
     "liczba_wyborców_obecnych": 940,
     "łączna_ilość_głosów": 904,
@@ -6461,7 +6461,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 2.0
   },
-  "41204": {
+  "041204": {
     "liczba_wyborców_uprawnionych": 5709,
     "liczba_wyborców_obecnych": 1355,
     "łączna_ilość_głosów": 1301,
@@ -6484,7 +6484,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 4.0
   },
-  "41205": {
+  "041205": {
     "liczba_wyborców_uprawnionych": 4895,
     "liczba_wyborców_obecnych": 1460,
     "łączna_ilość_głosów": 1422,
@@ -6507,7 +6507,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 8.0
   },
-  "41206": {
+  "041206": {
     "liczba_wyborców_uprawnionych": 3295,
     "liczba_wyborców_obecnych": 825,
     "łączna_ilość_głosów": 794,
@@ -6530,7 +6530,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 5.0
   },
-  "41501": {
+  "041501": {
     "liczba_wyborców_uprawnionych": 11855,
     "liczba_wyborców_obecnych": 3818,
     "łączna_ilość_głosów": 3666,
@@ -6553,7 +6553,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 31.0
   },
-  "41502": {
+  "041502": {
     "liczba_wyborców_uprawnionych": 7238,
     "liczba_wyborców_obecnych": 2044,
     "łączna_ilość_głosów": 1975,
@@ -6576,7 +6576,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 17.0
   },
-  "41503": {
+  "041503": {
     "liczba_wyborców_uprawnionych": 6305,
     "liczba_wyborców_obecnych": 1563,
     "łączna_ilość_głosów": 1479,
@@ -6599,7 +6599,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 2.0
   },
-  "41504": {
+  "041504": {
     "liczba_wyborców_uprawnionych": 11864,
     "liczba_wyborców_obecnych": 4022,
     "łączna_ilość_głosów": 3903,
@@ -6622,7 +6622,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 31.0
   },
-  "41505": {
+  "041505": {
     "liczba_wyborców_uprawnionych": 4201,
     "liczba_wyborców_obecnych": 1519,
     "łączna_ilość_głosów": 1457,
@@ -6645,7 +6645,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 13.0
   },
-  "41506": {
+  "041506": {
     "liczba_wyborców_uprawnionych": 6191,
     "liczba_wyborców_obecnych": 1764,
     "łączna_ilość_głosów": 1701,
@@ -6668,7 +6668,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 7.0
   },
-  "41507": {
+  "041507": {
     "liczba_wyborców_uprawnionych": 7018,
     "liczba_wyborców_obecnych": 2301,
     "łączna_ilość_głosów": 2201,
@@ -6691,7 +6691,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 6.0
   },
-  "41508": {
+  "041508": {
     "liczba_wyborców_uprawnionych": 2983,
     "liczba_wyborców_obecnych": 1056,
     "łączna_ilość_głosów": 1026,
@@ -6714,7 +6714,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 5.0
   },
-  "41509": {
+  "041509": {
     "liczba_wyborców_uprawnionych": 8236,
     "liczba_wyborców_obecnych": 2609,
     "łączna_ilość_głosów": 2493,
@@ -6737,7 +6737,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 18.0
   },
-  "41701": {
+  "041701": {
     "liczba_wyborców_uprawnionych": 11212,
     "liczba_wyborców_obecnych": 3892,
     "łączna_ilość_głosów": 3739,
@@ -6760,7 +6760,7 @@
     "Polska Partia Pracy": 34,
     "Ruch Patriotyczny": 20.0
   },
-  "41702": {
+  "041702": {
     "liczba_wyborców_uprawnionych": 2439,
     "liczba_wyborców_obecnych": 784,
     "łączna_ilość_głosów": 759,
@@ -6783,7 +6783,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 4.0
   },
-  "41703": {
+  "041703": {
     "liczba_wyborców_uprawnionych": 3383,
     "liczba_wyborców_obecnych": 1233,
     "łączna_ilość_głosów": 1177,
@@ -6806,7 +6806,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 2.0
   },
-  "41704": {
+  "041704": {
     "liczba_wyborców_uprawnionych": 3899,
     "liczba_wyborców_obecnych": 1312,
     "łączna_ilość_głosów": 1259,
@@ -6829,7 +6829,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 11.0
   },
-  "41705": {
+  "041705": {
     "liczba_wyborców_uprawnionych": 6537,
     "liczba_wyborców_obecnych": 1822,
     "łączna_ilość_głosów": 1754,
@@ -6852,7 +6852,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 5.0
   },
-  "41801": {
+  "041801": {
     "liczba_wyborców_uprawnionych": 2746,
     "liczba_wyborców_obecnych": 1181,
     "łączna_ilość_głosów": 1110,
@@ -6875,7 +6875,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 20.0
   },
-  "41802": {
+  "041802": {
     "liczba_wyborców_uprawnionych": 2776,
     "liczba_wyborców_obecnych": 780,
     "łączna_ilość_głosów": 746,
@@ -6898,7 +6898,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 3.0
   },
-  "41803": {
+  "041803": {
     "liczba_wyborców_uprawnionych": 2847,
     "liczba_wyborców_obecnych": 866,
     "łączna_ilość_głosów": 810,
@@ -6921,7 +6921,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 2.0
   },
-  "41804": {
+  "041804": {
     "liczba_wyborców_uprawnionych": 8873,
     "liczba_wyborców_obecnych": 2616,
     "łączna_ilość_głosów": 2508,
@@ -6944,7 +6944,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 14.0
   },
-  "41805": {
+  "041805": {
     "liczba_wyborców_uprawnionych": 6420,
     "liczba_wyborców_obecnych": 1712,
     "łączna_ilość_głosów": 1600,
@@ -6967,7 +6967,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 6.0
   },
-  "41806": {
+  "041806": {
     "liczba_wyborców_uprawnionych": 5136,
     "liczba_wyborców_obecnych": 1424,
     "łączna_ilość_głosów": 1357,
@@ -6990,7 +6990,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 10.0
   },
-  "41807": {
+  "041807": {
     "liczba_wyborców_uprawnionych": 6461,
     "liczba_wyborców_obecnych": 1773,
     "łączna_ilość_głosów": 1683,
@@ -7013,7 +7013,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 7.0
   },
-  "41808": {
+  "041808": {
     "liczba_wyborców_uprawnionych": 6238,
     "liczba_wyborców_obecnych": 1876,
     "łączna_ilość_głosów": 1800,
@@ -7036,7 +7036,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 19.0
   },
-  "41809": {
+  "041809": {
     "liczba_wyborców_uprawnionych": 3221,
     "liczba_wyborców_obecnych": 994,
     "łączna_ilość_głosów": 950,
@@ -7059,7 +7059,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 5.0
   },
-  "41810": {
+  "041810": {
     "liczba_wyborców_uprawnionych": 3641,
     "liczba_wyborców_obecnych": 1181,
     "łączna_ilość_głosów": 1091,
@@ -7082,7 +7082,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 3.0
   },
-  "41811": {
+  "041811": {
     "liczba_wyborców_uprawnionych": 6110,
     "liczba_wyborców_obecnych": 2026,
     "łączna_ilość_głosów": 1910,
@@ -7105,7 +7105,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 10.0
   },
-  "41812": {
+  "041812": {
     "liczba_wyborców_uprawnionych": 8106,
     "liczba_wyborców_obecnych": 3235,
     "łączna_ilość_głosów": 3097,
@@ -7128,7 +7128,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 6.0
   },
-  "41813": {
+  "041813": {
     "liczba_wyborców_uprawnionych": 5085,
     "liczba_wyborców_obecnych": 1523,
     "łączna_ilość_głosów": 1439,
@@ -7151,7 +7151,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 2.0
   },
-  "46201": {
+  "046201": {
     "liczba_wyborców_uprawnionych": 80206,
     "liczba_wyborców_obecnych": 28343,
     "łączna_ilość_głosów": 27381,
@@ -7174,7 +7174,7 @@
     "Polska Partia Pracy": 332,
     "Ruch Patriotyczny": 174.0
   },
-  "46301": {
+  "046301": {
     "liczba_wyborców_uprawnionych": 162616,
     "liczba_wyborców_obecnych": 70894,
     "łączna_ilość_głosów": 69377,
@@ -7197,7 +7197,7 @@
     "Polska Partia Pracy": 430,
     "Ruch Patriotyczny": 375.0
   },
-  "46401": {
+  "046401": {
     "liczba_wyborców_uprawnionych": 97048,
     "liczba_wyborców_obecnych": 37259,
     "łączna_ilość_głosów": 36033,
@@ -7220,7 +7220,7 @@
     "Polska Partia Pracy": 238,
     "Ruch Patriotyczny": 269.0
   },
-  "60501": {
+  "060501": {
     "liczba_wyborców_uprawnionych": 2854,
     "liczba_wyborców_obecnych": 1288,
     "łączna_ilość_głosów": 1212,
@@ -7243,7 +7243,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 10.0
   },
-  "60502": {
+  "060502": {
     "liczba_wyborców_uprawnionych": 2582,
     "liczba_wyborców_obecnych": 1419,
     "łączna_ilość_głosów": 1383,
@@ -7266,7 +7266,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 15.0
   },
-  "60503": {
+  "060503": {
     "liczba_wyborców_uprawnionych": 5342,
     "liczba_wyborców_obecnych": 2368,
     "łączna_ilość_głosów": 2290,
@@ -7289,7 +7289,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 62.0
   },
-  "60504": {
+  "060504": {
     "liczba_wyborców_uprawnionych": 4921,
     "liczba_wyborców_obecnych": 3299,
     "łączna_ilość_głosów": 3235,
@@ -7312,7 +7312,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 42.0
   },
-  "60505": {
+  "060505": {
     "liczba_wyborców_uprawnionych": 13001,
     "liczba_wyborców_obecnych": 6092,
     "łączna_ilość_głosów": 5892,
@@ -7335,7 +7335,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 41.0
   },
-  "60506": {
+  "060506": {
     "liczba_wyborców_uprawnionych": 5859,
     "liczba_wyborców_obecnych": 2538,
     "łączna_ilość_głosów": 2452,
@@ -7358,7 +7358,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 27.0
   },
-  "60507": {
+  "060507": {
     "liczba_wyborców_uprawnionych": 3817,
     "liczba_wyborców_obecnych": 1390,
     "łączna_ilość_głosów": 1309,
@@ -7381,7 +7381,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 21.0
   },
-  "60701": {
+  "060701": {
     "liczba_wyborców_uprawnionych": 30474,
     "liczba_wyborców_obecnych": 14303,
     "łączna_ilość_głosów": 13712,
@@ -7404,7 +7404,7 @@
     "Polska Partia Pracy": 50,
     "Ruch Patriotyczny": 100.0
   },
-  "60702": {
+  "060702": {
     "liczba_wyborców_uprawnionych": 7343,
     "liczba_wyborców_obecnych": 3086,
     "łączna_ilość_głosów": 2911,
@@ -7427,7 +7427,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 16.0
   },
-  "60703": {
+  "060703": {
     "liczba_wyborców_uprawnionych": 4233,
     "liczba_wyborców_obecnych": 1828,
     "łączna_ilość_głosów": 1746,
@@ -7450,7 +7450,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 17.0
   },
-  "60704": {
+  "060704": {
     "liczba_wyborców_uprawnionych": 5741,
     "liczba_wyborców_obecnych": 1840,
     "łączna_ilość_głosów": 1765,
@@ -7473,7 +7473,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 17.0
   },
-  "60705": {
+  "060705": {
     "liczba_wyborców_uprawnionych": 5453,
     "liczba_wyborców_obecnych": 2277,
     "łączna_ilość_głosów": 2190,
@@ -7496,7 +7496,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 15.0
   },
-  "60706": {
+  "060706": {
     "liczba_wyborców_uprawnionych": 4918,
     "liczba_wyborców_obecnych": 2046,
     "łączna_ilość_głosów": 1932,
@@ -7519,7 +7519,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 22.0
   },
-  "60707": {
+  "060707": {
     "liczba_wyborców_uprawnionych": 5494,
     "liczba_wyborców_obecnych": 2142,
     "łączna_ilość_głosów": 2029,
@@ -7542,7 +7542,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 20.0
   },
-  "60708": {
+  "060708": {
     "liczba_wyborców_uprawnionych": 6958,
     "liczba_wyborców_obecnych": 3147,
     "łączna_ilość_głosów": 2988,
@@ -7565,7 +7565,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 20.0
   },
-  "60709": {
+  "060709": {
     "liczba_wyborców_uprawnionych": 4357,
     "liczba_wyborców_obecnych": 1998,
     "łączna_ilość_głosów": 1924,
@@ -7588,7 +7588,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 11.0
   },
-  "60710": {
+  "060710": {
     "liczba_wyborców_uprawnionych": 5670,
     "liczba_wyborców_obecnych": 2317,
     "łączna_ilość_głosów": 2221,
@@ -7611,7 +7611,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 10.0
   },
-  "60801": {
+  "060801": {
     "liczba_wyborców_uprawnionych": 18705,
     "liczba_wyborców_obecnych": 8206,
     "łączna_ilość_głosów": 7913,
@@ -7634,7 +7634,7 @@
     "Polska Partia Pracy": 40,
     "Ruch Patriotyczny": 50.0
   },
-  "60802": {
+  "060802": {
     "liczba_wyborców_uprawnionych": 3479,
     "liczba_wyborców_obecnych": 1447,
     "łączna_ilość_głosów": 1390,
@@ -7657,7 +7657,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 20.0
   },
-  "60803": {
+  "060803": {
     "liczba_wyborców_uprawnionych": 4824,
     "liczba_wyborców_obecnych": 1506,
     "łączna_ilość_głosów": 1423,
@@ -7680,7 +7680,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 22.0
   },
-  "60804": {
+  "060804": {
     "liczba_wyborców_uprawnionych": 2508,
     "liczba_wyborców_obecnych": 845,
     "łączna_ilość_głosów": 797,
@@ -7703,7 +7703,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 14.0
   },
-  "60805": {
+  "060805": {
     "liczba_wyborców_uprawnionych": 5024,
     "liczba_wyborców_obecnych": 1910,
     "łączna_ilość_głosów": 1802,
@@ -7726,7 +7726,7 @@
     "Polska Partia Pracy": 27,
     "Ruch Patriotyczny": 26.0
   },
-  "60806": {
+  "060806": {
     "liczba_wyborców_uprawnionych": 5434,
     "liczba_wyborców_obecnych": 1932,
     "łączna_ilość_głosów": 1768,
@@ -7749,7 +7749,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 23.0
   },
-  "60807": {
+  "060807": {
     "liczba_wyborców_uprawnionych": 7680,
     "liczba_wyborców_obecnych": 2715,
     "łączna_ilość_głosów": 2585,
@@ -7772,7 +7772,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 32.0
   },
-  "60808": {
+  "060808": {
     "liczba_wyborców_uprawnionych": 5223,
     "liczba_wyborców_obecnych": 2116,
     "łączna_ilość_głosów": 2035,
@@ -7795,7 +7795,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 18.0
   },
-  "60809": {
+  "060809": {
     "liczba_wyborców_uprawnionych": 4976,
     "liczba_wyborców_obecnych": 1907,
     "łączna_ilość_głosów": 1799,
@@ -7818,7 +7818,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 17.0
   },
-  "60810": {
+  "060810": {
     "liczba_wyborców_uprawnionych": 4419,
     "liczba_wyborców_obecnych": 1792,
     "łączna_ilość_głosów": 1692,
@@ -7841,7 +7841,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 15.0
   },
-  "60811": {
+  "060811": {
     "liczba_wyborców_uprawnionych": 3350,
     "liczba_wyborców_obecnych": 1257,
     "łączna_ilość_głosów": 1177,
@@ -7864,7 +7864,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 3.0
   },
-  "60812": {
+  "060812": {
     "liczba_wyborców_uprawnionych": 3754,
     "liczba_wyborców_obecnych": 1532,
     "łączna_ilość_głosów": 1463,
@@ -7887,7 +7887,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 9.0
   },
-  "60813": {
+  "060813": {
     "liczba_wyborców_uprawnionych": 2742,
     "liczba_wyborców_obecnych": 1033,
     "łączna_ilość_głosów": 978,
@@ -7910,7 +7910,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 8.0
   },
-  "60901": {
+  "060901": {
     "liczba_wyborców_uprawnionych": 10644,
     "liczba_wyborców_obecnych": 4165,
     "łączna_ilość_głosów": 3965,
@@ -7933,7 +7933,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 41.0
   },
-  "60902": {
+  "060902": {
     "liczba_wyborców_uprawnionych": 3012,
     "liczba_wyborców_obecnych": 1234,
     "łączna_ilość_głosów": 1166,
@@ -7956,7 +7956,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 4.0
   },
-  "60903": {
+  "060903": {
     "liczba_wyborców_uprawnionych": 9666,
     "liczba_wyborców_obecnych": 3565,
     "łączna_ilość_głosów": 3365,
@@ -7979,7 +7979,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 48.0
   },
-  "60904": {
+  "060904": {
     "liczba_wyborców_uprawnionych": 6837,
     "liczba_wyborców_obecnych": 2865,
     "łączna_ilość_głosów": 2796,
@@ -8002,7 +8002,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 25.0
   },
-  "60905": {
+  "060905": {
     "liczba_wyborców_uprawnionych": 5391,
     "liczba_wyborców_obecnych": 2133,
     "łączna_ilość_głosów": 2054,
@@ -8025,7 +8025,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 23.0
   },
-  "60906": {
+  "060906": {
     "liczba_wyborców_uprawnionych": 5938,
     "liczba_wyborców_obecnych": 1755,
     "łączna_ilość_głosów": 1685,
@@ -8048,7 +8048,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 19.0
   },
-  "60907": {
+  "060907": {
     "liczba_wyborców_uprawnionych": 8902,
     "liczba_wyborców_obecnych": 3652,
     "łączna_ilość_głosów": 3521,
@@ -8071,7 +8071,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 41.0
   },
-  "60908": {
+  "060908": {
     "liczba_wyborców_uprawnionych": 8343,
     "liczba_wyborców_obecnych": 3561,
     "łączna_ilość_głosów": 3466,
@@ -8094,7 +8094,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 69.0
   },
-  "60909": {
+  "060909": {
     "liczba_wyborców_uprawnionych": 4143,
     "liczba_wyborców_obecnych": 1467,
     "łączna_ilość_głosów": 1407,
@@ -8117,7 +8117,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 13.0
   },
-  "60910": {
+  "060910": {
     "liczba_wyborców_uprawnionych": 8271,
     "liczba_wyborców_obecnych": 3566,
     "łączna_ilość_głosów": 3401,
@@ -8140,7 +8140,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 24.0
   },
-  "60911": {
+  "060911": {
     "liczba_wyborców_uprawnionych": 11958,
     "liczba_wyborców_obecnych": 5447,
     "łączna_ilość_głosów": 5307,
@@ -8163,7 +8163,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 41.0
   },
-  "60912": {
+  "060912": {
     "liczba_wyborców_uprawnionych": 5801,
     "liczba_wyborców_obecnych": 2240,
     "łączna_ilość_głosów": 2159,
@@ -8186,7 +8186,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 28.0
   },
-  "60913": {
+  "060913": {
     "liczba_wyborców_uprawnionych": 4675,
     "liczba_wyborców_obecnych": 1554,
     "łączna_ilość_głosów": 1475,
@@ -8209,7 +8209,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 17.0
   },
-  "60914": {
+  "060914": {
     "liczba_wyborców_uprawnionych": 6301,
     "liczba_wyborców_obecnych": 2550,
     "łączna_ilość_głosów": 2458,
@@ -8232,7 +8232,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 28.0
   },
-  "60915": {
+  "060915": {
     "liczba_wyborców_uprawnionych": 4223,
     "liczba_wyborców_obecnych": 1778,
     "łączna_ilość_głosów": 1717,
@@ -8255,7 +8255,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 16.0
   },
-  "60916": {
+  "060916": {
     "liczba_wyborców_uprawnionych": 2706,
     "liczba_wyborców_obecnych": 1144,
     "łączna_ilość_głosów": 1104,
@@ -8278,7 +8278,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 9.0
   },
-  "61001": {
+  "061001": {
     "liczba_wyborców_uprawnionych": 5702,
     "liczba_wyborców_obecnych": 1865,
     "łączna_ilość_głosów": 1760,
@@ -8301,7 +8301,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 55.0
   },
-  "61002": {
+  "061002": {
     "liczba_wyborców_uprawnionych": 3750,
     "liczba_wyborców_obecnych": 1190,
     "łączna_ilość_głosów": 1140,
@@ -8324,7 +8324,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 19.0
   },
-  "61003": {
+  "061003": {
     "liczba_wyborców_uprawnionych": 19087,
     "liczba_wyborców_obecnych": 7392,
     "łączna_ilość_głosów": 7154,
@@ -8347,7 +8347,7 @@
     "Polska Partia Pracy": 40,
     "Ruch Patriotyczny": 40.0
   },
-  "61004": {
+  "061004": {
     "liczba_wyborców_uprawnionych": 7289,
     "liczba_wyborców_obecnych": 2027,
     "łączna_ilość_głosów": 1887,
@@ -8370,7 +8370,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 40.0
   },
-  "61005": {
+  "061005": {
     "liczba_wyborców_uprawnionych": 3768,
     "liczba_wyborców_obecnych": 1313,
     "łączna_ilość_głosów": 1264,
@@ -8393,7 +8393,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 18.0
   },
-  "61006": {
+  "061006": {
     "liczba_wyborców_uprawnionych": 4078,
     "liczba_wyborców_obecnych": 1361,
     "łączna_ilość_głosów": 1287,
@@ -8416,7 +8416,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 19.0
   },
-  "61101": {
+  "061101": {
     "liczba_wyborców_uprawnionych": 24516,
     "liczba_wyborców_obecnych": 10476,
     "łączna_ilość_głosów": 10106,
@@ -8439,7 +8439,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 39.0
   },
-  "61102": {
+  "061102": {
     "liczba_wyborców_uprawnionych": 2134,
     "liczba_wyborców_obecnych": 959,
     "łączna_ilość_głosów": 871,
@@ -8462,7 +8462,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 9.0
   },
-  "61103": {
+  "061103": {
     "liczba_wyborców_uprawnionych": 4677,
     "liczba_wyborców_obecnych": 1826,
     "łączna_ilość_głosów": 1708,
@@ -8485,7 +8485,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 9.0
   },
-  "61104": {
+  "061104": {
     "liczba_wyborców_uprawnionych": 7860,
     "liczba_wyborców_obecnych": 2624,
     "łączna_ilość_głosów": 2463,
@@ -8508,7 +8508,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 21.0
   },
-  "61105": {
+  "061105": {
     "liczba_wyborców_uprawnionych": 12088,
     "liczba_wyborców_obecnych": 4852,
     "łączna_ilość_głosów": 4602,
@@ -8531,7 +8531,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 23.0
   },
-  "61106": {
+  "061106": {
     "liczba_wyborców_uprawnionych": 3384,
     "liczba_wyborców_obecnych": 1114,
     "łączna_ilość_głosów": 1025,
@@ -8554,7 +8554,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 5.0
   },
-  "61107": {
+  "061107": {
     "liczba_wyborców_uprawnionych": 7462,
     "liczba_wyborców_obecnych": 3757,
     "łączna_ilość_głosów": 3627,
@@ -8577,7 +8577,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 14.0
   },
-  "61108": {
+  "061108": {
     "liczba_wyborców_uprawnionych": 6710,
     "liczba_wyborców_obecnych": 2425,
     "łączna_ilość_głosów": 2320,
@@ -8600,7 +8600,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 23.0
   },
-  "61109": {
+  "061109": {
     "liczba_wyborców_uprawnionych": 5700,
     "liczba_wyborców_obecnych": 2617,
     "łączna_ilość_głosów": 2529,
@@ -8623,7 +8623,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 12.0
   },
-  "61110": {
+  "061110": {
     "liczba_wyborców_uprawnionych": 5516,
     "liczba_wyborców_obecnych": 2108,
     "łączna_ilość_głosów": 1992,
@@ -8646,7 +8646,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 21.0
   },
-  "61111": {
+  "061111": {
     "liczba_wyborców_uprawnionych": 4148,
     "liczba_wyborców_obecnych": 1557,
     "łączna_ilość_głosów": 1489,
@@ -8669,7 +8669,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 5.0
   },
-  "61201": {
+  "061201": {
     "liczba_wyborców_uprawnionych": 5158,
     "liczba_wyborców_obecnych": 2226,
     "łączna_ilość_głosów": 2124,
@@ -8692,7 +8692,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 16.0
   },
-  "61202": {
+  "061202": {
     "liczba_wyborców_uprawnionych": 5784,
     "liczba_wyborców_obecnych": 2085,
     "łączna_ilość_głosów": 2012,
@@ -8715,7 +8715,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 9.0
   },
-  "61203": {
+  "061203": {
     "liczba_wyborców_uprawnionych": 4841,
     "liczba_wyborców_obecnych": 1686,
     "łączna_ilość_głosów": 1610,
@@ -8738,7 +8738,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 9.0
   },
-  "61204": {
+  "061204": {
     "liczba_wyborców_uprawnionych": 4300,
     "liczba_wyborców_obecnych": 1621,
     "łączna_ilość_głosów": 1573,
@@ -8761,7 +8761,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 6.0
   },
-  "61205": {
+  "061205": {
     "liczba_wyborców_uprawnionych": 14422,
     "liczba_wyborców_obecnych": 5188,
     "łączna_ilość_głosów": 4926,
@@ -8784,7 +8784,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 34.0
   },
-  "61206": {
+  "061206": {
     "liczba_wyborców_uprawnionych": 12629,
     "liczba_wyborców_obecnych": 4859,
     "łączna_ilość_głosów": 4680,
@@ -8807,7 +8807,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 34.0
   },
-  "61207": {
+  "061207": {
     "liczba_wyborców_uprawnionych": 3973,
     "liczba_wyborców_obecnych": 1586,
     "łączna_ilość_głosów": 1511,
@@ -8830,7 +8830,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 18.0
   },
-  "61401": {
+  "061401": {
     "liczba_wyborców_uprawnionych": 41714,
     "liczba_wyborców_obecnych": 19280,
     "łączna_ilość_głosów": 18886,
@@ -8853,7 +8853,7 @@
     "Polska Partia Pracy": 84,
     "Ruch Patriotyczny": 90.0
   },
-  "61402": {
+  "061402": {
     "liczba_wyborców_uprawnionych": 3366,
     "liczba_wyborców_obecnych": 1239,
     "łączna_ilość_głosów": 1173,
@@ -8876,7 +8876,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 6.0
   },
-  "61403": {
+  "061403": {
     "liczba_wyborców_uprawnionych": 2861,
     "liczba_wyborców_obecnych": 977,
     "łączna_ilość_głosów": 934,
@@ -8899,7 +8899,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 8.0
   },
-  "61404": {
+  "061404": {
     "liczba_wyborców_uprawnionych": 5847,
     "liczba_wyborców_obecnych": 2025,
     "łączna_ilość_głosów": 1928,
@@ -8922,7 +8922,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 18.0
   },
-  "61405": {
+  "061405": {
     "liczba_wyborców_uprawnionych": 7196,
     "liczba_wyborców_obecnych": 2833,
     "łączna_ilość_głosów": 2719,
@@ -8945,7 +8945,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 12.0
   },
-  "61406": {
+  "061406": {
     "liczba_wyborców_uprawnionych": 6330,
     "liczba_wyborców_obecnych": 2443,
     "łączna_ilość_głosów": 2341,
@@ -8968,7 +8968,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 18.0
   },
-  "61407": {
+  "061407": {
     "liczba_wyborców_uprawnionych": 2397,
     "liczba_wyborców_obecnych": 1017,
     "łączna_ilość_głosów": 950,
@@ -8991,7 +8991,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 11.0
   },
-  "61408": {
+  "061408": {
     "liczba_wyborców_uprawnionych": 7901,
     "liczba_wyborców_obecnych": 3337,
     "łączna_ilość_głosów": 3201,
@@ -9014,7 +9014,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 32.0
   },
-  "61409": {
+  "061409": {
     "liczba_wyborców_uprawnionych": 8823,
     "liczba_wyborców_obecnych": 3130,
     "łączna_ilość_głosów": 3014,
@@ -9037,7 +9037,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 30.0
   },
-  "61410": {
+  "061410": {
     "liczba_wyborców_uprawnionych": 3839,
     "liczba_wyborców_obecnych": 1609,
     "łączna_ilość_głosów": 1517,
@@ -9060,7 +9060,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 8.0
   },
-  "61411": {
+  "061411": {
     "liczba_wyborców_uprawnionych": 5156,
     "liczba_wyborców_obecnych": 2090,
     "łączna_ilość_głosów": 1978,
@@ -9083,7 +9083,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 19.0
   },
-  "61601": {
+  "061601": {
     "liczba_wyborców_uprawnionych": 14867,
     "liczba_wyborców_obecnych": 5915,
     "łączna_ilość_głosów": 5656,
@@ -9106,7 +9106,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 35.0
   },
-  "61602": {
+  "061602": {
     "liczba_wyborców_uprawnionych": 5850,
     "liczba_wyborców_obecnych": 2411,
     "łączna_ilość_głosów": 2285,
@@ -9129,7 +9129,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 22.0
   },
-  "61603": {
+  "061603": {
     "liczba_wyborców_uprawnionych": 3291,
     "liczba_wyborców_obecnych": 1381,
     "łączna_ilość_głosów": 1313,
@@ -9152,7 +9152,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 23.0
   },
-  "61604": {
+  "061604": {
     "liczba_wyborców_uprawnionych": 16785,
     "liczba_wyborców_obecnych": 7009,
     "łączna_ilość_głosów": 6689,
@@ -9175,7 +9175,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 34.0
   },
-  "61605": {
+  "061605": {
     "liczba_wyborców_uprawnionych": 4472,
     "liczba_wyborców_obecnych": 1868,
     "łączna_ilość_głosów": 1757,
@@ -9198,7 +9198,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 10.0
   },
-  "61606": {
+  "061606": {
     "liczba_wyborców_uprawnionych": 2902,
     "liczba_wyborców_obecnych": 1274,
     "łączna_ilość_głosów": 1199,
@@ -9221,7 +9221,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 10.0
   },
-  "61701": {
+  "061701": {
     "liczba_wyborców_uprawnionych": 33209,
     "liczba_wyborców_obecnych": 14431,
     "łączna_ilość_głosów": 14053,
@@ -9244,7 +9244,7 @@
     "Polska Partia Pracy": 82,
     "Ruch Patriotyczny": 116.0
   },
-  "61702": {
+  "061702": {
     "liczba_wyborców_uprawnionych": 6186,
     "liczba_wyborców_obecnych": 2251,
     "łączna_ilość_głosów": 2179,
@@ -9267,7 +9267,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 40.0
   },
-  "61703": {
+  "061703": {
     "liczba_wyborców_uprawnionych": 8513,
     "liczba_wyborców_obecnych": 2769,
     "łączna_ilość_głosów": 2684,
@@ -9290,7 +9290,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 39.0
   },
-  "61704": {
+  "061704": {
     "liczba_wyborców_uprawnionych": 3281,
     "liczba_wyborców_obecnych": 1247,
     "łączna_ilość_głosów": 1162,
@@ -9313,7 +9313,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 8.0
   },
-  "61705": {
+  "061705": {
     "liczba_wyborców_uprawnionych": 7264,
     "liczba_wyborców_obecnych": 2074,
     "łączna_ilość_głosów": 1946,
@@ -9336,7 +9336,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 181.0
   },
-  "66301": {
+  "066301": {
     "liczba_wyborców_uprawnionych": 279963,
     "liczba_wyborców_obecnych": 135730,
     "łączna_ilość_głosów": 132333,
@@ -9359,7 +9359,7 @@
     "Polska Partia Pracy": 739,
     "Ruch Patriotyczny": 1554.0
   },
-  "60101": {
+  "060101": {
     "liczba_wyborców_uprawnionych": 13661,
     "liczba_wyborców_obecnych": 6075,
     "łączna_ilość_głosów": 5878,
@@ -9382,7 +9382,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 36.0
   },
-  "60102": {
+  "060102": {
     "liczba_wyborców_uprawnionych": 4630,
     "liczba_wyborców_obecnych": 1867,
     "łączna_ilość_głosów": 1822,
@@ -9405,7 +9405,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 16.0
   },
-  "60103": {
+  "060103": {
     "liczba_wyborców_uprawnionych": 9047,
     "liczba_wyborców_obecnych": 3460,
     "łączna_ilość_głosów": 3334,
@@ -9428,7 +9428,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 61.0
   },
-  "60104": {
+  "060104": {
     "liczba_wyborców_uprawnionych": 4329,
     "liczba_wyborców_obecnych": 1796,
     "łączna_ilość_głosów": 1702,
@@ -9451,7 +9451,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 19.0
   },
-  "60105": {
+  "060105": {
     "liczba_wyborców_uprawnionych": 4417,
     "liczba_wyborców_obecnych": 1643,
     "łączna_ilość_głosów": 1560,
@@ -9474,7 +9474,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 4.0
   },
-  "60106": {
+  "060106": {
     "liczba_wyborców_uprawnionych": 3371,
     "liczba_wyborców_obecnych": 1348,
     "łączna_ilość_głosów": 1278,
@@ -9497,7 +9497,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 8.0
   },
-  "60107": {
+  "060107": {
     "liczba_wyborców_uprawnionych": 3164,
     "liczba_wyborców_obecnych": 1506,
     "łączna_ilość_głosów": 1439,
@@ -9520,7 +9520,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 10.0
   },
-  "60108": {
+  "060108": {
     "liczba_wyborców_uprawnionych": 3410,
     "liczba_wyborców_obecnych": 1436,
     "łączna_ilość_głosów": 1362,
@@ -9543,7 +9543,7 @@
     "Polska Partia Pracy": 0,
     "Ruch Patriotyczny": 11.0
   },
-  "60109": {
+  "060109": {
     "liczba_wyborców_uprawnionych": 4293,
     "liczba_wyborców_obecnych": 1734,
     "łączna_ilość_głosów": 1676,
@@ -9566,7 +9566,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 5.0
   },
-  "60110": {
+  "060110": {
     "liczba_wyborców_uprawnionych": 7705,
     "liczba_wyborców_obecnych": 3340,
     "łączna_ilość_głosów": 3216,
@@ -9589,7 +9589,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 22.0
   },
-  "60111": {
+  "060111": {
     "liczba_wyborców_uprawnionych": 5814,
     "liczba_wyborców_obecnych": 1950,
     "łączna_ilość_głosów": 1860,
@@ -9612,7 +9612,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 18.0
   },
-  "60112": {
+  "060112": {
     "liczba_wyborców_uprawnionych": 2639,
     "liczba_wyborców_obecnych": 1014,
     "łączna_ilość_głosów": 956,
@@ -9635,7 +9635,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 9.0
   },
-  "60113": {
+  "060113": {
     "liczba_wyborców_uprawnionych": 1923,
     "liczba_wyborców_obecnych": 758,
     "łączna_ilość_głosów": 733,
@@ -9658,7 +9658,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 4.0
   },
-  "60114": {
+  "060114": {
     "liczba_wyborców_uprawnionych": 2172,
     "liczba_wyborców_obecnych": 935,
     "łączna_ilość_głosów": 903,
@@ -9681,7 +9681,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 9.0
   },
-  "60115": {
+  "060115": {
     "liczba_wyborców_uprawnionych": 2360,
     "liczba_wyborców_obecnych": 885,
     "łączna_ilość_głosów": 849,
@@ -9704,7 +9704,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 8.0
   },
-  "60116": {
+  "060116": {
     "liczba_wyborców_uprawnionych": 5581,
     "liczba_wyborców_obecnych": 2043,
     "łączna_ilość_głosów": 1972,
@@ -9727,7 +9727,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 29.0
   },
-  "60117": {
+  "060117": {
     "liczba_wyborców_uprawnionych": 2946,
     "liczba_wyborców_obecnych": 996,
     "łączna_ilość_głosów": 954,
@@ -9750,7 +9750,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 3.0
   },
-  "60118": {
+  "060118": {
     "liczba_wyborców_uprawnionych": 4268,
     "liczba_wyborców_obecnych": 1682,
     "łączna_ilość_głosów": 1622,
@@ -9773,7 +9773,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 22.0
   },
-  "60119": {
+  "060119": {
     "liczba_wyborców_uprawnionych": 3473,
     "liczba_wyborców_obecnych": 1296,
     "łączna_ilość_głosów": 1248,
@@ -9796,7 +9796,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 17.0
   },
-  "60201": {
+  "060201": {
     "liczba_wyborców_uprawnionych": 21513,
     "liczba_wyborców_obecnych": 9156,
     "łączna_ilość_głosów": 8919,
@@ -9819,7 +9819,7 @@
     "Polska Partia Pracy": 51,
     "Ruch Patriotyczny": 415.0
   },
-  "60202": {
+  "060202": {
     "liczba_wyborców_uprawnionych": 2398,
     "liczba_wyborców_obecnych": 1049,
     "łączna_ilość_głosów": 1013,
@@ -9842,7 +9842,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 13.0
   },
-  "60203": {
+  "060203": {
     "liczba_wyborców_uprawnionych": 9552,
     "liczba_wyborców_obecnych": 3710,
     "łączna_ilość_głosów": 3611,
@@ -9865,7 +9865,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 64.0
   },
-  "60204": {
+  "060204": {
     "liczba_wyborców_uprawnionych": 3122,
     "liczba_wyborców_obecnych": 1378,
     "łączna_ilość_głosów": 1352,
@@ -9888,7 +9888,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 5.0
   },
-  "60205": {
+  "060205": {
     "liczba_wyborców_uprawnionych": 5205,
     "liczba_wyborców_obecnych": 1926,
     "łączna_ilość_głosów": 1885,
@@ -9911,7 +9911,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 29.0
   },
-  "60206": {
+  "060206": {
     "liczba_wyborców_uprawnionych": 3586,
     "liczba_wyborców_obecnych": 1378,
     "łączna_ilość_głosów": 1309,
@@ -9934,7 +9934,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 14.0
   },
-  "60207": {
+  "060207": {
     "liczba_wyborców_uprawnionych": 5863,
     "liczba_wyborców_obecnych": 2087,
     "łączna_ilość_głosów": 2005,
@@ -9957,7 +9957,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 26.0
   },
-  "60208": {
+  "060208": {
     "liczba_wyborców_uprawnionych": 5124,
     "liczba_wyborców_obecnych": 1918,
     "łączna_ilość_głosów": 1860,
@@ -9980,7 +9980,7 @@
     "Polska Partia Pracy": 28,
     "Ruch Patriotyczny": 87.0
   },
-  "60209": {
+  "060209": {
     "liczba_wyborców_uprawnionych": 3464,
     "liczba_wyborców_obecnych": 1539,
     "łączna_ilość_głosów": 1495,
@@ -10003,7 +10003,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 12.0
   },
-  "60210": {
+  "060210": {
     "liczba_wyborców_uprawnionych": 3443,
     "liczba_wyborców_obecnych": 1503,
     "łączna_ilość_głosów": 1446,
@@ -10026,7 +10026,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 11.0
   },
-  "60211": {
+  "060211": {
     "liczba_wyborców_uprawnionych": 4410,
     "liczba_wyborców_obecnych": 1709,
     "łączna_ilość_głosów": 1658,
@@ -10049,7 +10049,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 16.0
   },
-  "60212": {
+  "060212": {
     "liczba_wyborców_uprawnionych": 5537,
     "liczba_wyborców_obecnych": 2403,
     "łączna_ilość_głosów": 2335,
@@ -10072,7 +10072,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 28.0
   },
-  "60213": {
+  "060213": {
     "liczba_wyborców_uprawnionych": 3118,
     "liczba_wyborców_obecnych": 1031,
     "łączna_ilość_głosów": 978,
@@ -10095,7 +10095,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 10.0
   },
-  "60214": {
+  "060214": {
     "liczba_wyborców_uprawnionych": 5983,
     "liczba_wyborców_obecnych": 2444,
     "łączna_ilość_głosów": 2341,
@@ -10118,7 +10118,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 75.0
   },
-  "60301": {
+  "060301": {
     "liczba_wyborców_uprawnionych": 3661,
     "liczba_wyborców_obecnych": 1070,
     "łączna_ilość_głosów": 1027,
@@ -10141,7 +10141,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 9.0
   },
-  "60302": {
+  "060302": {
     "liczba_wyborców_uprawnionych": 2695,
     "liczba_wyborców_obecnych": 844,
     "łączna_ilość_głosów": 795,
@@ -10164,7 +10164,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 4.0
   },
-  "60303": {
+  "060303": {
     "liczba_wyborców_uprawnionych": 9839,
     "liczba_wyborców_obecnych": 3113,
     "łączna_ilość_głosów": 3003,
@@ -10187,7 +10187,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 38.0
   },
-  "60304": {
+  "060304": {
     "liczba_wyborców_uprawnionych": 5681,
     "liczba_wyborców_obecnych": 1654,
     "łączna_ilość_głosów": 1562,
@@ -10210,7 +10210,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 16.0
   },
-  "60305": {
+  "060305": {
     "liczba_wyborców_uprawnionych": 2259,
     "liczba_wyborców_obecnych": 681,
     "łączna_ilość_głosów": 634,
@@ -10233,7 +10233,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 7.0
   },
-  "60306": {
+  "060306": {
     "liczba_wyborców_uprawnionych": 3107,
     "liczba_wyborców_obecnych": 978,
     "łączna_ilość_głosów": 943,
@@ -10256,7 +10256,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 5.0
   },
-  "60307": {
+  "060307": {
     "liczba_wyborców_uprawnionych": 3191,
     "liczba_wyborców_obecnych": 1207,
     "łączna_ilość_głosów": 1165,
@@ -10279,7 +10279,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 7.0
   },
-  "60308": {
+  "060308": {
     "liczba_wyborców_uprawnionych": 3611,
     "liczba_wyborców_obecnych": 1058,
     "łączna_ilość_głosów": 980,
@@ -10302,7 +10302,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 14.0
   },
-  "60309": {
+  "060309": {
     "liczba_wyborców_uprawnionych": 3821,
     "liczba_wyborców_obecnych": 994,
     "łączna_ilość_głosów": 943,
@@ -10325,7 +10325,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 14.0
   },
-  "60310": {
+  "060310": {
     "liczba_wyborców_uprawnionych": 4636,
     "liczba_wyborców_obecnych": 1446,
     "łączna_ilość_głosów": 1413,
@@ -10348,7 +10348,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 18.0
   },
-  "60311": {
+  "060311": {
     "liczba_wyborców_uprawnionych": 5637,
     "liczba_wyborców_obecnych": 1423,
     "łączna_ilość_głosów": 1356,
@@ -10371,7 +10371,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 23.0
   },
-  "60312": {
+  "060312": {
     "liczba_wyborców_uprawnionych": 4243,
     "liczba_wyborców_obecnych": 1558,
     "łączna_ilość_głosów": 1478,
@@ -10394,7 +10394,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 8.0
   },
-  "60313": {
+  "060313": {
     "liczba_wyborców_uprawnionych": 3470,
     "liczba_wyborców_obecnych": 1161,
     "łączna_ilość_głosów": 1105,
@@ -10417,7 +10417,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 13.0
   },
-  "60314": {
+  "060314": {
     "liczba_wyborców_uprawnionych": 2659,
     "liczba_wyborców_obecnych": 833,
     "łączna_ilość_głosów": 793,
@@ -10440,7 +10440,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 8.0
   },
-  "60401": {
+  "060401": {
     "liczba_wyborców_uprawnionych": 16097,
     "liczba_wyborców_obecnych": 6239,
     "łączna_ilość_głosów": 5989,
@@ -10463,7 +10463,7 @@
     "Polska Partia Pracy": 45,
     "Ruch Patriotyczny": 50.0
   },
-  "60402": {
+  "060402": {
     "liczba_wyborców_uprawnionych": 5362,
     "liczba_wyborców_obecnych": 1818,
     "łączna_ilość_głosów": 1760,
@@ -10486,7 +10486,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 16.0
   },
-  "60403": {
+  "060403": {
     "liczba_wyborców_uprawnionych": 4797,
     "liczba_wyborców_obecnych": 1526,
     "łączna_ilość_głosów": 1453,
@@ -10509,7 +10509,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 17.0
   },
-  "60404": {
+  "060404": {
     "liczba_wyborców_uprawnionych": 8701,
     "liczba_wyborców_obecnych": 2970,
     "łączna_ilość_głosów": 2858,
@@ -10532,7 +10532,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 18.0
   },
-  "60405": {
+  "060405": {
     "liczba_wyborców_uprawnionych": 6539,
     "liczba_wyborców_obecnych": 2279,
     "łączna_ilość_głosów": 2203,
@@ -10555,7 +10555,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 10.0
   },
-  "60406": {
+  "060406": {
     "liczba_wyborców_uprawnionych": 3997,
     "liczba_wyborców_obecnych": 1350,
     "łączna_ilość_głosów": 1310,
@@ -10578,7 +10578,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 10.0
   },
-  "60407": {
+  "060407": {
     "liczba_wyborców_uprawnionych": 4233,
     "liczba_wyborców_obecnych": 1507,
     "łączna_ilość_głosów": 1445,
@@ -10601,7 +10601,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 22.0
   },
-  "60408": {
+  "060408": {
     "liczba_wyborców_uprawnionych": 8353,
     "liczba_wyborców_obecnych": 3047,
     "łączna_ilość_głosów": 2886,
@@ -10624,7 +10624,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 33.0
   },
-  "60601": {
+  "060601": {
     "liczba_wyborców_uprawnionych": 16685,
     "liczba_wyborców_obecnych": 6253,
     "łączna_ilość_głosów": 6029,
@@ -10647,7 +10647,7 @@
     "Polska Partia Pracy": 40,
     "Ruch Patriotyczny": 38.0
   },
-  "60602": {
+  "060602": {
     "liczba_wyborców_uprawnionych": 4077,
     "liczba_wyborców_obecnych": 1637,
     "łączna_ilość_głosów": 1570,
@@ -10670,7 +10670,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 12.0
   },
-  "60603": {
+  "060603": {
     "liczba_wyborców_uprawnionych": 3402,
     "liczba_wyborców_obecnych": 1171,
     "łączna_ilość_głosów": 1137,
@@ -10693,7 +10693,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 7.0
   },
-  "60604": {
+  "060604": {
     "liczba_wyborców_uprawnionych": 7316,
     "liczba_wyborców_obecnych": 2426,
     "łączna_ilość_głosów": 2302,
@@ -10716,7 +10716,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 7.0
   },
-  "60605": {
+  "060605": {
     "liczba_wyborców_uprawnionych": 7376,
     "liczba_wyborców_obecnych": 2583,
     "łączna_ilość_głosów": 2463,
@@ -10739,7 +10739,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 34.0
   },
-  "60606": {
+  "060606": {
     "liczba_wyborców_uprawnionych": 3663,
     "liczba_wyborców_obecnych": 1313,
     "łączna_ilość_głosów": 1254,
@@ -10762,7 +10762,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 17.0
   },
-  "60607": {
+  "060607": {
     "liczba_wyborców_uprawnionych": 3508,
     "liczba_wyborców_obecnych": 1218,
     "łączna_ilość_głosów": 1164,
@@ -10785,7 +10785,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 7.0
   },
-  "60608": {
+  "060608": {
     "liczba_wyborców_uprawnionych": 5514,
     "liczba_wyborców_obecnych": 1446,
     "łączna_ilość_głosów": 1368,
@@ -10808,7 +10808,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 25.0
   },
-  "60609": {
+  "060609": {
     "liczba_wyborców_uprawnionych": 2969,
     "liczba_wyborców_obecnych": 1069,
     "łączna_ilość_głosów": 1038,
@@ -10831,7 +10831,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 8.0
   },
-  "60610": {
+  "060610": {
     "liczba_wyborców_uprawnionych": 3464,
     "liczba_wyborców_obecnych": 1527,
     "łączna_ilość_głosów": 1471,
@@ -10854,7 +10854,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 4.0
   },
-  "60611": {
+  "060611": {
     "liczba_wyborców_uprawnionych": 5126,
     "liczba_wyborców_obecnych": 1814,
     "łączna_ilość_głosów": 1751,
@@ -10877,7 +10877,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 18.0
   },
-  "61301": {
+  "061301": {
     "liczba_wyborców_uprawnionych": 3291,
     "liczba_wyborców_obecnych": 1149,
     "łączna_ilość_głosów": 1116,
@@ -10900,7 +10900,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 9.0
   },
-  "61302": {
+  "061302": {
     "liczba_wyborców_uprawnionych": 3330,
     "liczba_wyborców_obecnych": 1534,
     "łączna_ilość_głosów": 1480,
@@ -10923,7 +10923,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 8.0
   },
-  "61303": {
+  "061303": {
     "liczba_wyborców_uprawnionych": 3301,
     "liczba_wyborców_obecnych": 1195,
     "łączna_ilość_głosów": 1137,
@@ -10946,7 +10946,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 10.0
   },
-  "61304": {
+  "061304": {
     "liczba_wyborców_uprawnionych": 12206,
     "liczba_wyborców_obecnych": 5020,
     "łączna_ilość_głosów": 4865,
@@ -10969,7 +10969,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 16.0
   },
-  "61305": {
+  "061305": {
     "liczba_wyborców_uprawnionych": 1594,
     "liczba_wyborców_obecnych": 698,
     "łączna_ilość_głosów": 681,
@@ -10992,7 +10992,7 @@
     "Polska Partia Pracy": 0,
     "Ruch Patriotyczny": 5.0
   },
-  "61306": {
+  "061306": {
     "liczba_wyborców_uprawnionych": 3995,
     "liczba_wyborców_obecnych": 1551,
     "łączna_ilość_głosów": 1489,
@@ -11015,7 +11015,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 17.0
   },
-  "61307": {
+  "061307": {
     "liczba_wyborców_uprawnionych": 2211,
     "liczba_wyborców_obecnych": 748,
     "łączna_ilość_głosów": 706,
@@ -11038,7 +11038,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 5.0
   },
-  "61501": {
+  "061501": {
     "liczba_wyborców_uprawnionych": 13264,
     "liczba_wyborców_obecnych": 6408,
     "łączna_ilość_głosów": 6219,
@@ -11061,7 +11061,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 42.0
   },
-  "61502": {
+  "061502": {
     "liczba_wyborców_uprawnionych": 4875,
     "liczba_wyborców_obecnych": 1901,
     "łączna_ilość_głosów": 1829,
@@ -11084,7 +11084,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 9.0
   },
-  "61503": {
+  "061503": {
     "liczba_wyborców_uprawnionych": 3732,
     "liczba_wyborców_obecnych": 2018,
     "łączna_ilość_głosów": 1960,
@@ -11107,7 +11107,7 @@
     "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 4.0
   },
-  "61504": {
+  "061504": {
     "liczba_wyborców_uprawnionych": 6564,
     "liczba_wyborców_obecnych": 2684,
     "łączna_ilość_głosów": 2569,
@@ -11130,7 +11130,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 51.0
   },
-  "61505": {
+  "061505": {
     "liczba_wyborców_uprawnionych": 3970,
     "liczba_wyborców_obecnych": 1669,
     "łączna_ilość_głosów": 1617,
@@ -11153,7 +11153,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 13.0
   },
-  "61506": {
+  "061506": {
     "liczba_wyborców_uprawnionych": 6178,
     "liczba_wyborców_obecnych": 2562,
     "łączna_ilość_głosów": 2492,
@@ -11176,7 +11176,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 20.0
   },
-  "61507": {
+  "061507": {
     "liczba_wyborców_uprawnionych": 4670,
     "liczba_wyborców_obecnych": 2294,
     "łączna_ilość_głosów": 2218,
@@ -11199,7 +11199,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 25.0
   },
-  "61508": {
+  "061508": {
     "liczba_wyborców_uprawnionych": 5940,
     "liczba_wyborców_obecnych": 2258,
     "łączna_ilość_głosów": 2136,
@@ -11222,7 +11222,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 11.0
   },
-  "61801": {
+  "061801": {
     "liczba_wyborców_uprawnionych": 17032,
     "liczba_wyborców_obecnych": 7199,
     "łączna_ilość_głosów": 6953,
@@ -11245,7 +11245,7 @@
     "Polska Partia Pracy": 34,
     "Ruch Patriotyczny": 53.0
   },
-  "61802": {
+  "061802": {
     "liczba_wyborców_uprawnionych": 2398,
     "liczba_wyborców_obecnych": 807,
     "łączna_ilość_głosów": 773,
@@ -11268,7 +11268,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 2.0
   },
-  "61803": {
+  "061803": {
     "liczba_wyborców_uprawnionych": 3110,
     "liczba_wyborców_obecnych": 1384,
     "łączna_ilość_głosów": 1323,
@@ -11291,7 +11291,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 7.0
   },
-  "61804": {
+  "061804": {
     "liczba_wyborców_uprawnionych": 3014,
     "liczba_wyborców_obecnych": 1276,
     "łączna_ilość_głosów": 1214,
@@ -11314,7 +11314,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 11.0
   },
-  "61805": {
+  "061805": {
     "liczba_wyborców_uprawnionych": 5635,
     "liczba_wyborców_obecnych": 1554,
     "łączna_ilość_głosów": 1474,
@@ -11337,7 +11337,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 12.0
   },
-  "61806": {
+  "061806": {
     "liczba_wyborców_uprawnionych": 5470,
     "liczba_wyborców_obecnych": 2248,
     "łączna_ilość_głosów": 2163,
@@ -11360,7 +11360,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 6.0
   },
-  "61807": {
+  "061807": {
     "liczba_wyborców_uprawnionych": 4724,
     "liczba_wyborców_obecnych": 2096,
     "łączna_ilość_głosów": 1990,
@@ -11383,7 +11383,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 15.0
   },
-  "61808": {
+  "061808": {
     "liczba_wyborców_uprawnionych": 6381,
     "liczba_wyborców_obecnych": 2294,
     "łączna_ilość_głosów": 2193,
@@ -11406,7 +11406,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 18.0
   },
-  "61809": {
+  "061809": {
     "liczba_wyborców_uprawnionych": 3228,
     "liczba_wyborców_obecnych": 1144,
     "łączna_ilość_głosów": 1067,
@@ -11429,7 +11429,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 4.0
   },
-  "61810": {
+  "061810": {
     "liczba_wyborców_uprawnionych": 3752,
     "liczba_wyborców_obecnych": 1548,
     "łączna_ilość_głosów": 1513,
@@ -11452,7 +11452,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 3.0
   },
-  "61811": {
+  "061811": {
     "liczba_wyborców_uprawnionych": 8420,
     "liczba_wyborców_obecnych": 3111,
     "łączna_ilość_głosów": 2989,
@@ -11475,7 +11475,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 15.0
   },
-  "61812": {
+  "061812": {
     "liczba_wyborców_uprawnionych": 5211,
     "liczba_wyborców_obecnych": 1760,
     "łączna_ilość_głosów": 1641,
@@ -11498,7 +11498,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 12.0
   },
-  "61813": {
+  "061813": {
     "liczba_wyborców_uprawnionych": 4330,
     "liczba_wyborców_obecnych": 1525,
     "łączna_ilość_głosów": 1478,
@@ -11521,7 +11521,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 6.0
   },
-  "61901": {
+  "061901": {
     "liczba_wyborców_uprawnionych": 12059,
     "liczba_wyborców_obecnych": 4693,
     "łączna_ilość_głosów": 4557,
@@ -11544,7 +11544,7 @@
     "Polska Partia Pracy": 64,
     "Ruch Patriotyczny": 39.0
   },
-  "61902": {
+  "061902": {
     "liczba_wyborców_uprawnionych": 2730,
     "liczba_wyborców_obecnych": 1167,
     "łączna_ilość_głosów": 1115,
@@ -11567,7 +11567,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 10.0
   },
-  "61903": {
+  "061903": {
     "liczba_wyborców_uprawnionych": 3120,
     "liczba_wyborców_obecnych": 1027,
     "łączna_ilość_głosów": 975,
@@ -11590,7 +11590,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 13.0
   },
-  "61904": {
+  "061904": {
     "liczba_wyborców_uprawnionych": 1804,
     "liczba_wyborców_obecnych": 666,
     "łączna_ilość_głosów": 649,
@@ -11613,7 +11613,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 9.0
   },
-  "61905": {
+  "061905": {
     "liczba_wyborców_uprawnionych": 3319,
     "liczba_wyborców_obecnych": 1343,
     "łączna_ilość_głosów": 1285,
@@ -11636,7 +11636,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 11.0
   },
-  "61906": {
+  "061906": {
     "liczba_wyborców_uprawnionych": 4689,
     "liczba_wyborców_obecnych": 1718,
     "łączna_ilość_głosów": 1640,
@@ -11659,7 +11659,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 18.0
   },
-  "61907": {
+  "061907": {
     "liczba_wyborców_uprawnionych": 3419,
     "liczba_wyborców_obecnych": 1231,
     "łączna_ilość_głosów": 1188,
@@ -11682,7 +11682,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 13.0
   },
-  "61908": {
+  "061908": {
     "liczba_wyborców_uprawnionych": 2353,
     "liczba_wyborców_obecnych": 830,
     "łączna_ilość_głosów": 787,
@@ -11705,7 +11705,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 5.0
   },
-  "62001": {
+  "062001": {
     "liczba_wyborców_uprawnionych": 4039,
     "liczba_wyborców_obecnych": 1417,
     "łączna_ilość_głosów": 1362,
@@ -11728,7 +11728,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 15.0
   },
-  "62002": {
+  "062002": {
     "liczba_wyborców_uprawnionych": 3827,
     "liczba_wyborców_obecnych": 1294,
     "łączna_ilość_głosów": 1242,
@@ -11751,7 +11751,7 @@
     "Polska Partia Pracy": 0,
     "Ruch Patriotyczny": 3.0
   },
-  "62003": {
+  "062003": {
     "liczba_wyborców_uprawnionych": 4500,
     "liczba_wyborców_obecnych": 2100,
     "łączna_ilość_głosów": 1961,
@@ -11774,7 +11774,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 16.0
   },
-  "62004": {
+  "062004": {
     "liczba_wyborców_uprawnionych": 5623,
     "liczba_wyborców_obecnych": 2344,
     "łączna_ilość_głosów": 2222,
@@ -11797,7 +11797,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 23.0
   },
-  "62005": {
+  "062005": {
     "liczba_wyborców_uprawnionych": 4772,
     "liczba_wyborców_obecnych": 2166,
     "łączna_ilość_głosów": 2083,
@@ -11820,7 +11820,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 37.0
   },
-  "62006": {
+  "062006": {
     "liczba_wyborców_uprawnionych": 5000,
     "liczba_wyborców_obecnych": 1896,
     "łączna_ilość_głosów": 1820,
@@ -11843,7 +11843,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 21.0
   },
-  "62007": {
+  "062007": {
     "liczba_wyborców_uprawnionych": 4950,
     "liczba_wyborców_obecnych": 1713,
     "łączna_ilość_głosów": 1628,
@@ -11866,7 +11866,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 10.0
   },
-  "62008": {
+  "062008": {
     "liczba_wyborców_uprawnionych": 5516,
     "liczba_wyborców_obecnych": 2147,
     "łączna_ilość_głosów": 2059,
@@ -11889,7 +11889,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 20.0
   },
-  "62009": {
+  "062009": {
     "liczba_wyborców_uprawnionych": 5370,
     "liczba_wyborców_obecnych": 2318,
     "łączna_ilość_głosów": 2204,
@@ -11912,7 +11912,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 25.0
   },
-  "62010": {
+  "062010": {
     "liczba_wyborców_uprawnionych": 4611,
     "liczba_wyborców_obecnych": 1842,
     "łączna_ilość_głosów": 1763,
@@ -11935,7 +11935,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 26.0
   },
-  "62011": {
+  "062011": {
     "liczba_wyborców_uprawnionych": 4318,
     "liczba_wyborców_obecnych": 1672,
     "łączna_ilość_głosów": 1606,
@@ -11958,7 +11958,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 15.0
   },
-  "62012": {
+  "062012": {
     "liczba_wyborców_uprawnionych": 4224,
     "liczba_wyborców_obecnych": 1267,
     "łączna_ilość_głosów": 1204,
@@ -11981,7 +11981,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 9.0
   },
-  "62013": {
+  "062013": {
     "liczba_wyborców_uprawnionych": 9706,
     "liczba_wyborców_obecnych": 3263,
     "łączna_ilość_głosów": 3101,
@@ -12004,7 +12004,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 22.0
   },
-  "62014": {
+  "062014": {
     "liczba_wyborców_uprawnionych": 15568,
     "liczba_wyborców_obecnych": 5966,
     "łączna_ilość_głosów": 5759,
@@ -12027,7 +12027,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 70.0
   },
-  "62015": {
+  "062015": {
     "liczba_wyborców_uprawnionych": 5805,
     "liczba_wyborców_obecnych": 1860,
     "łączna_ilość_głosów": 1761,
@@ -12050,7 +12050,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 13.0
   },
-  "66101": {
+  "066101": {
     "liczba_wyborców_uprawnionych": 45280,
     "liczba_wyborców_obecnych": 19689,
     "łączna_ilość_głosów": 19180,
@@ -12073,7 +12073,7 @@
     "Polska Partia Pracy": 97,
     "Ruch Patriotyczny": 108.0
   },
-  "66201": {
+  "066201": {
     "liczba_wyborców_uprawnionych": 56165,
     "liczba_wyborców_obecnych": 21289,
     "łączna_ilość_głosów": 20642,
@@ -12096,7 +12096,7 @@
     "Polska Partia Pracy": 110,
     "Ruch Patriotyczny": 221.0
   },
-  "66401": {
+  "066401": {
     "liczba_wyborców_uprawnionych": 53731,
     "liczba_wyborców_obecnych": 22452,
     "łączna_ilość_głosów": 21882,
@@ -12119,7 +12119,7 @@
     "Polska Partia Pracy": 116,
     "Ruch Patriotyczny": 311.0
   },
-  "80101": {
+  "080101": {
     "liczba_wyborców_uprawnionych": 13868,
     "liczba_wyborców_obecnych": 4723,
     "łączna_ilość_głosów": 4543,
@@ -12142,7 +12142,7 @@
     "Polska Partia Pracy": 44,
     "Ruch Patriotyczny": 27.0
   },
-  "80102": {
+  "080102": {
     "liczba_wyborców_uprawnionych": 5025,
     "liczba_wyborców_obecnych": 1624,
     "łączna_ilość_głosów": 1557,
@@ -12165,7 +12165,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 14.0
   },
-  "80103": {
+  "080103": {
     "liczba_wyborców_uprawnionych": 5625,
     "liczba_wyborców_obecnych": 1860,
     "łączna_ilość_głosów": 1754,
@@ -12188,7 +12188,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 4.0
   },
-  "80104": {
+  "080104": {
     "liczba_wyborców_uprawnionych": 4517,
     "liczba_wyborców_obecnych": 1752,
     "łączna_ilość_głosów": 1693,
@@ -12211,7 +12211,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 11.0
   },
-  "80105": {
+  "080105": {
     "liczba_wyborców_uprawnionych": 5229,
     "liczba_wyborców_obecnych": 1515,
     "łączna_ilość_głosów": 1437,
@@ -12234,7 +12234,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 9.0
   },
-  "80106": {
+  "080106": {
     "liczba_wyborców_uprawnionych": 5613,
     "liczba_wyborców_obecnych": 1771,
     "łączna_ilość_głosów": 1698,
@@ -12257,7 +12257,7 @@
     "Polska Partia Pracy": 19,
     "Ruch Patriotyczny": 19.0
   },
-  "80107": {
+  "080107": {
     "liczba_wyborców_uprawnionych": 9822,
     "liczba_wyborców_obecnych": 3273,
     "łączna_ilość_głosów": 3075,
@@ -12280,7 +12280,7 @@
     "Polska Partia Pracy": 36,
     "Ruch Patriotyczny": 34.0
   },
-  "80201": {
+  "080201": {
     "liczba_wyborców_uprawnionych": 13660,
     "liczba_wyborców_obecnych": 4571,
     "łączna_ilość_głosów": 4403,
@@ -12303,7 +12303,7 @@
     "Polska Partia Pracy": 59,
     "Ruch Patriotyczny": 28.0
   },
-  "80202": {
+  "080202": {
     "liczba_wyborców_uprawnionych": 2532,
     "liczba_wyborców_obecnych": 777,
     "łączna_ilość_głosów": 733,
@@ -12326,7 +12326,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 7.0
   },
-  "80203": {
+  "080203": {
     "liczba_wyborców_uprawnionych": 2091,
     "liczba_wyborców_obecnych": 596,
     "łączna_ilość_głosów": 573,
@@ -12349,7 +12349,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 3.0
   },
-  "80204": {
+  "080204": {
     "liczba_wyborców_uprawnionych": 3894,
     "liczba_wyborców_obecnych": 1101,
     "łączna_ilość_głosów": 1020,
@@ -12372,7 +12372,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 13.0
   },
-  "80205": {
+  "080205": {
     "liczba_wyborców_uprawnionych": 5656,
     "liczba_wyborców_obecnych": 1654,
     "łączna_ilość_głosów": 1600,
@@ -12395,7 +12395,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 22.0
   },
-  "80206": {
+  "080206": {
     "liczba_wyborców_uprawnionych": 14939,
     "liczba_wyborców_obecnych": 5336,
     "łączna_ilość_głosów": 5107,
@@ -12418,7 +12418,7 @@
     "Polska Partia Pracy": 49,
     "Ruch Patriotyczny": 41.0
   },
-  "80207": {
+  "080207": {
     "liczba_wyborców_uprawnionych": 2297,
     "liczba_wyborców_obecnych": 523,
     "łączna_ilość_głosów": 497,
@@ -12441,7 +12441,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 10.0
   },
-  "80301": {
+  "080301": {
     "liczba_wyborców_uprawnionych": 3729,
     "liczba_wyborców_obecnych": 1046,
     "łączna_ilość_głosów": 984,
@@ -12464,7 +12464,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 10.0
   },
-  "80302": {
+  "080302": {
     "liczba_wyborców_uprawnionych": 20389,
     "liczba_wyborców_obecnych": 7086,
     "łączna_ilość_głosów": 6760,
@@ -12487,7 +12487,7 @@
     "Polska Partia Pracy": 57,
     "Ruch Patriotyczny": 63.0
   },
-  "80303": {
+  "080303": {
     "liczba_wyborców_uprawnionych": 4630,
     "liczba_wyborców_obecnych": 1512,
     "łączna_ilość_głosów": 1377,
@@ -12510,7 +12510,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 18.0
   },
-  "80304": {
+  "080304": {
     "liczba_wyborców_uprawnionych": 3310,
     "liczba_wyborców_obecnych": 1074,
     "łączna_ilość_głosów": 1024,
@@ -12533,7 +12533,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 8.0
   },
-  "80305": {
+  "080305": {
     "liczba_wyborców_uprawnionych": 10245,
     "liczba_wyborców_obecnych": 3461,
     "łączna_ilość_głosów": 3327,
@@ -12556,7 +12556,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 37.0
   },
-  "80306": {
+  "080306": {
     "liczba_wyborców_uprawnionych": 5099,
     "liczba_wyborców_obecnych": 1778,
     "łączna_ilość_głosów": 1627,
@@ -12579,7 +12579,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 15.0
   },
-  "80401": {
+  "080401": {
     "liczba_wyborców_uprawnionych": 33290,
     "liczba_wyborców_obecnych": 12735,
     "łączna_ilość_głosów": 12304,
@@ -12602,7 +12602,7 @@
     "Polska Partia Pracy": 92,
     "Ruch Patriotyczny": 84.0
   },
-  "80402": {
+  "080402": {
     "liczba_wyborców_uprawnionych": 4122,
     "liczba_wyborców_obecnych": 1327,
     "łączna_ilość_głosów": 1219,
@@ -12625,7 +12625,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 9.0
   },
-  "80403": {
+  "080403": {
     "liczba_wyborców_uprawnionych": 2518,
     "liczba_wyborców_obecnych": 758,
     "łączna_ilość_głosów": 698,
@@ -12648,7 +12648,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 7.0
   },
-  "80404": {
+  "080404": {
     "liczba_wyborców_uprawnionych": 12600,
     "liczba_wyborców_obecnych": 4051,
     "łączna_ilość_głosów": 3879,
@@ -12671,7 +12671,7 @@
     "Polska Partia Pracy": 31,
     "Ruch Patriotyczny": 39.0
   },
-  "80405": {
+  "080405": {
     "liczba_wyborców_uprawnionych": 5020,
     "liczba_wyborców_obecnych": 1679,
     "łączna_ilość_głosów": 1582,
@@ -12694,7 +12694,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 18.0
   },
-  "80406": {
+  "080406": {
     "liczba_wyborców_uprawnionych": 4301,
     "liczba_wyborców_obecnych": 1425,
     "łączna_ilość_głosów": 1338,
@@ -12717,7 +12717,7 @@
     "Polska Partia Pracy": 13,
     "Ruch Patriotyczny": 17.0
   },
-  "80407": {
+  "080407": {
     "liczba_wyborców_uprawnionych": 4548,
     "liczba_wyborców_obecnych": 1429,
     "łączna_ilość_głosów": 1354,
@@ -12740,7 +12740,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 12.0
   },
-  "80408": {
+  "080408": {
     "liczba_wyborców_uprawnionych": 2594,
     "liczba_wyborców_obecnych": 779,
     "łączna_ilość_głosów": 755,
@@ -12763,7 +12763,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 7.0
   },
-  "80501": {
+  "080501": {
     "liczba_wyborców_uprawnionych": 5289,
     "liczba_wyborców_obecnych": 1536,
     "łączna_ilość_głosów": 1450,
@@ -12786,7 +12786,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 20.0
   },
-  "80502": {
+  "080502": {
     "liczba_wyborców_uprawnionych": 3143,
     "liczba_wyborców_obecnych": 923,
     "łączna_ilość_głosów": 846,
@@ -12809,7 +12809,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 13.0
   },
-  "80503": {
+  "080503": {
     "liczba_wyborców_uprawnionych": 4887,
     "liczba_wyborców_obecnych": 1539,
     "łączna_ilość_głosów": 1450,
@@ -12832,7 +12832,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 14.0
   },
-  "80504": {
+  "080504": {
     "liczba_wyborców_uprawnionych": 7641,
     "liczba_wyborców_obecnych": 2373,
     "łączna_ilość_głosów": 2229,
@@ -12855,7 +12855,7 @@
     "Polska Partia Pracy": 17,
     "Ruch Patriotyczny": 20.0
   },
-  "80505": {
+  "080505": {
     "liczba_wyborców_uprawnionych": 15266,
     "liczba_wyborców_obecnych": 5349,
     "łączna_ilość_głosów": 5146,
@@ -12878,7 +12878,7 @@
     "Polska Partia Pracy": 26,
     "Ruch Patriotyczny": 46.0
   },
-  "80601": {
+  "080601": {
     "liczba_wyborców_uprawnionych": 5604,
     "liczba_wyborców_obecnych": 1531,
     "łączna_ilość_głosów": 1466,
@@ -12901,7 +12901,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 8.0
   },
-  "80602": {
+  "080602": {
     "liczba_wyborców_uprawnionych": 13888,
     "liczba_wyborców_obecnych": 4763,
     "łączna_ilość_głosów": 4521,
@@ -12924,7 +12924,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 29.0
   },
-  "80603": {
+  "080603": {
     "liczba_wyborców_uprawnionych": 3268,
     "liczba_wyborców_obecnych": 1089,
     "łączna_ilość_głosów": 1038,
@@ -12947,7 +12947,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 1.0
   },
-  "80604": {
+  "080604": {
     "liczba_wyborców_uprawnionych": 13875,
     "liczba_wyborców_obecnych": 4202,
     "łączna_ilość_głosów": 3997,
@@ -12970,7 +12970,7 @@
     "Polska Partia Pracy": 29,
     "Ruch Patriotyczny": 26.0
   },
-  "80605": {
+  "080605": {
     "liczba_wyborców_uprawnionych": 3357,
     "liczba_wyborców_obecnych": 1130,
     "łączna_ilość_głosów": 1070,
@@ -12993,7 +12993,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 10.0
   },
-  "80701": {
+  "080701": {
     "liczba_wyborców_uprawnionych": 3309,
     "liczba_wyborców_obecnych": 1461,
     "łączna_ilość_głosów": 1397,
@@ -13016,7 +13016,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 14.0
   },
-  "80702": {
+  "080702": {
     "liczba_wyborców_uprawnionych": 2475,
     "liczba_wyborców_obecnych": 857,
     "łączna_ilość_głosów": 805,
@@ -13039,7 +13039,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 9.0
   },
-  "80703": {
+  "080703": {
     "liczba_wyborców_uprawnionych": 3975,
     "liczba_wyborców_obecnych": 1421,
     "łączna_ilość_głosów": 1333,
@@ -13062,7 +13062,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 13.0
   },
-  "80704": {
+  "080704": {
     "liczba_wyborców_uprawnionych": 12742,
     "liczba_wyborców_obecnych": 4196,
     "łączna_ilość_głosów": 3989,
@@ -13085,7 +13085,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 41.0
   },
-  "80705": {
+  "080705": {
     "liczba_wyborców_uprawnionych": 5517,
     "liczba_wyborców_obecnych": 1350,
     "łączna_ilość_głosów": 1264,
@@ -13108,7 +13108,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 10.0
   },
-  "80801": {
+  "080801": {
     "liczba_wyborców_uprawnionych": 2521,
     "liczba_wyborców_obecnych": 697,
     "łączna_ilość_głosów": 654,
@@ -13131,7 +13131,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 2.0
   },
-  "80802": {
+  "080802": {
     "liczba_wyborców_uprawnionych": 4193,
     "liczba_wyborców_obecnych": 1359,
     "łączna_ilość_głosów": 1305,
@@ -13154,7 +13154,7 @@
     "Polska Partia Pracy": 10,
     "Ruch Patriotyczny": 16.0
   },
-  "80803": {
+  "080803": {
     "liczba_wyborców_uprawnionych": 4058,
     "liczba_wyborców_obecnych": 1138,
     "łączna_ilość_głosów": 1069,
@@ -13177,7 +13177,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 11.0
   },
-  "80804": {
+  "080804": {
     "liczba_wyborców_uprawnionych": 3035,
     "liczba_wyborców_obecnych": 988,
     "łączna_ilość_głosów": 914,
@@ -13200,7 +13200,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 10.0
   },
-  "80805": {
+  "080805": {
     "liczba_wyborców_uprawnionych": 23569,
     "liczba_wyborców_obecnych": 7853,
     "łączna_ilość_głosów": 7574,
@@ -13223,7 +13223,7 @@
     "Polska Partia Pracy": 55,
     "Ruch Patriotyczny": 59.0
   },
-  "80806": {
+  "080806": {
     "liczba_wyborców_uprawnionych": 6520,
     "liczba_wyborców_obecnych": 2197,
     "łączna_ilość_głosów": 2071,
@@ -13246,7 +13246,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 20.0
   },
-  "80901": {
+  "080901": {
     "liczba_wyborców_uprawnionych": 4878,
     "liczba_wyborców_obecnych": 1802,
     "łączna_ilość_głosów": 1701,
@@ -13269,7 +13269,7 @@
     "Polska Partia Pracy": 8,
     "Ruch Patriotyczny": 5.0
   },
-  "80902": {
+  "080902": {
     "liczba_wyborców_uprawnionych": 2582,
     "liczba_wyborców_obecnych": 788,
     "łączna_ilość_głosów": 709,
@@ -13292,7 +13292,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 9.0
   },
-  "80903": {
+  "080903": {
     "liczba_wyborców_uprawnionych": 7319,
     "liczba_wyborców_obecnych": 2235,
     "łączna_ilość_głosów": 2114,
@@ -13315,7 +13315,7 @@
     "Polska Partia Pracy": 23,
     "Ruch Patriotyczny": 22.0
   },
-  "80904": {
+  "080904": {
     "liczba_wyborców_uprawnionych": 4424,
     "liczba_wyborców_obecnych": 1273,
     "łączna_ilość_głosów": 1212,
@@ -13338,7 +13338,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 7.0
   },
-  "80905": {
+  "080905": {
     "liczba_wyborców_uprawnionych": 7679,
     "liczba_wyborców_obecnych": 2402,
     "łączna_ilość_głosów": 2250,
@@ -13361,7 +13361,7 @@
     "Polska Partia Pracy": 21,
     "Ruch Patriotyczny": 28.0
   },
-  "80906": {
+  "080906": {
     "liczba_wyborców_uprawnionych": 20501,
     "liczba_wyborców_obecnych": 7227,
     "łączna_ilość_głosów": 6877,
@@ -13384,7 +13384,7 @@
     "Polska Partia Pracy": 45,
     "Ruch Patriotyczny": 49.0
   },
-  "80907": {
+  "080907": {
     "liczba_wyborców_uprawnionych": 4212,
     "liczba_wyborców_obecnych": 1386,
     "łączna_ilość_głosów": 1321,
@@ -13407,7 +13407,7 @@
     "Polska Partia Pracy": 14,
     "Ruch Patriotyczny": 15.0
   },
-  "80908": {
+  "080908": {
     "liczba_wyborców_uprawnionych": 2523,
     "liczba_wyborców_obecnych": 775,
     "łączna_ilość_głosów": 690,
@@ -13430,7 +13430,7 @@
     "Polska Partia Pracy": 3,
     "Ruch Patriotyczny": 6.0
   },
-  "80909": {
+  "080909": {
     "liczba_wyborców_uprawnionych": 2573,
     "liczba_wyborców_obecnych": 772,
     "łączna_ilość_głosów": 731,
@@ -13453,7 +13453,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 7.0
   },
-  "80910": {
+  "080910": {
     "liczba_wyborców_uprawnionych": 11907,
     "liczba_wyborców_obecnych": 4620,
     "łączna_ilość_głosów": 4489,
@@ -13476,7 +13476,7 @@
     "Polska Partia Pracy": 24,
     "Ruch Patriotyczny": 36.0
   },
-  "81001": {
+  "081001": {
     "liczba_wyborców_uprawnionych": 2822,
     "liczba_wyborców_obecnych": 856,
     "łączna_ilość_głosów": 807,
@@ -13499,7 +13499,7 @@
     "Polska Partia Pracy": 15,
     "Ruch Patriotyczny": 4.0
   },
-  "81002": {
+  "081002": {
     "liczba_wyborców_uprawnionych": 21813,
     "liczba_wyborców_obecnych": 7544,
     "łączna_ilość_głosów": 7272,
@@ -13522,7 +13522,7 @@
     "Polska Partia Pracy": 69,
     "Ruch Patriotyczny": 59.0
   },
-  "81003": {
+  "081003": {
     "liczba_wyborców_uprawnionych": 2900,
     "liczba_wyborców_obecnych": 1011,
     "łączna_ilość_głosów": 939,
@@ -13545,7 +13545,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 9.0
   },
-  "81004": {
+  "081004": {
     "liczba_wyborców_uprawnionych": 5744,
     "liczba_wyborców_obecnych": 1679,
     "łączna_ilość_głosów": 1607,
@@ -13568,7 +13568,7 @@
     "Polska Partia Pracy": 5,
     "Ruch Patriotyczny": 18.0
   },
-  "81005": {
+  "081005": {
     "liczba_wyborców_uprawnionych": 4445,
     "liczba_wyborców_obecnych": 1330,
     "łączna_ilość_głosów": 1265,
@@ -13591,7 +13591,7 @@
     "Polska Partia Pracy": 18,
     "Ruch Patriotyczny": 12.0
   },
-  "81006": {
+  "081006": {
     "liczba_wyborców_uprawnionych": 3639,
     "liczba_wyborców_obecnych": 1197,
     "łączna_ilość_głosów": 1136,
@@ -13614,7 +13614,7 @@
     "Polska Partia Pracy": 42,
     "Ruch Patriotyczny": 11.0
   },
-  "81007": {
+  "081007": {
     "liczba_wyborców_uprawnionych": 17407,
     "liczba_wyborców_obecnych": 5298,
     "łączna_ilość_głosów": 5054,
@@ -13637,7 +13637,7 @@
     "Polska Partia Pracy": 33,
     "Ruch Patriotyczny": 30.0
   },
-  "81008": {
+  "081008": {
     "liczba_wyborców_uprawnionych": 1997,
     "liczba_wyborców_obecnych": 519,
     "łączna_ilość_głosów": 487,
@@ -13660,7 +13660,7 @@
     "Polska Partia Pracy": 6,
     "Ruch Patriotyczny": 6.0
   },
-  "81009": {
+  "081009": {
     "liczba_wyborców_uprawnionych": 5296,
     "liczba_wyborców_obecnych": 1467,
     "łączna_ilość_głosów": 1387,
@@ -13683,7 +13683,7 @@
     "Polska Partia Pracy": 20,
     "Ruch Patriotyczny": 15.0
   },
-  "81101": {
+  "081101": {
     "liczba_wyborców_uprawnionych": 2003,
     "liczba_wyborców_obecnych": 527,
     "łączna_ilość_głosów": 492,
@@ -13706,7 +13706,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 4.0
   },
-  "81102": {
+  "081102": {
     "liczba_wyborców_uprawnionych": 31862,
     "liczba_wyborców_obecnych": 11486,
     "łączna_ilość_głosów": 11104,
@@ -13729,7 +13729,7 @@
     "Polska Partia Pracy": 120,
     "Ruch Patriotyczny": 88.0
   },
-  "81103": {
+  "081103": {
     "liczba_wyborców_uprawnionych": 2754,
     "liczba_wyborców_obecnych": 769,
     "łączna_ilość_głosów": 726,
@@ -13752,7 +13752,7 @@
     "Polska Partia Pracy": 12,
     "Ruch Patriotyczny": 9.0
   },
-  "81104": {
+  "081104": {
     "liczba_wyborców_uprawnionych": 5780,
     "liczba_wyborców_obecnych": 1581,
     "łączna_ilość_głosów": 1479,
@@ -13775,7 +13775,7 @@
     "Polska Partia Pracy": 11,
     "Ruch Patriotyczny": 15.0
   },
-  "81105": {
+  "081105": {
     "liczba_wyborców_uprawnionych": 2521,
     "liczba_wyborców_obecnych": 704,
     "łączna_ilość_głosów": 674,
@@ -13798,7 +13798,7 @@
     "Polska Partia Pracy": 4,
     "Ruch Patriotyczny": 7.0
   },
-  "81106": {
+  "081106": {
     "liczba_wyborców_uprawnionych": 15802,
     "liczba_wyborców_obecnych": 4781,
     "łączna_ilość_głosów": 4589,
@@ -13821,7 +13821,7 @@
     "Polska Partia Pracy": 54,
     "Ruch Patriotyczny": 57.0
   },
-  "81107": {
+  "081107": {
     "liczba_wyborców_uprawnionych": 2494,
     "liczba_wyborców_obecnych": 684,
     "łączna_ilość_głosów": 638,
@@ -13844,7 +13844,7 @@
     "Polska Partia Pracy": 7,
     "Ruch Patriotyczny": 3.0
   },
-  "81108": {
+  "081108": {
     "liczba_wyborców_uprawnionych": 4573,
     "liczba_wyborców_obecnych": 1275,
     "łączna_ilość_głosów": 1146,
@@ -13867,7 +13867,7 @@
     "Polska Partia Pracy": 16,
     "Ruch Patriotyczny": 15.0
   },
-  "81109": {
+  "081109": {
     "liczba_wyborców_uprawnionych": 2589,
     "liczba_wyborców_obecnych": 702,
     "łączna_ilość_głosów": 634,
@@ -13890,7 +13890,7 @@
     "Polska Partia Pracy": 2,
     "Ruch Patriotyczny": 3.0
   },
-  "81110": {
+  "081110": {
     "liczba_wyborców_uprawnionych": 8822,
     "liczba_wyborców_obecnych": 2522,
     "łączna_ilość_głosów": 2424,
@@ -13913,7 +13913,7 @@
     "Polska Partia Pracy": 22,
     "Ruch Patriotyczny": 32.0
   },
-  "81201": {
+  "081201": {
     "liczba_wyborców_uprawnionych": 9228,
     "liczba_wyborców_obecnych": 2931,
     "łączna_ilość_głosów": 2746,
@@ -13936,7 +13936,7 @@
     "Polska Partia Pracy": 25,
     "Ruch Patriotyczny": 21.0
   },
-  "81202": {
+  "081202": {
     "liczba_wyborców_uprawnionych": 3794,
     "liczba_wyborców_obecnych": 1217,
     "łączna_ilość_głosów": 1143,
@@ -13959,7 +13959,7 @@
     "Polska Partia Pracy": 9,
     "Ruch Patriotyczny": 14.0
   },
-  "81203": {
+  "081203": {
     "liczba_wyborców_uprawnionych": 16783,
     "liczba_wyborców_obecnych": 6052,
     "łączna_ilość_głosów": 5797,
@@ -13982,7 +13982,7 @@
     "Polska Partia Pracy": 44,
     "Ruch Patriotyczny": 45.0
   },
-  "86101": {
+  "086101": {
     "liczba_wyborców_uprawnionych": 99721,
     "liczba_wyborców_obecnych": 41193,
     "łączna_ilość_głosów": 40033,
@@ -14005,7 +14005,7 @@
     "Polska Partia Pracy": 230,
     "Ruch Patriotyczny": 202.0
   },
-  "86201": {
+  "086201": {
     "liczba_wyborców_uprawnionych": 93768,
     "liczba_wyborców_obecnych": 42452,
     "łączna_ilość_głosów": 41345,
@@ -28219,6 +28219,29 @@
     "Polska Partia Pracy": 3899,
     "Ruch Patriotyczny": 7571.0
   },
+  "149901": {
+    "liczba_wyborców_uprawnionych": 49840,
+    "liczba_wyborców_obecnych": 35679,
+    "łączna_ilość_głosów": 34761,
+    "Narodowe Odrodzenie Polski": 38.0,
+    "Dom Ojczysty": 38.0,
+    "Inicjatywa RP": 18.0,
+    "Samoobrona RP": 423.0,
+    "Polska Konfederacja - Godność i Praca": 25.0,
+    "Ogólnopolska Koalicja Obywatelska O.K.O.": 31.0,
+    "Platforma Janusza Korwin-Mikke": 900.0,
+    "Centrum": 47.0,
+    "Polskie Stronnictwo Ludowe": 291,
+    "Polska Partia Narodowa": 143,
+    "Platforma Obywatelska": 13249,
+    "Sojusz Lewicy Demokratycznej": 2142,
+    "Prawo i Sprawiedliwość": 10066,
+    "Socjaldemokracja Polska": 1481,
+    "Partia Demokratyczna": 2275,
+    "Liga Polskich Rodzin": 2941,
+    "Polska Partia Pracy": 173,
+    "Ruch Patriotyczny": 480.0
+  },
   "140501": {
     "liczba_wyborców_uprawnionych": 12544,
     "liczba_wyborców_obecnych": 5959,
@@ -38683,6 +38706,29 @@
     "Liga Polskich Rodzin": 941,
     "Polska Partia Pracy": 94,
     "Ruch Patriotyczny": 88.0
+  },
+  "229901": {
+    "liczba_wyborców_uprawnionych": 100,
+    "liczba_wyborców_obecnych": 99,
+    "łączna_ilość_głosów": 96,
+    "Narodowe Odrodzenie Polski": 0,
+    "Dom Ojczysty": 0.0,
+    "Inicjatywa RP": 0,
+    "Samoobrona RP": 1.0,
+    "Polska Konfederacja - Godność i Praca": 0,
+    "Ogólnopolska Koalicja Obywatelska O.K.O.": 0.0,
+    "Platforma Janusza Korwin-Mikke": 8.0,
+    "Centrum": 0.0,
+    "Polskie Stronnictwo Ludowe": 0,
+    "Polska Partia Narodowa": 0,
+    "Platforma Obywatelska": 50,
+    "Sojusz Lewicy Demokratycznej": 4,
+    "Prawo i Sprawiedliwość": 25,
+    "Socjaldemokracja Polska": 2,
+    "Partia Demokratyczna": 3,
+    "Liga Polskich Rodzin": 2,
+    "Polska Partia Pracy": 0,
+    "Ruch Patriotyczny": 1.0
   },
   "220101": {
     "liczba_wyborców_uprawnionych": 2046,
@@ -57036,6 +57082,29 @@
     "Partia Demokratyczna": 284,
     "Liga Polskich Rodzin": 857,
     "Polska Partia Pracy": 167,
+    "Ruch Patriotyczny": 0
+  },
+  "329901": {
+    "liczba_wyborców_uprawnionych": 49,
+    "liczba_wyborców_obecnych": 49,
+    "łączna_ilość_głosów": 48,
+    "Narodowe Odrodzenie Polski": 0,
+    "Dom Ojczysty": 0.0,
+    "Inicjatywa RP": 0,
+    "Samoobrona RP": 5.0,
+    "Polska Konfederacja - Godność i Praca": 0,
+    "Ogólnopolska Koalicja Obywatelska O.K.O.": 0,
+    "Platforma Janusza Korwin-Mikke": 8.0,
+    "Centrum": 0,
+    "Polskie Stronnictwo Ludowe": 2,
+    "Polska Partia Narodowa": 1,
+    "Platforma Obywatelska": 13,
+    "Sojusz Lewicy Demokratycznej": 7,
+    "Prawo i Sprawiedliwość": 7,
+    "Socjaldemokracja Polska": 1,
+    "Partia Demokratyczna": 0,
+    "Liga Polskich Rodzin": 3,
+    "Polska Partia Pracy": 1,
     "Ruch Patriotyczny": 0
   }
 }

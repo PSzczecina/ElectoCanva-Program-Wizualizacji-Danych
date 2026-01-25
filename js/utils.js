@@ -2,11 +2,16 @@ export function colorRegion(
     value,
     colorBegin,
     colorEnd,
-    isAbsoluteValues = false
+    mergeMarginalWins = false,
 ) {
-    //console.log(colorBegin, colorEnd);
+    if (value.length == 2) {
+        var candidate = value[1];
+        value = value[0];
+        //console.log(value, candidate);
+    }
+    if (value <= 0) return '#000000';
     var colorTable = [];
-    if (isAbsoluteValues == false) {
+    if (true) {
         var min =
             parseInt(document.getElementById('precentageMinSlide').value) / 100;
         var max =
@@ -14,27 +19,60 @@ export function colorRegion(
         var relativeStages = document.getElementById('intervalCount').value;
         var diff = max - min;
 
-        colorTable = interpolateColor(colorBegin, colorEnd, relativeStages);
-        //for (var i = 0; i < relativeStages; i++) {
-        //    rangeTable[i] = min + (diff / relativeStages) * i;
-        //}
-        //console.log(colorTable);
+        //jeśli nie ma kandydatów = jest to frekwencja
+        if (!candidate) {
+            colorTable = interpolateColor(colorBegin, colorEnd, relativeStages);
+            for (var i = 0; i < relativeStages - 1; i++) {
+                if (value <= min + (diff / relativeStages) * (i + 1)) {
+                    return colorTable[i];
+                }
+            }
+            return colorTable[colorTable.length - 1];
+        }
+        //jeśli są to kandydaci = jest to pokazywanie wyników
+        var colorTableLeft = interpolateColor(
+            '#ffcccc',
+            '#aa0000',
+            relativeStages,
+        );
+        var colorTableRight = interpolateColor(
+            '#babaff',
+            '#000099',
+            relativeStages,
+        );
+        var colorTableCenter = interpolateColor(
+            '#dede99',
+            '#95852c',
+            relativeStages,
+        );
+        var colorTableOther = interpolateColor(
+            '#999999',
+            '#222222',
+            relativeStages,
+        );
+        //ten fragment powinien zwracać kolor biały, gdy wynik kandydata mieści się w odchyleniu (to znaczy: różnica między dwoma kandydatami jest minimalna)
+        //
+        //jest szansza że będzie trzeba przerobić / dodać nową funkcjonalność
+        //if (value < 0.52) return '#ffffff';
+        //
+        if (value < 0.525 && mergeMarginalWins) return '#ffffff';
         for (var i = 0; i < relativeStages - 1; i++) {
-            //console.log(value);
             if (value <= min + (diff / relativeStages) * (i + 1)) {
-                //console.log(colorTable[i], value);
-                return colorTable[i];
+                if (candidate == 'lewica') return colorTableLeft[i];
+                else if (candidate == 'prawica') return colorTableRight[i];
+                else if (candidate == 'centrum') return colorTableCenter[i];
+                else if (candidate == 'inni') return colorTableOther[i];
             }
         }
-        return colorTable[colorTable.length - 1];
+        if (candidate == 'lewica')
+            return colorTableLeft[colorTableLeft.length - 1];
+        else if (candidate == 'prawica')
+            return colorTableRight[colorTableRight.length - 1];
+        else if (candidate == 'centrum')
+            return colorTableCenter[colorTableCenter.length - 1];
+        else if (candidate == 'inni')
+            return colorTableOther[colorTableOther.length - 1];
     }
-    return value > 0.75
-        ? '#aa0000'
-        : value > 0.5
-        ? '#ff4444'
-        : value > 0.25
-        ? '#ff8888'
-        : '#FFCCCC';
 }
 
 function rgb(r, g, b) {
