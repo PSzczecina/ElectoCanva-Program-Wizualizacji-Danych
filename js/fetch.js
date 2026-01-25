@@ -21,7 +21,8 @@ export async function fetchAndUpdateData(type, year, round, adminDiv) {
 
 export async function fetchAdminDivisions(adminDiv) {
     //console.log(adminDiv);
-    var fetchURL = '../data/GeoJson/poland.';
+    //tu też
+    var fetchURL = 'data/GeoJson/poland.';
     if (adminDiv == 'gminy') fetchURL += 'municipalities.json';
     else if (adminDiv == 'powiaty') fetchURL += 'counties.json';
     else if (adminDiv == 'wojewodztwa') fetchURL += 'voivodeships.json';
