@@ -1,4 +1,8 @@
-import { fetchAndUpdateData, fetchAdminDivisions } from './fetch.js';
+import {
+    fetchAndUpdateData,
+    fetchAdminDivisions,
+    fetchAreaData,
+} from './fetch.js';
 import { currentData } from './store.js';
 
 /**
@@ -31,10 +35,11 @@ export async function calculateMinMaxValue(electionData) {
         ((mininset + maxinset) / 2) * 100,
         'min, max, avg, min+max/2',
     );
+    //return(mininset, maxinset)
 }
 
 export function createGroupCandidatesSection(electionData, electionData2) {
-    console.log(electionData, electionData2);
+    //console.log(electionData, electionData2);
     var candidateListHtml = document.createElement('table');
     if (electionData2) {
         candidateListHtml.innerHTML +=
@@ -234,6 +239,23 @@ export function calculateCandidateChange(TERYT, geoDataType, data1, data2) {
     return output - 1;
 }
 
+//do przemyślenia - trzeba ogarnąć dane o gęstości
+export function calculateRelativeDensity(TERYT, geoDataType, data) {
+    //const areaData = await fetchAreaData(geoDataType);
+    //console.log(areaData);
+    TERYT = fixTERYT(TERYT, geoDataType, data.rok);
+    let density =
+        data[TERYT].liczba_wyborców_uprawnionych / currentData.areaData[TERYT];
+    let divider = 20;
+    if (geoDataType == 'wojewodztwa') divider = 1;
+    let output =
+        (density - currentData.electionData1MinPopulation) /
+        (currentData.electionData1MaxPopulation / divider -
+            currentData.electionData1MinPopulation);
+    return output;
+}
+//tutaj - funckja do gęstości zaludnienia (wyciągnąć największą i najmniejszą wartość, po czym na podstawie tego skalę zrobić i zwrócić )
+
 async function groupCandidates(data, groupingControl, isSecond) {
     //console.log(data, groupingControl);
     const zgrupowanie = {};
@@ -324,4 +346,25 @@ function fixTERYT(TERYT, geoDataType, dataYear) {
     if (geoDataType == 'wojewodztwa') TERYT = TERYT.slice(0, 2);
     //console.log(TERYT);
     return TERYT;
+}
+
+export function returnMinAndMaxPopulation(data) {
+    let minPop = Infinity,
+        maxPop = -Infinity,
+        avgPop = 0;
+    for (const [key, value] of Object.entries(data)) {
+        if (
+            value.liczba_wyborców_uprawnionych / currentData.areaData[key] >
+            maxPop
+        )
+            maxPop =
+                value.liczba_wyborców_uprawnionych / currentData.areaData[key];
+        else if (
+            value.liczba_wyborców_uprawnionych / currentData.areaData[key] <
+            minPop
+        )
+            minPop =
+                value.liczba_wyborców_uprawnionych / currentData.areaData[key];
+    }
+    return [minPop, maxPop];
 }

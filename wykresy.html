@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piękno, Radość, Szczęście</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Strona Główna</a>
+      <a href="mapa.html">Mapa</a>
+      <a class="disabled">Wykresy</a>
+      <a>Do Pobrania</a>
+    </nav>
+    <section>
+      <h2>WykresMaxxing</h2>
+      <main class="chartContainer">
+        <canvas id="chart" aria-label="Data Chart Display" role="img"></canvas>
+      </main>
+      <menu>
+        <label for="chartTypeSelect">Rodzaj wykresu:</label>
+        <select id="chartTypeSelect">
+          <option value="bubble">Bąbelkowy</option>
+          <option value="line">Liniowy</option>
+          <option value="bar">Słupkowy</option>
+        </select>
+        <br />
+        <label for="electionType">Rodzaj wyborów:</label>
+        <select id="electionType">
+          <option selected value="prezy">Prezydenckie</option>
+          <option value="parla">Parlamentarne</option>
+        </select>
+        <select id="electionYear"></select>
+        <select id="electionRound">
+          <option value="1">1 Tura</option>
+          <option selected value="2">2 Tura</option>
+        </select>
+        <br />
+        <label for="specificRegionCheckbox">Dane z konkretnego regionu</label>
+        <input type="checkbox" id="specificRegionCheckbox" />
+        <label for="adminType">Szukaj wśród:</label>
+        <select id="adminType">
+          <option value="gminy">gmin</option>
+          <option value="powiaty">powiatów</option>
+          <option value="wojewodztwa">województw</option>
+        </select>
+        <button id="refresh">Załaduj dane</button>
+      </menu>
+    </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="js/chartManager.js"></script>
+</html>

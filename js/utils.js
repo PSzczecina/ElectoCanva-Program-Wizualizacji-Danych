@@ -3,20 +3,21 @@ export function colorRegion(
     colorBegin,
     colorEnd,
     mergeMarginalWins = false,
+    useAbsoluteValue = false,
 ) {
     if (value.length == 2) {
         var candidate = value[1];
         value = value[0];
         //console.log(value, candidate);
     }
-    if (value <= 0) return '#000000';
+    if (value < 0) return '#000000';
     var colorTable = [];
-    if (true) {
+    var relativeStages = document.getElementById('intervalCount').value;
+    if (!useAbsoluteValue) {
         var min =
             parseInt(document.getElementById('precentageMinSlide').value) / 100;
         var max =
             parseInt(document.getElementById('precentageMaxSlide').value) / 100;
-        var relativeStages = document.getElementById('intervalCount').value;
         var diff = max - min;
 
         //jeśli nie ma kandydatów = jest to frekwencja
@@ -31,7 +32,7 @@ export function colorRegion(
         }
         //jeśli są to kandydaci = jest to pokazywanie wyników
         var colorTableLeft = interpolateColor(
-            '#ffcccc',
+            '#ffaaaa',
             '#aa0000',
             relativeStages,
         );
@@ -41,7 +42,7 @@ export function colorRegion(
             relativeStages,
         );
         var colorTableCenter = interpolateColor(
-            '#dede99',
+            '#fbfb7a',
             '#95852c',
             relativeStages,
         );
@@ -72,6 +73,23 @@ export function colorRegion(
             return colorTableCenter[colorTableCenter.length - 1];
         else if (candidate == 'inni')
             return colorTableOther[colorTableOther.length - 1];
+    } else {
+        var colorTableAbsolute = interpolateColor(
+            '#f9f9c8',
+            '#584e15',
+            relativeStages,
+        );
+        var min = 0,
+            max = 1;
+        var diff = max - min;
+        //console.log(value);
+        //console.log(relativeStages);
+        for (var i = 0; i < relativeStages - 1; i++) {
+            if (value <= min + (diff / relativeStages) * (i + 1)) {
+                return colorTableAbsolute[i];
+            }
+        }
+        return '#584e15';
     }
 }
 

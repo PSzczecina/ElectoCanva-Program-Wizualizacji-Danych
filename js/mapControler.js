@@ -1,12 +1,18 @@
-import { fetchAndUpdateData, fetchAdminDivisions } from './fetch.js';
+import {
+    fetchAndUpdateData,
+    fetchAdminDivisions,
+    fetchAreaData,
+} from './fetch.js';
 import { colorRegion, interpolateColor } from './utils.js';
 import {
     calculateCandidateChange,
     calculateMaxCandidate,
     calculateMinMaxValue,
+    calculateRelativeDensity,
     calculateTurnout,
     calculateTurnoutChange,
     createGroupCandidatesSection,
+    returnMinAndMaxPopulation,
 } from './DataManager.js';
 import { currentData } from './store.js';
 
@@ -27,6 +33,8 @@ const roundSecondSelect = document.getElementById('electionRoundSecond');
 const adminDivision = document.getElementById('administrativeDivision');
 const dataType = document.getElementById('dataType');
 
+const marginalWinsCheckbox = document.getElementById('marginalWinMerging');
+
 const refreshButton = document.getElementById('refresh');
 
 const minValueText = document.getElementById('precentageMinValue');
@@ -41,26 +49,9 @@ const colorEnd = document.getElementById('colorEnd');
 
 const candidateListHtml = document.getElementById('candidateList');
 
-//====================================
-/*currentData.geoJsonType = 'powiaty';
-currentData.dataCurrentlyAnalysed = 'turnout';
-currentData.electionData1 = await fetchAndUpdateData(
-    elecTypeSelect.value,
-    elecYearSelect.value || '2025',
-    roundSelect.value,
-    adminDivision.value,
-);
-currentData.geoJson = await fetchAdminDivisions(currentData.geoJsonType);
-*/
 var maxinset = 0;
 var mininset = 1;
 var average = 0;
-
-/**
- * oblicza minimalną / maksymalną wartość, zależnie od wybranej opcji.
- *
- * Bierze pod uwagę jak bardzo średnia min/max odbiega od faktycznych min/max.
- */
 
 /**
  * aktualizuje select Lat oraz pokazuje/ukrywa select tury
@@ -136,6 +127,12 @@ refreshButton.addEventListener('click', async () => {
         roundSelect.value,
         adminDivision.value,
     );
+    currentData.areaData = await fetchAreaData(currentData.geoJsonType);
+    let temp = await returnMinAndMaxPopulation(currentData.electionData1);
+    console.log(temp);
+    currentData.electionData1MinPopulation = temp[0];
+    currentData.electionData1MaxPopulation = temp[1];
+
     if (elecSecondCheckbox.checked) {
         currentData.electionData2 = await fetchAndUpdateData(
             elecSecondTypeSelect.value,
@@ -143,6 +140,9 @@ refreshButton.addEventListener('click', async () => {
             roundSecondSelect.value,
             adminDivision.value,
         );
+        let temp = returnMinAndMaxPopulation(currentData.electionData2);
+        currentData.electionData2MinPopulation = temp[0];
+        currentData.electionData2MaxPopulation = temp[1];
     }
     currentData.geoJson = await fetchAdminDivisions(currentData.geoJsonType);
     await addGeoJsonData();
@@ -213,7 +213,7 @@ function enableAndDisableRefresh() {
  */
 //console.log(testData.rok, testData.rodzaj_wyborów, testData.tura)
 
-var map = L.map('map').setView([51, 19], 13);
+var map = L.map('map').setView([51.5, 19], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     minZoom: 6,
@@ -276,9 +276,21 @@ function style(feature) {
                 ),
                 colorBegin.value,
                 colorEnd.value,
-                true,
+                marginalWinsCheckbox.checked,
             );
         }
+    } else if (currentData.dataCurrentlyAnalysed == 'population') {
+        colorOutput = colorRegion(
+            calculateRelativeDensity(
+                feature.properties.terc,
+                currentData.geoJsonType,
+                currentData.electionData1,
+            ),
+            colorBegin.value,
+            colorEnd.value,
+            true,
+            true,
+        );
     }
     //console.log(colorOutput);
     return {
@@ -290,6 +302,7 @@ function style(feature) {
     };
 }
 
+var infoLock = 1; //1 to false ma być
 var info = L.control({ position: 'bottomleft' });
 info.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info');
@@ -337,27 +350,31 @@ function highlightFeature(e) {
         fillOpacity: 1,
     });
     layer.bringToFront();
-    info.update(layer.feature.properties);
+    if (infoLock != -1) info.update(layer.feature.properties);
 }
 function resetHighlight(e) {
     geojson.resetStyle(e.target);
     info.update();
 }
 function displayRegion(e) {
-    let terc = e.target.feature.properties.terc;
-    let name = e.target.feature.properties.name;
-    info.innerHTML = terc + ' | ' + name;
-    console.log(name);
-    if (currentData.geoJsonType == 'gminy') terc = terc.slice(0, -1);
-    for (const [key, value] of Object.entries(
-        currentData.electionData1[terc],
-    )) {
-        //console.log(key, value);
+    infoLock = infoLock * -1;
+    console.log(infoLock);
+    if (infoLock != -1) {
+        var layer = e.target;
+        layer.setStyle({
+            weight: 1,
+            color: '#000000',
+            dashArray: '',
+            fillOpacity: 1,
+        });
+        layer.bringToFront();
+        info.update(layer.feature.properties);
     }
 }
 //mouseOut się nie wykonuje czasem - to jest remedium na to
 document.getElementById('map').addEventListener('mouseleave', () => {
     //geojson.resetStyle();
+    infoLock = 1;
     info.update(-1);
 });
 
@@ -456,13 +473,32 @@ async function redrawGeoJson() {
                     ),
                     colorBegin.value,
                     colorEnd.value,
-                    true,
+                    //tu trzeba zmienić, żeby tylko na prezydenckich 2tura było / dało się ustalić różnicę progową
+                    marginalWinsCheckbox.checked,
                 ),
                 weight: 0.5,
                 opacity: 1,
                 fillOpacity: 0.95,
             }));
         }
+    } else if (currentData.dataCurrentlyAnalysed == 'population') {
+        geojson.setStyle((feature) => ({
+            color: '#000000',
+            fillColor: colorRegion(
+                calculateRelativeDensity(
+                    feature.properties.terc,
+                    currentData.geoJsonType,
+                    currentData.electionData1,
+                ),
+                colorBegin.value,
+                colorEnd.value,
+                true,
+                true,
+            ),
+            weight: 0.5,
+            opacity: 1,
+            fillOpacity: 0.95,
+        }));
     }
     const gradDisplay = document.getElementById('gradientLegend');
     var gradTable = interpolateColor(
@@ -495,6 +531,9 @@ document.getElementById('colorBegin').addEventListener('input', () => {
     redrawGeoJson();
 });
 document.getElementById('colorEnd').addEventListener('input', () => {
+    redrawGeoJson();
+});
+marginalWinsCheckbox.addEventListener('input', () => {
     redrawGeoJson();
 });
 document

@@ -2,9 +2,6 @@
  * wyciąga dane do pobrania i karze zaktualizować wykresy/mapy
  */
 export async function fetchAndUpdateData(type, year, round, adminDiv) {
-    //
-    // albo i nie - jak będziesz pracować u siebie to używaj "../data/" zamiast "data/""
-    //
     var fetchURL = 'data/';
     if (type == 'prezy') {
         fetchURL += `prezydenckie/${year}_prezy_${round}tura.json`;
@@ -17,6 +14,23 @@ export async function fetchAndUpdateData(type, year, round, adminDiv) {
     var output = await formatData(adminDiv, electionData);
     //console.log(output);
     return output;
+}
+
+export async function fetchAreaData(geoDataType) {
+    let areaDataFetch = await fetch(
+        'data/gminy_powierzchnia_km_2025.json',
+    ).then((res) => res.json());
+
+    const areaData = areaDataFetch.reduce((acc, { TERYT, powierzchnia }) => {
+        if (geoDataType == 'powiaty') {
+            var prefix = TERYT.slice(0, 4);
+        } else if (geoDataType == 'wojewodztwa') {
+            var prefix = TERYT.slice(0, 2);
+        } else var prefix = TERYT;
+        acc[prefix] = (acc[prefix] || 0) + powierzchnia;
+        return acc;
+    }, {});
+    return areaData;
 }
 
 export async function fetchAdminDivisions(adminDiv) {

@@ -22,14 +22,14 @@
     <nav>
       <a href="index.html">Strona Główna</a>
       <a class="disabled">Mapa</a>
-      <a>Wykresy</a>
+      <a href="wykresy.html">Wykresy</a>
       <a>Do Pobrania</a>
     </nav>
     <section>
       <div id="map"></div>
       <menu>
         <h4>Kontrolki Danych</h4>
-        <label for="electionType">Rodzaj wyborów</label>
+        <label for="electionType">Rodzaj wyborów:</label>
         <select id="electionType">
           <option selected value="prezy">Prezydenckie</option>
           <option value="parla">Parlamentarne</option>
@@ -69,7 +69,7 @@
           <option value="population">Populacja</option>
         </select>
         <br />
-        <button id="refresh">Załaduj ponownie dane</button>
+        <button id="refresh">Załaduj dane</button>
         <h4>Kontrolki Mapy</h4>
         <input
           id="precentageMinSlide"
@@ -93,6 +93,11 @@
         <h4>grupowanie kandydatów</h4>
         <label for="intervalCount">ilość kroków w podziałce: </label>
         <input id="intervalCount" type="number" value="4" min="2" max="12" />
+        <br />
+        <label for="marginalWinMerging"
+          >podkreśl marginalne różnice (przy 2 kandydatach)</label
+        >
+        <input type="checkbox" id="marginalWinMerging" />
         <div id="candidateList"></div>
         <div id="turnoutColorSegment" style="display: none">
           <h5>kolor legendy</h5>
