@@ -44,6 +44,23 @@ export async function fetchAdminDivisions(adminDiv) {
     var adminDivision = await fetch(fetchURL).then((res) => res.json());
     return adminDivision;
 }
+//skoro mamy dane geoJson i są już tam nazwy rejonów, to wyjmijmy je z tamtąd
+export async function fetchAdminNames(adminDiv) {
+    var fetchURL = 'data/GeoJson/poland.';
+    if (adminDiv == 'gminy') fetchURL += 'municipalities.json';
+    else if (adminDiv == 'powiaty') fetchURL += 'counties.json';
+    else if (adminDiv == 'wojewodztwa') fetchURL += 'voivodeships.json';
+    //console.log(fetchURL, adminDiv);
+    var adminDivision = await fetch(fetchURL).then((res) => res.json());
+    adminDivision = adminDivision.features;
+    var output = {};
+    adminDivision.forEach((element) => {
+        if (element.properties.terc.length == 7)
+            element.properties.terc = element.properties.terc.slice(0, 6);
+        output[element.properties.terc] = element.properties.name;
+    });
+    return output;
+}
 /**
  * przearabia dane z Jsona, zależnie jakie dokładnie dane chcemy
  *
@@ -106,4 +123,22 @@ async function formatData(geoDataType, data) {
         }
     }
     return output;
+}
+
+//do dokończenia
+export async function extractFromRegion(dataType, prefix) {
+    const presidentialYearList = [2005, 2010, 2015, 2020, 2025];
+    const parlimentaryYearList = [2005, 2007, 2011, 2015, 2019, 2023];
+    const discardGeneral = new Set([
+        'liczba_wyborców_uprawnionych',
+        'liczba_wyborców_obecnych',
+        'łączna_ilość_głosów',
+    ]);
+
+    var fetchURL = 'data/';
+    var data = {};
+    presidentialYearList.forEach(async (year) => {
+        fetchURL = `data/prezydenckie/${year}_prezy_1tura.json`;
+        data[year] = fetch(fetchURL).then((res) => res.json());
+    });
 }

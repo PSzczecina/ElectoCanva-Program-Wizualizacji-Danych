@@ -1,5 +1,6 @@
 class CurrentData {
     areaData;
+    administrativeNames;
     electionData1;
     electionData1CandidateGrouping = {
         prawica: [],
@@ -7,9 +8,10 @@ class CurrentData {
         lewica: [],
         inni: [],
     };
+    electionData1MinDensity;
+    electionData1MaxDensity;
     electionData1MinPopulation;
     electionData1MaxPopulation;
-    electionData1AveragePopulation;
 
     electionData2;
     electionData2CandidateGrouping = {
@@ -18,6 +20,8 @@ class CurrentData {
         lewica: [],
         inni: [],
     };
+    electionData2MinDensity;
+    electionData2MaxDensity;
     electionData2MinPopulation;
     electionData2MaxPopulation;
     geoJsonType;

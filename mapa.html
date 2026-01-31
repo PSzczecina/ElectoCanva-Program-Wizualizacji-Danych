@@ -39,7 +39,6 @@
           <option value="1">1 Tura</option>
           <option selected value="2">2 Tura</option>
         </select>
-        <br />
         <label for="secondElectionCheckbox">porównaj z innymi wyborami</label>
         <input type="checkbox" id="secondElectionCheckbox" />
         <div class="secondElectionContainer">
@@ -54,21 +53,18 @@
             <option selected value="2">2 Tura</option>
           </select>
         </div>
-        <br />
         <label for="administrativeDivision">Podział administracyjny</label>
         <select id="administrativeDivision">
           <option value="gminy">Gminy</option>
           <option selected value="powiaty">Powiaty</option>
           <option value="wojewodztwa">Województwa</option>
         </select>
-        <br />
         <label for="dataType">dane do wyświetlenia:</label>
         <select id="dataType">
           <option selected value="turnout">Frekwencja</option>
           <option value="results">Wyniki Kandydatów</option>
           <option value="population">Populacja</option>
         </select>
-        <br />
         <button id="refresh">Załaduj dane</button>
         <h4>Kontrolki Mapy</h4>
         <input
@@ -79,7 +75,7 @@
           min="0"
           max="100"
         />
-        <label id="precentageMinValue">tn</label><br />
+        <label id="precentageMinValue">tn</label>
         <input
           id="precentageMaxSlide"
           type="range"
@@ -88,26 +84,33 @@
           min="0"
           max="100"
         />
-        <label id="precentageMaxValue">tn</label><br />
+        <label id="precentageMaxValue">tn</label>
         <!--wyświetlanie wyników i ustalanie grup-->
         <h4>grupowanie kandydatów</h4>
         <label for="intervalCount">ilość kroków w podziałce: </label>
         <input id="intervalCount" type="number" value="4" min="2" max="12" />
-        <br />
-        <label for="marginalWinMerging"
-          >podkreśl marginalne różnice (przy 2 kandydatach)</label
-        >
-        <input type="checkbox" id="marginalWinMerging" />
-        <div id="candidateList"></div>
+
+        <div id="marginContainer">
+          <label for="marginalWinMerging"
+            >podkreśl marginalne różnice (przy 2 kandydatach)</label
+          >
+          <input type="checkbox" id="marginalWinMerging" />
+        </div>
         <div id="turnoutColorSegment" style="display: none">
           <h5>kolor legendy</h5>
           <input type="color" id="colorBegin" value="#ffffff" />
           <input type="color" id="colorEnd" value="#aa0000" />
           <div id="gradientLegend"></div>
         </div>
-        <br />
+        <div id="groupingGradients" style="display: none">
+          <div id="gradientRight"></div>
+          <div id="gradientCenter"></div>
+          <div id="gradientLeft"></div>
+          <div id="gradientOther"></div>
+        </div>
         <button id="refreshDisplay">Odśwież Mapę</button>
       </menu>
+      <div id="candidateList"></div>
     </section>
   </body>
   <script type="module" src="js/mapControler.js"></script>

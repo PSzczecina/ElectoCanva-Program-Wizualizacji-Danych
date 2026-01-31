@@ -211,12 +211,18 @@ export function calculateMaxCandidate(TERYT, geoDataType, data) {
 }
 
 export function calculateTurnoutChange(TERYT, geoDataType, data1, data2) {
-    TERYT = fixTERYT(TERYT, geoDataType, data1.rok);
+    //liczy różnicę procentów frekwencji między data1 a data2
+    //trzeba dodać opcję pokazu bezpośredniego (w stylu: kiedyś przyszło 1500, teraz 2500, jest to 66% wzrostu)
+    //teraz, przykładowo, może być tak że przyszło mniej osób, ale ludność się jeszcze bardziej zmniejszyła (1500/3000 vs 1200/2000), więc pokaże wzrost frekwencji
+
+    var TERYT1 = fixTERYT(TERYT, geoDataType, data1.rok);
+    var TERYT2 = fixTERYT(TERYT, geoDataType, data2.rok);
+    //TERYT = fixTERYT(TERYT, geoDataType, data1.rok);
     let output =
-        data1[TERYT].liczba_wyborców_obecnych /
-        data1[TERYT].liczba_wyborców_uprawnionych /
-        (data2[TERYT].liczba_wyborców_obecnych /
-            data2[TERYT].liczba_wyborców_uprawnionych);
+        data1[TERYT1].liczba_wyborców_obecnych /
+        data1[TERYT1].liczba_wyborców_uprawnionych /
+        (data2[TERYT2].liczba_wyborców_obecnych /
+            data2[TERYT2].liczba_wyborców_uprawnionych);
     return output - 1;
 }
 
@@ -348,7 +354,7 @@ function fixTERYT(TERYT, geoDataType, dataYear) {
     return TERYT;
 }
 
-export function returnMinAndMaxPopulation(data) {
+export function returnMinAndMaxDensity(data) {
     let minPop = Infinity,
         maxPop = -Infinity,
         avgPop = 0;
@@ -365,6 +371,18 @@ export function returnMinAndMaxPopulation(data) {
         )
             minPop =
                 value.liczba_wyborców_uprawnionych / currentData.areaData[key];
+    }
+    return [minPop, maxPop];
+}
+
+export function returnMinAndMaxPopulation(data) {
+    let minPop = Infinity,
+        maxPop = -Infinity;
+    for (const [key, value] of Object.entries(data)) {
+        if (value.liczba_wyborców_uprawnionych > maxPop)
+            maxPop = value.liczba_wyborców_uprawnionych;
+        else if (value.liczba_wyborców_uprawnionych < minPop)
+            minPop = value.liczba_wyborców_uprawnionych;
     }
     return [minPop, maxPop];
 }

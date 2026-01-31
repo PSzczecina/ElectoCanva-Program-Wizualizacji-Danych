@@ -32,18 +32,18 @@ export function colorRegion(
         }
         //jeśli są to kandydaci = jest to pokazywanie wyników
         var colorTableLeft = interpolateColor(
-            '#ffaaaa',
+            '#ffc6c6',
             '#aa0000',
             relativeStages,
         );
         var colorTableRight = interpolateColor(
-            '#babaff',
+            '#ddddff',
             '#000099',
             relativeStages,
         );
         var colorTableCenter = interpolateColor(
-            '#fbfb7a',
-            '#95852c',
+            '#f8f8b0',
+            '#504611',
             relativeStages,
         );
         var colorTableOther = interpolateColor(
@@ -123,4 +123,21 @@ export function interpolateColor(col1, col2, stages) {
         gradient.push(hex);
     }
     return gradient;
+}
+
+export function getColorForX(
+    x,
+    y,
+    minX = -50,
+    maxX = 50,
+    minY = 0,
+    maxY = 100,
+) {
+    const t = (x - minX) / (maxX - minX); // 0..1
+    const ty = (y - minY) / (maxY - minY);
+    const r = Math.round(255 * (1 - t));
+    const g = 0;
+    const b = Math.round(255 * t);
+    const a = ty;
+    return `rgba(${r}, ${g}, ${b}, ${a})`;
 }

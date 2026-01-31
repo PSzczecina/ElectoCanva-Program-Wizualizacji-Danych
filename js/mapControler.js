@@ -12,7 +12,7 @@ import {
     calculateTurnout,
     calculateTurnoutChange,
     createGroupCandidatesSection,
-    returnMinAndMaxPopulation,
+    returnMinAndMaxDensity,
 } from './DataManager.js';
 import { currentData } from './store.js';
 
@@ -34,6 +34,7 @@ const adminDivision = document.getElementById('administrativeDivision');
 const dataType = document.getElementById('dataType');
 
 const marginalWinsCheckbox = document.getElementById('marginalWinMerging');
+const marginContainer = document.getElementById('marginContainer');
 
 const refreshButton = document.getElementById('refresh');
 
@@ -128,10 +129,10 @@ refreshButton.addEventListener('click', async () => {
         adminDivision.value,
     );
     currentData.areaData = await fetchAreaData(currentData.geoJsonType);
-    let temp = await returnMinAndMaxPopulation(currentData.electionData1);
+    let temp = await returnMinAndMaxDensity(currentData.electionData1);
     console.log(temp);
-    currentData.electionData1MinPopulation = temp[0];
-    currentData.electionData1MaxPopulation = temp[1];
+    currentData.electionData1MinDensity = temp[0];
+    currentData.electionData1MaxDensity = temp[1];
 
     if (elecSecondCheckbox.checked) {
         currentData.electionData2 = await fetchAndUpdateData(
@@ -140,9 +141,9 @@ refreshButton.addEventListener('click', async () => {
             roundSecondSelect.value,
             adminDivision.value,
         );
-        let temp = returnMinAndMaxPopulation(currentData.electionData2);
-        currentData.electionData2MinPopulation = temp[0];
-        currentData.electionData2MaxPopulation = temp[1];
+        let temp = returnMinAndMaxDensity(currentData.electionData2);
+        currentData.electionData2MinDensity = temp[0];
+        currentData.electionData2MaxDensity = temp[1];
     }
     currentData.geoJson = await fetchAdminDivisions(currentData.geoJsonType);
     await addGeoJsonData();
@@ -202,6 +203,31 @@ function enableAndDisableRefresh() {
         refreshButton.disabled = false;
     }
 }
+
+function showAndHideHtmlElements() {
+    if (currentData.dataCurrentlyAnalysed == 'turnout') {
+        marginContainer.style.display = 'none';
+        maxValueSlider.style.display = minValueSlider.style.display = 'block';
+        minValueText.style.display = maxValueText.style.display = 'block';
+        document.getElementById('turnoutColorSegment').style.display = 'block';
+    } else if (currentData.dataCurrentlyAnalysed == 'results') {
+        marginContainer.style.display = 'block';
+        maxValueSlider.style.display = minValueSlider.style.display = 'block';
+        minValueText.style.display = maxValueText.style.display = 'block';
+        if (elecSecondCheckbox.checked) {
+            document.getElementById('turnoutColorSegment').style.display =
+                'block';
+        } else {
+            document.getElementById('turnoutColorSegment').style.display =
+                'none';
+        }
+    } else if (currentData.dataCurrentlyAnalysed == 'population') {
+        marginContainer.style.display = 'none';
+        maxValueSlider.style.display = minValueSlider.style.display = 'none';
+        minValueText.style.display = maxValueText.style.display = 'none';
+        document.getElementById('turnoutColorSegment').style.display = 'none';
+    }
+}
 //document.addEventListener('click', enableAndDisableRefresh);
 
 /**
@@ -226,9 +252,9 @@ map.setZoom(6);
 map.setMaxBounds(map.getBounds());
 map.setZoom(7);
 function style(feature) {
+    showAndHideHtmlElements();
     var colorOutput = 0;
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
-        document.getElementById('turnoutColorSegment').style.display = 'block';
         if (elecSecondCheckbox.checked) {
             colorOutput = colorRegion(
                 calculateTurnoutChange(
@@ -253,8 +279,6 @@ function style(feature) {
         }
     } else if (currentData.dataCurrentlyAnalysed == 'results') {
         if (elecSecondCheckbox.checked) {
-            document.getElementById('turnoutColorSegment').style.display =
-                'block';
             colorOutput = colorRegion(
                 calculateCandidateChange(
                     feature.properties.terc,
@@ -266,8 +290,6 @@ function style(feature) {
                 colorEnd.value,
             );
         } else {
-            document.getElementById('turnoutColorSegment').style.display =
-                'none';
             colorOutput = colorRegion(
                 calculateMaxCandidate(
                     feature.properties.terc,
@@ -337,6 +359,9 @@ info.update = function (props) {
     } else if (props == -1) {
         this._div.style.display = 'none';
     }
+    if (infoLock == -1) {
+        this._div.style.border = '2px solid darkorange';
+    } else this._div.style.border = '2px solid black';
 };
 info.addTo(map);
 
@@ -368,8 +393,8 @@ function displayRegion(e) {
             fillOpacity: 1,
         });
         layer.bringToFront();
-        info.update(layer.feature.properties);
     }
+    info.update(layer.feature.properties);
 }
 //mouseOut się nie wykonuje czasem - to jest remedium na to
 document.getElementById('map').addEventListener('mouseleave', () => {
@@ -402,8 +427,8 @@ map.on('zoomed', function () {
 });
 
 async function redrawGeoJson() {
+    showAndHideHtmlElements();
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
-        document.getElementById('turnoutColorSegment').style.display = 'block';
         if (elecSecondCheckbox.checked) {
             //console.log('wybrano drugie wybory');
             geojson.setStyle((feature) => ({
@@ -441,8 +466,6 @@ async function redrawGeoJson() {
         }
     } else if (currentData.dataCurrentlyAnalysed == 'results') {
         if (elecSecondCheckbox.checked) {
-            document.getElementById('turnoutColorSegment').style.display =
-                'block';
             //console.log('wybrano drugie wybory');
             geojson.setStyle((feature) => ({
                 color: '#000000',
@@ -461,8 +484,6 @@ async function redrawGeoJson() {
                 fillOpacity: 0.95,
             }));
         } else {
-            document.getElementById('turnoutColorSegment').style.display =
-                'none';
             geojson.setStyle((feature) => ({
                 color: '#000000',
                 fillColor: colorRegion(
@@ -506,6 +527,24 @@ async function redrawGeoJson() {
         colorEnd.value,
         document.getElementById('intervalCount').value,
     );
+    //do wyświetlania gradientu grup
+    var colorTableLeft = interpolateColor('#ffc6c6', '#aa0000', relativeStages);
+    var colorTableRight = interpolateColor(
+        '#ddddff',
+        '#000099',
+        relativeStages,
+    );
+    var colorTableCenter = interpolateColor(
+        '#f8f8b0',
+        '#504611',
+        relativeStages,
+    );
+    var colorTableOther = interpolateColor(
+        '#999999',
+        '#222222',
+        relativeStages,
+    );
+    //
     const interval = 100 / gradTable.length;
     var gradCalc = '';
     for (let i = 0; i < gradTable.length; i++) {
@@ -536,18 +575,14 @@ document.getElementById('colorEnd').addEventListener('input', () => {
 marginalWinsCheckbox.addEventListener('input', () => {
     redrawGeoJson();
 });
-document
-    .getElementById('precentageMinSlide')
-    .addEventListener('input', async (e) => {
-        redrawGeoJson();
-        minValueText.innerHTML = minValueSlider.value + '%';
-    });
-document
-    .getElementById('precentageMaxSlide')
-    .addEventListener('input', async (e) => {
-        redrawGeoJson();
-        maxValueText.innerHTML = maxValueSlider.value + '%';
-    });
+minValueSlider.addEventListener('input', async (e) => {
+    redrawGeoJson();
+    minValueText.innerHTML = minValueSlider.value + '%';
+});
+maxValueSlider.addEventListener('input', async (e) => {
+    redrawGeoJson();
+    maxValueText.innerHTML = maxValueSlider.value + '%';
+});
 
 document.getElementById('refreshDisplay').addEventListener('click', () => {
     geojson.resetStyle();
