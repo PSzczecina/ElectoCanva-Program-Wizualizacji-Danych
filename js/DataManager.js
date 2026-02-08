@@ -42,12 +42,13 @@ export function createGroupCandidatesSection(electionData, electionData2) {
     //console.log(electionData, electionData2);
     var candidateListHtml = document.createElement('table');
     if (electionData2) {
+        candidateListHtml.className = 'compare';
         candidateListHtml.innerHTML +=
-            '<tr><th>Kandydat (wybory 1)</th><th>Grupuj</th><th>Zignoruj</th></tr>';
+            '<tr><th>Kandydat (wybory 1)</th><th>Porównaj</th></tr>';
         for (let i = 0; i < electionData.kandydaci.length; i++) {
             var candiElement =
                 '<tr>' +
-                '<td> ' +
+                '<td class="candiate-name"> ' +
                 electionData.kandydaci[i] +
                 ' </td>' +
                 '<td>' +
@@ -55,20 +56,15 @@ export function createGroupCandidatesSection(electionData, electionData2) {
                 i +
                 '" value="inni">' +
                 '</td>' +
-                '<td>' +
-                '<input checked type="radio" name="grPolityData1' +
-                i +
-                '" value="zignoruj">' +
-                '</td>' +
                 '</tr>';
             candidateListHtml.innerHTML += candiElement;
         }
         candidateListHtml.innerHTML +=
-            '<tr><th>Kandydat (wybory 2)</th><th>Grupuj</th><th>Zignoruj</th></tr>';
+            '<tr><th>Kandydat (wybory 2)</th><th>Porównaj</th></tr>';
         for (let i = 0; i < electionData2.kandydaci.length; i++) {
             var candiElement =
                 '<tr>' +
-                '<td> ' +
+                '<td class="candiate-name"> ' +
                 electionData2.kandydaci[i] +
                 ' </td>' +
                 '<td>' +
@@ -76,35 +72,30 @@ export function createGroupCandidatesSection(electionData, electionData2) {
                 i +
                 '" value="inni">' +
                 '</td>' +
-                '<td>' +
-                '<input checked type="radio" name="grPolityData2' +
-                i +
-                '" value="zignoruj">' +
-                '</td>' +
                 '</tr>';
             candidateListHtml.innerHTML += candiElement;
         }
     } else {
         if (electionData.kandydaci.length == 2) {
             candidateListHtml.innerHTML +=
-                '<tr><th>Kandydat</th><th>Prawica</th><th>Lewica</th><th>Zignoruj</th></tr>';
+                '<tr><th>Kandydat</th><th>Prawica</th><th>Lewica</th></tr>';
             var candiElement =
-                '<tr><td>' +
+                '<tr><td class="candiate-name">' +
                 electionData.kandydaci[0] +
-                '</td><td><input type="radio" name="grPolity0" value="prawica"></td><td><input type="radio" name="grPolity0" value="lewica"></td><td><input type="radio" name="grPolity0" value="zignoruj" checked></td></tr>';
+                '</td><td><input type="radio" name="grPolity0" value="prawica"></td><td><input type="radio" name="grPolity0" value="lewica"></td></tr>';
             candidateListHtml.innerHTML += candiElement;
             candiElement =
-                '<tr><td>' +
+                '<tr><td class="candiate-name">' +
                 electionData.kandydaci[1] +
-                '</td><td><input type="radio" name="grPolity1" value="prawica"></td><td><input type="radio" name="grPolity1" value="lewica"></td><td><input type="radio" name="grPolity1" value="zignoruj" checked></td></tr>';
+                '</td><td><input type="radio" name="grPolity1" value="prawica"></td><td><input type="radio" name="grPolity1" value="lewica"></td></tr>';
             candidateListHtml.innerHTML += candiElement;
         } else {
             candidateListHtml.innerHTML +=
-                '<tr><th>Kandydat</th><th>Prawica</th><th>Centrum</th><th>Lewica</th><th>Inni</th><th>Zignoruj</th></tr>';
+                '<tr><th>Kandydat</th><th>Prawica</th><th>Centrum</th><th>Lewica</th><th>Inni</th></tr>';
             for (let i = 0; i < electionData.kandydaci.length; i++) {
                 var candiElement =
                     '<tr>' +
-                    '<td> ' +
+                    '<td class="candiate-name"> ' +
                     electionData.kandydaci[i] +
                     ' </td>' +
                     '<td>' +
@@ -127,11 +118,6 @@ export function createGroupCandidatesSection(electionData, electionData2) {
                     i +
                     '" value="inni">' +
                     '</td>' +
-                    '<td>' +
-                    '<input checked type="radio" name="grPolity' +
-                    i +
-                    '" value="zignoruj">' +
-                    '</td>' +
                     '</tr>';
                 candidateListHtml.innerHTML += candiElement;
             }
@@ -144,12 +130,35 @@ export function createGroupCandidatesSection(electionData, electionData2) {
             if (electionData2)
                 groupCandidates(electionData2, candidateListHtml, true);
         }
-        if (event.buttons == 1) {
-            if (event.target) {
-                event.target.checked = true;
-                //wyciągnij ID z tabeli polityka
-                //zaznacz że jest on przypisany do jednej z grup
-                //zresetuj widok
+        //if (event.buttons == 1) {
+        //    if (event.target) {
+        //        console.log(event.target.checked);
+        //        if (event.target.checked == true) {
+        //            event.target.checked = false;
+        //        } else {
+        //            event.target.checked = true;
+        //        }
+        //        //wyciągnij ID z tabeli polityka
+        //        //zaznacz że jest on przypisany do jednej z grup
+        //        //zresetuj widok
+        //    }
+        //}
+    });
+    candidateListHtml.addEventListener('mousedown', (event) => {
+        if (event.button == 0) {
+            if (event.target.type == 'radio') {
+                if (event.target.checked == true) {
+                    event.target.justUnchecked = true;
+                    event.target.checked = false;
+                }
+            }
+        }
+    });
+    candidateListHtml.addEventListener('click', (e) => {
+        if (e.button == 0) {
+            if (e.target.justUnchecked == true) {
+                e.target.checked = false;
+                e.target.justUnchecked = false;
             }
         }
     });
@@ -210,6 +219,7 @@ export function calculateMaxCandidate(TERYT, geoDataType, data) {
     return [wynikZwyciescy / osobyWRejonie, zwyciesca];
 }
 
+//w procentach
 export function calculateTurnoutChange(TERYT, geoDataType, data1, data2) {
     //liczy różnicę procentów frekwencji między data1 a data2
     //trzeba dodać opcję pokazu bezpośredniego (w stylu: kiedyś przyszło 1500, teraz 2500, jest to 66% wzrostu)
@@ -226,6 +236,7 @@ export function calculateTurnoutChange(TERYT, geoDataType, data1, data2) {
     return output - 1;
 }
 
+//w procentach
 export function calculateCandidateChange(TERYT, geoDataType, data1, data2) {
     var TERYT1 = fixTERYT(TERYT, geoDataType, data1.rok);
     var TERYT2 = fixTERYT(TERYT, geoDataType, data2.rok);
@@ -239,9 +250,12 @@ export function calculateCandidateChange(TERYT, geoDataType, data1, data2) {
     kandydaciData2.forEach((kandydat) => {
         wynikGrupaData2 += data2[TERYT2][kandydat];
     });
+    //console.log(wynikGrupaData1, wynikGrupaData2);
+    //console.log(wynikGrupaData1 / data1[TERYT1].liczba_wyborców_obecnych,wynikGrupaData2 / data2[TERYT2].liczba_wyborców_obecnych,);
     let output =
-        wynikGrupaData1 / data1[TERYT1].liczba_wyborców_obecnych -
-        wynikGrupaData2 / data2[TERYT2].liczba_wyborców_obecnych;
+        wynikGrupaData1 /
+        data1[TERYT1].liczba_wyborców_obecnych /
+        (wynikGrupaData2 / data2[TERYT2].liczba_wyborców_obecnych);
     return output - 1;
 }
 
@@ -255,9 +269,10 @@ export function calculateRelativeDensity(TERYT, geoDataType, data) {
     let divider = 20;
     if (geoDataType == 'wojewodztwa') divider = 1;
     let output =
-        (density - currentData.electionData1MinPopulation) /
-        (currentData.electionData1MaxPopulation / divider -
-            currentData.electionData1MinPopulation);
+        (density - currentData.electionData1MinDensity) /
+        (currentData.electionData1MaxDensity / divider -
+            currentData.electionData1MinDensity);
+    //console.log(density, output);
     return output;
 }
 //tutaj - funckja do gęstości zaludnienia (wyciągnąć największą i najmniejszą wartość, po czym na podstawie tego skalę zrobić i zwrócić )

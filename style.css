@@ -1,8 +1,12 @@
 :root {
-  --background-light-color: #4c1010;
-  --background-dark-color: #230000;
-  --background-third-color: #522100;
-  --border-color: #524800;
+  --background-light-color: #414647;
+  --background-dark-color: #242834;
+  --background-third-color: #3c3f3f;
+  --border-color: #004f52;
+
+  --ui-color: #4a4a66;
+  --ui-hover-color: #72729b;
+  --text-color: #dddddd;
 }
 
 h5 {
@@ -27,7 +31,7 @@ html {
     repeating-conic-gradient(var(--c1) 0 25%, #0000 0 50%) 0 0 / var(--_s),
     radial-gradient(var(--_c)) 0 calc(var(--s) / 2) / var(--s) var(--s)
       var(--c1);
-  color: rgb(252, 221, 221);
+  color: var(--text-color);
 }
 body {
   font-family:
@@ -72,10 +76,11 @@ menu {
 
   button {
     font-weight: bold;
-    background-color: goldenrod;
-    border: 3px outset goldenrod;
+    color: var(--text-color);
+    background-color: var(--ui-color);
+    border: 3px outset var(--border-color);
     &:hover {
-      background-color: darkgoldenrod;
+      background-color: var(--ui-hover-color);
       cursor: pointer;
     }
   }
@@ -104,9 +109,10 @@ menu {
     padding: 2px;
     margin: 5px;
     border: none;
-    background-color: goldenrod;
+    color: var(--text-color);
+    background-color: var(--ui-color);
     &:hover {
-      background-color: darkgoldenrod;
+      background-color: var(--ui-hover-color);
       cursor: pointer;
     }
   }
@@ -122,7 +128,7 @@ menu {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-color: goldenrod;
+    background-color: white;
     cursor: pointer;
   }
   #precentageMinValue,
@@ -140,15 +146,16 @@ menu {
     appearance: none;
     width: 20px;
     height: 20px;
-    background-color: lightgray;
+    border-radius: 50%;
+    background-color: slategray;
     &:hover {
-      background-color: lightgoldenrodyellow;
+      background-color: navy;
       cursor: pointer;
     }
     &:checked {
-      background-color: darkgoldenrod;
+      background-color: lightgreen;
       &:hover {
-        background-color: goldenrod;
+        background-color: green;
       }
     }
   }
@@ -181,7 +188,7 @@ nav {
       border: 1px solid var(--border-color);
     }
     &.disabled {
-      color: goldenrod;
+      color: gray;
       background-color: black;
       &:hover {
         background-color: black;
@@ -225,12 +232,12 @@ p {
   margin: 30px 100px;
   a {
     text-decoration: none;
-    color: palevioletred;
+    color: skyblue;
     &:visited {
       color: violet;
     }
     &:hover {
-      color: lightblue;
+      color: aqua;
     }
   }
 }
@@ -299,9 +306,25 @@ td {
   user-select: none;
   white-space: nowrap;
 }
+tr:not(:has(input[type='radio']:checked)) .candiate-name {
+  color: gray;
+}
+
+table.compare tr td input[type='radio']:checked {
+  background-color: darkgreen;
+}
+table.compare tr td input[type='radio']:checked::before {
+  content: '✅️';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 input[type='radio'] {
   margin: 0;
   appearance: none;
+  position: relative;
   width: 60px;
   height: 25px;
   background-color: var(--background-dark-color);
@@ -348,6 +371,13 @@ input[type='radio'] {
 input:not(:checked) + .specificRegionContainer {
   select,
   input[type='text'] {
+    background-color: dimgray;
+  }
+}
+
+input:not(:checked) + input[type='range'] {
+  background-color: black;
+  &::-webkit-slider-thumb {
     background-color: dimgray;
   }
 }

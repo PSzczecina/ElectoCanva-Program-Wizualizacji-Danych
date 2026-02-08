@@ -35,6 +35,9 @@ const dataType = document.getElementById('dataType');
 
 const marginalWinsCheckbox = document.getElementById('marginalWinMerging');
 const marginContainer = document.getElementById('marginContainer');
+const marginalWinValue = document.getElementById('marginalWinValue');
+
+const groupingGradients = document.getElementById('groupingGradients');
 
 const refreshButton = document.getElementById('refresh');
 
@@ -47,6 +50,7 @@ maxValueText.innerHTML = maxValueSlider.value + '%';
 
 const colorBegin = document.getElementById('colorBegin');
 const colorEnd = document.getElementById('colorEnd');
+const colorInterval = document.getElementById('intervalCount');
 
 const candidateListHtml = document.getElementById('candidateList');
 
@@ -253,6 +257,11 @@ map.setMaxBounds(map.getBounds());
 map.setZoom(7);
 function style(feature) {
     showAndHideHtmlElements();
+    if (marginalWinsCheckbox.checked) {
+        var winMargin = parseFloat(marginalWinValue.value);
+    } else {
+        var winMargin = 0;
+    }
     var colorOutput = 0;
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
         if (elecSecondCheckbox.checked) {
@@ -298,7 +307,7 @@ function style(feature) {
                 ),
                 colorBegin.value,
                 colorEnd.value,
-                marginalWinsCheckbox.checked,
+                winMargin,
             );
         }
     } else if (currentData.dataCurrentlyAnalysed == 'population') {
@@ -428,6 +437,11 @@ map.on('zoomed', function () {
 
 async function redrawGeoJson() {
     showAndHideHtmlElements();
+    if (marginalWinsCheckbox.checked) {
+        var winMargin = parseFloat(marginalWinValue.value);
+    } else {
+        var winMargin = 0;
+    }
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
         if (elecSecondCheckbox.checked) {
             //console.log('wybrano drugie wybory');
@@ -495,7 +509,7 @@ async function redrawGeoJson() {
                     colorBegin.value,
                     colorEnd.value,
                     //tu trzeba zmienić, żeby tylko na prezydenckich 2tura było / dało się ustalić różnicę progową
-                    marginalWinsCheckbox.checked,
+                    winMargin,
                 ),
                 weight: 0.5,
                 opacity: 1,
@@ -525,24 +539,28 @@ async function redrawGeoJson() {
     var gradTable = interpolateColor(
         colorBegin.value,
         colorEnd.value,
-        document.getElementById('intervalCount').value,
+        colorInterval.value,
     );
     //do wyświetlania gradientu grup
-    var colorTableLeft = interpolateColor('#ffc6c6', '#aa0000', relativeStages);
+    var colorTableLeft = interpolateColor(
+        '#ffc6c6',
+        '#aa0000',
+        colorInterval.value,
+    );
     var colorTableRight = interpolateColor(
         '#ddddff',
         '#000099',
-        relativeStages,
+        colorInterval.value,
     );
     var colorTableCenter = interpolateColor(
         '#f8f8b0',
         '#504611',
-        relativeStages,
+        colorInterval.value,
     );
     var colorTableOther = interpolateColor(
         '#999999',
         '#222222',
-        relativeStages,
+        colorInterval.value,
     );
     //
     const interval = 100 / gradTable.length;
@@ -563,7 +581,7 @@ async function redrawGeoJson() {
         'linear-gradient(to right, ' + gradCalc + ')';
 }
 
-document.getElementById('intervalCount').addEventListener('input', () => {
+colorInterval.addEventListener('input', () => {
     redrawGeoJson();
 });
 document.getElementById('colorBegin').addEventListener('input', () => {
@@ -573,6 +591,11 @@ document.getElementById('colorEnd').addEventListener('input', () => {
     redrawGeoJson();
 });
 marginalWinsCheckbox.addEventListener('input', () => {
+    redrawGeoJson();
+});
+marginalWinValue.addEventListener('input', () => {
+    document.getElementById('marginValueDisplay').innerHTML =
+        'różnica zwycięstwa: ' + marginalWinValue.value;
     redrawGeoJson();
 });
 minValueSlider.addEventListener('input', async (e) => {

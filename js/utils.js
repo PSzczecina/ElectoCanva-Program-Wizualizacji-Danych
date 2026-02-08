@@ -2,15 +2,19 @@ export function colorRegion(
     value,
     colorBegin,
     colorEnd,
-    mergeMarginalWins = false,
+    marginalWinsValue = 0,
     useAbsoluteValue = false,
+    secondBestValue = NaN,
 ) {
     if (value.length == 2) {
         var candidate = value[1];
         value = value[0];
         //console.log(value, candidate);
     }
-    if (value < 0) return '#000000';
+    if (value < 0) {
+        var grayscale = true;
+        value *= -1;
+    }
     var colorTable = [];
     var relativeStages = document.getElementById('intervalCount').value;
     if (!useAbsoluteValue) {
@@ -20,8 +24,22 @@ export function colorRegion(
             parseInt(document.getElementById('precentageMaxSlide').value) / 100;
         var diff = max - min;
 
-        //jeśli nie ma kandydatów = jest to frekwencja
+        var colorTableOther = interpolateColor(
+            '#bbbbbb',
+            '#222222',
+            relativeStages,
+        );
+
+        //jeśli nie ma kandydatów = jest to frekwencja lub porównanie zmian
         if (!candidate) {
+            if (grayscale) {
+                for (var i = 0; i < relativeStages - 1; i++) {
+                    if (value <= min + (diff / relativeStages) * (i + 1)) {
+                        return colorTableOther[i];
+                    }
+                }
+                return colorTable[colorTableOther.length - 1];
+            }
             colorTable = interpolateColor(colorBegin, colorEnd, relativeStages);
             for (var i = 0; i < relativeStages - 1; i++) {
                 if (value <= min + (diff / relativeStages) * (i + 1)) {
@@ -46,17 +64,20 @@ export function colorRegion(
             '#504611',
             relativeStages,
         );
-        var colorTableOther = interpolateColor(
-            '#999999',
-            '#222222',
-            relativeStages,
-        );
+        //--------var colorTableOther = interpolateColor(...){...}
+
         //ten fragment powinien zwracać kolor biały, gdy wynik kandydata mieści się w odchyleniu (to znaczy: różnica między dwoma kandydatami jest minimalna)
         //
         //jest szansza że będzie trzeba przerobić / dodać nową funkcjonalność
         //if (value < 0.52) return '#ffffff';
         //
-        if (value < 0.525 && mergeMarginalWins) return '#ffffff';
+        if (
+            marginalWinsValue != 0 &&
+            value < 0.5 + marginalWinsValue / 2 / 100
+        ) {
+            //console.log(marginalWinsValue, 0.5 + marginalWinsValue / 100);
+            return '#ffffff';
+        }
         for (var i = 0; i < relativeStages - 1; i++) {
             if (value <= min + (diff / relativeStages) * (i + 1)) {
                 if (candidate == 'lewica') return colorTableLeft[i];

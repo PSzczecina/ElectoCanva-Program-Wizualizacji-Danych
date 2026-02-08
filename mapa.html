@@ -39,7 +39,9 @@
           <option value="1">1 Tura</option>
           <option selected value="2">2 Tura</option>
         </select>
-        <label for="secondElectionCheckbox">porównaj z innymi wyborami</label>
+        <label for="secondElectionCheckbox"
+          >porównaj z innymi wyborami (procenty)</label
+        >
         <input type="checkbox" id="secondElectionCheckbox" />
         <div class="secondElectionContainer">
           <label for="electionTypeSecond">Rodzaj wyborów</label>
@@ -66,7 +68,7 @@
           <option value="population">Populacja</option>
         </select>
         <button id="refresh">Załaduj dane</button>
-        <h4>Kontrolki Mapy</h4>
+        <h4>Ustawienia Mapy</h4>
         <input
           id="precentageMinSlide"
           type="range"
@@ -87,14 +89,20 @@
         <label id="precentageMaxValue">tn</label>
         <!--wyświetlanie wyników i ustalanie grup-->
         <h4>grupowanie kandydatów</h4>
-        <label for="intervalCount">ilość kroków w podziałce: </label>
+        <label for="intervalCount">liczba przedziałów: </label>
         <input id="intervalCount" type="number" value="4" min="2" max="12" />
 
         <div id="marginContainer">
-          <label for="marginalWinMerging"
-            >podkreśl marginalne różnice (przy 2 kandydatach)</label
-          >
+          <label for="marginalWinMerging">podkreśl marginalne różnice</label>
           <input type="checkbox" id="marginalWinMerging" />
+          <input
+            id="marginalWinValue"
+            type="range"
+            min=".5"
+            max="5"
+            step="0.5"
+          />
+          <label for="marginalWinValue" id="marginValueDisplay"></label>
         </div>
         <div id="turnoutColorSegment" style="display: none">
           <h5>kolor legendy</h5>
@@ -109,8 +117,8 @@
           <div id="gradientOther"></div>
         </div>
         <button id="refreshDisplay">Odśwież Mapę</button>
+        <div id="candidateList"></div>
       </menu>
-      <div id="candidateList"></div>
     </section>
   </body>
   <script type="module" src="js/mapControler.js"></script>
