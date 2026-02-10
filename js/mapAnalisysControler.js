@@ -15,7 +15,7 @@ import {
     returnMinAndMaxDensity,
 } from './DataManager.js';
 import { currentData } from './store.js';
-
+import { updateDetailsDisplay } from './mapJoinedFunctions.js';
 //elementy HTML
 const presidentialYearList = [2005, 2010, 2015, 2020, 2025];
 const parlimentaryYearList = [2005, 2007, 2011, 2015, 2019, 2023];
@@ -24,12 +24,6 @@ const elecTypeSelect = document.getElementById('electionType');
 const elecYearSelect = document.getElementById('electionYear');
 const roundSelect = document.getElementById('electionRound');
 
-const elecSecondCheckbox = document.getElementById('secondElectionCheckbox');
-
-const elecSecondTypeSelect = document.getElementById('electionTypeSecond');
-const elecSecondYearSelect = document.getElementById('electionYearSecond');
-const roundSecondSelect = document.getElementById('electionRoundSecond');
-
 const adminDivision = document.getElementById('administrativeDivision');
 const dataType = document.getElementById('dataType');
 
@@ -37,20 +31,24 @@ const marginalWinsCheckbox = document.getElementById('marginalWinMerging');
 const marginContainer = document.getElementById('marginContainer');
 const marginalWinValue = document.getElementById('marginalWinValue');
 
-const groupingGradients = document.getElementById('groupingGradients');
-
 const refreshButton = document.getElementById('refresh');
 
-const minValueText = document.getElementById('precentageMinValue');
-const maxValueText = document.getElementById('precentageMaxValue');
+const minValueTexts = document.getElementsByClassName('precentageMinValue');
+const maxValueTexts = document.getElementsByClassName('precentageMaxValue');
 const minValueSlider = document.getElementById('precentageMinSlide');
 const maxValueSlider = document.getElementById('precentageMaxSlide');
-minValueText.innerHTML = minValueSlider.value + '%';
-maxValueText.innerHTML = maxValueSlider.value + '%';
+for (let i = 0; i < minValueTexts.length; i++) {
+    minValueTexts[i].innerHTML = minValueSlider.value + '%<';
+}
+for (let i = 0; i < maxValueTexts.length; i++) {
+    maxValueTexts[i].innerHTML = '<' + maxValueSlider.value + '%';
+}
 
 const colorBegin = document.getElementById('colorBegin');
 const colorEnd = document.getElementById('colorEnd');
 const colorInterval = document.getElementById('intervalCount');
+
+const detailSection = document.getElementById('detailsDisplay');
 
 const candidateListHtml = document.getElementById('candidateList');
 
@@ -85,42 +83,9 @@ async function updateYearAndRoundSelect() {
             roundSelect.style.visibility = 'hidden';
         });
     }
-    //
-    if (true) {
-        elecSecondYearSelect.innerHTML = '';
-        if (elecSecondTypeSelect.value == 'prezy') {
-            presidentialYearList.forEach((year) => {
-                const option = document.createElement('option');
-                option.value = year;
-                option.text = year;
-                if (
-                    (year =
-                        presidentialYearList[presidentialYearList.length - 1])
-                )
-                    option.selected = true;
-                elecSecondYearSelect.appendChild(option);
-                roundSecondSelect.style.visibility = 'visible';
-            });
-        } else if (elecSecondTypeSelect.value == 'parla') {
-            parlimentaryYearList.forEach((year) => {
-                const option = document.createElement('option');
-                option.value = year;
-                option.text = year;
-                if (
-                    (year =
-                        parlimentaryYearList[parlimentaryYearList.length - 1])
-                )
-                    option.selected = true;
-                elecSecondYearSelect.appendChild(option);
-                roundSecondSelect.style.visibility = 'hidden';
-            });
-        }
-    }
 }
 updateYearAndRoundSelect();
 elecTypeSelect.addEventListener('input', updateYearAndRoundSelect);
-elecSecondCheckbox.addEventListener('input', updateYearAndRoundSelect);
-elecSecondTypeSelect.addEventListener('input', updateYearAndRoundSelect);
 
 refreshButton.addEventListener('click', async () => {
     //zaktualizuj store danych
@@ -138,17 +103,6 @@ refreshButton.addEventListener('click', async () => {
     currentData.electionData1MinDensity = temp[0];
     currentData.electionData1MaxDensity = temp[1];
 
-    if (elecSecondCheckbox.checked) {
-        currentData.electionData2 = await fetchAndUpdateData(
-            elecSecondTypeSelect.value,
-            elecSecondYearSelect.value || '2025',
-            roundSecondSelect.value,
-            adminDivision.value,
-        );
-        let temp = returnMinAndMaxDensity(currentData.electionData2);
-        currentData.electionData2MinDensity = temp[0];
-        currentData.electionData2MaxDensity = temp[1];
-    }
     currentData.geoJson = await fetchAdminDivisions(currentData.geoJsonType);
     await addGeoJsonData();
     await redrawGeoJson();
@@ -157,14 +111,7 @@ refreshButton.addEventListener('click', async () => {
 
     if (currentData.dataCurrentlyAnalysed == 'results') {
         candidateListHtml.innerHTML = '';
-        if (elecSecondCheckbox.checked) {
-            candidateListHtml.appendChild(
-                createGroupCandidatesSection(
-                    currentData.electionData1,
-                    currentData.electionData2,
-                ),
-            );
-        } else {
+        {
             candidateListHtml.appendChild(
                 createGroupCandidatesSection(currentData.electionData1),
             );
@@ -185,22 +132,12 @@ refreshButton.addEventListener('click', async () => {
  */
 function enableAndDisableRefresh() {
     if (
-        (elecTypeSelect.value ==
+        elecTypeSelect.value ==
             currentData.electionData1.rodzaj_wyborów.slice(0, 5) &&
-            parseInt(elecYearSelect.value) == currentData.electionData1.rok &&
-            adminDivision.value == currentData.geoJsonType &&
-            parseInt(roundSelect.value) == currentData.electionData1.tura &&
-            currentData.dataCurrentlyAnalysed ==
-                currentData.dataCurrentlyAnalysed) ||
-        (elecSecondTypeSelect.value ==
-            currentData.electionData2.rodzaj_wyborów.slice(0, 5) &&
-            parseInt(elecSecondYearSelect.value) ==
-                currentData.electionData2.rok &&
-            adminDivision.value == currentData.geoJsonType &&
-            parseInt(roundSecondSelect.value) ==
-                currentData.electionData2.tura &&
-            currentData.dataCurrentlyAnalysed ==
-                currentData.dataCurrentlyAnalysed)
+        parseInt(elecYearSelect.value) == currentData.electionData1.rok &&
+        adminDivision.value == currentData.geoJsonType &&
+        parseInt(roundSelect.value) == currentData.electionData1.tura &&
+        currentData.dataCurrentlyAnalysed == currentData.dataCurrentlyAnalysed
     ) {
         refreshButton.disabled = true;
     } else {
@@ -212,24 +149,36 @@ function showAndHideHtmlElements() {
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
         marginContainer.style.display = 'none';
         maxValueSlider.style.display = minValueSlider.style.display = 'block';
-        minValueText.style.display = maxValueText.style.display = 'block';
+        for (let i = 0; i < minValueTexts.length; i++) {
+            minValueTexts[i].style.display = 'block';
+        }
+        for (let i = 0; i < maxValueTexts.length; i++) {
+            maxValueTexts[i].style.display = 'block';
+        }
         document.getElementById('turnoutColorSegment').style.display = 'block';
+        document.getElementById('groupingGradients').style.display = 'none';
     } else if (currentData.dataCurrentlyAnalysed == 'results') {
         marginContainer.style.display = 'block';
         maxValueSlider.style.display = minValueSlider.style.display = 'block';
-        minValueText.style.display = maxValueText.style.display = 'block';
-        if (elecSecondCheckbox.checked) {
-            document.getElementById('turnoutColorSegment').style.display =
-                'block';
-        } else {
-            document.getElementById('turnoutColorSegment').style.display =
-                'none';
+        for (let i = 0; i < minValueTexts.length; i++) {
+            minValueTexts[i].style.display = 'block';
         }
+        for (let i = 0; i < maxValueTexts.length; i++) {
+            maxValueTexts[i].style.display = 'block';
+        }
+        document.getElementById('turnoutColorSegment').style.display = 'none';
+        document.getElementById('groupingGradients').style.display = 'block';
     } else if (currentData.dataCurrentlyAnalysed == 'population') {
         marginContainer.style.display = 'none';
         maxValueSlider.style.display = minValueSlider.style.display = 'none';
-        minValueText.style.display = maxValueText.style.display = 'none';
+        for (let i = 0; i < minValueTexts.length; i++) {
+            minValueTexts[i].style.display = 'none';
+        }
+        for (let i = 0; i < maxValueTexts.length; i++) {
+            maxValueTexts[i].style.display = 'none';
+        }
         document.getElementById('turnoutColorSegment').style.display = 'none';
+        document.getElementById('groupingGradients').style.display = 'none';
     }
 }
 //document.addEventListener('click', enableAndDisableRefresh);
@@ -243,7 +192,7 @@ function showAndHideHtmlElements() {
  */
 //console.log(testData.rok, testData.rodzaj_wyborów, testData.tura)
 
-var map = L.map('map').setView([51.5, 19], 13);
+var map = L.map('map').setView([51.65, 19], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     minZoom: 6,
@@ -264,18 +213,7 @@ function style(feature) {
     }
     var colorOutput = 0;
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
-        if (elecSecondCheckbox.checked) {
-            colorOutput = colorRegion(
-                calculateTurnoutChange(
-                    feature.properties.terc,
-                    currentData.geoJsonType,
-                    currentData.electionData1,
-                    currentData.electionData2,
-                ),
-                colorBegin.value,
-                colorEnd.value,
-            );
-        } else {
+        {
             colorOutput = colorRegion(
                 calculateTurnout(
                     feature.properties.terc,
@@ -287,18 +225,7 @@ function style(feature) {
             );
         }
     } else if (currentData.dataCurrentlyAnalysed == 'results') {
-        if (elecSecondCheckbox.checked) {
-            colorOutput = colorRegion(
-                calculateCandidateChange(
-                    feature.properties.terc,
-                    currentData.geoJsonType,
-                    currentData.electionData1,
-                    currentData.electionData2,
-                ),
-                colorBegin.value,
-                colorEnd.value,
-            );
-        } else {
+        {
             colorOutput = colorRegion(
                 calculateMaxCandidate(
                     feature.properties.terc,
@@ -334,45 +261,6 @@ function style(feature) {
 }
 
 var infoLock = 1; //1 to false ma być
-var info = L.control({ position: 'bottomleft' });
-info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info');
-    this.update();
-    this._div.style.display = 'none';
-    return this._div;
-};
-info.update = function (props) {
-    if (props && props != -1) {
-        this._div.style.display = 'block';
-        var _name = props.name;
-        var _terc = props.terc;
-        if (currentData.geoJsonType == 'gminy') {
-            var jed = 'Gmina';
-            _terc = _terc.slice(0, -1);
-        }
-        if (currentData.geoJsonType == 'powiaty') var jed = 'Powiat';
-        if (currentData.geoJsonType == 'wojewodztwa') var jed = 'Województwo';
-        this._div.innerHTML =
-            '<h4>' + jed + ' ' + _name + ' (terc ' + _terc + ')</h4>';
-        for (let [key, value] of Object.entries(
-            currentData.electionData1[_terc],
-        )) {
-            if (key == 'liczba_wyborców_uprawnionych')
-                key = 'Wyborcy uprawnieni';
-            if (key == 'liczba_wyborców_obecnych') key = 'Obecni na miejscu';
-            if (key == 'łączna_ilość_głosów') key = 'Wszystkie głosy';
-            this._div.innerHTML += '<p>' + key + ': <b>' + value + '</b></p>';
-            if (key == 'Wszystkie głosy')
-                this._div.innerHTML += '<p><b>=================</b></p>';
-        }
-    } else if (props == -1) {
-        this._div.style.display = 'none';
-    }
-    if (infoLock == -1) {
-        this._div.style.border = '2px solid darkorange';
-    } else this._div.style.border = '2px solid black';
-};
-info.addTo(map);
 
 function highlightFeature(e) {
     //console.log(e.target.feature.properties.terc)
@@ -384,11 +272,11 @@ function highlightFeature(e) {
         fillOpacity: 1,
     });
     layer.bringToFront();
-    if (infoLock != -1) info.update(layer.feature.properties);
+    //if (infoLock != -1) info.update(layer.feature.properties);
+    updateDetailsDisplay(layer.feature.properties, infoLock, detailSection);
 }
 function resetHighlight(e) {
     geojson.resetStyle(e.target);
-    info.update();
 }
 function displayRegion(e) {
     infoLock = infoLock * -1;
@@ -403,13 +291,14 @@ function displayRegion(e) {
         });
         layer.bringToFront();
     }
-    info.update(layer.feature.properties);
+    updateDetailsDisplay(e.target.feature.properties, infoLock, detailSection);
 }
 //mouseOut się nie wykonuje czasem - to jest remedium na to
 document.getElementById('map').addEventListener('mouseleave', () => {
     //geojson.resetStyle();
-    infoLock = 1;
-    info.update(-1);
+    if (infoLock != -1) {
+        detailSection.innerHTML = '';
+    }
 });
 
 function onEachFeature(feature, layer) {
@@ -443,25 +332,7 @@ async function redrawGeoJson() {
         var winMargin = 0;
     }
     if (currentData.dataCurrentlyAnalysed == 'turnout') {
-        if (elecSecondCheckbox.checked) {
-            //console.log('wybrano drugie wybory');
-            geojson.setStyle((feature) => ({
-                color: '#000000',
-                fillColor: colorRegion(
-                    calculateTurnoutChange(
-                        feature.properties.terc,
-                        currentData.geoJsonType,
-                        currentData.electionData1,
-                        currentData.electionData2,
-                    ),
-                    colorBegin.value,
-                    colorEnd.value,
-                ),
-                weight: 0.5,
-                opacity: 1,
-                fillOpacity: 0.95,
-            }));
-        } else {
+        {
             geojson.setStyle((feature) => ({
                 color: '#000000',
                 fillColor: colorRegion(
@@ -479,25 +350,7 @@ async function redrawGeoJson() {
             }));
         }
     } else if (currentData.dataCurrentlyAnalysed == 'results') {
-        if (elecSecondCheckbox.checked) {
-            //console.log('wybrano drugie wybory');
-            geojson.setStyle((feature) => ({
-                color: '#000000',
-                fillColor: colorRegion(
-                    calculateCandidateChange(
-                        feature.properties.terc,
-                        currentData.geoJsonType,
-                        currentData.electionData1,
-                        currentData.electionData2,
-                    ),
-                    colorBegin.value,
-                    colorEnd.value,
-                ),
-                weight: 0.5,
-                opacity: 1,
-                fillOpacity: 0.95,
-            }));
-        } else {
+        {
             geojson.setStyle((feature) => ({
                 color: '#000000',
                 fillColor: colorRegion(
@@ -536,6 +389,10 @@ async function redrawGeoJson() {
         }));
     }
     const gradDisplay = document.getElementById('gradientLegend');
+    const gradRight = document.getElementById('gradientRight');
+    const gradLeft = document.getElementById('gradientLeft');
+    const gradCenter = document.getElementById('gradientCenter');
+    const gradOther = document.getElementById('gradientOther');
     var gradTable = interpolateColor(
         colorBegin.value,
         colorEnd.value,
@@ -548,7 +405,7 @@ async function redrawGeoJson() {
         colorInterval.value,
     );
     var colorTableRight = interpolateColor(
-        '#ddddff',
+        '#a3a3de',
         '#000099',
         colorInterval.value,
     );
@@ -562,7 +419,15 @@ async function redrawGeoJson() {
         '#222222',
         colorInterval.value,
     );
-    //
+    //funkcja do zrobienia gradientu dla legendy - nie będę tego kopiował 5 razy
+    gradDisplay.style.background = createLegendGradient(gradTable);
+    gradRight.style.background = createLegendGradient(colorTableRight);
+    gradLeft.style.background = createLegendGradient(colorTableLeft);
+    gradCenter.style.background = createLegendGradient(colorTableCenter);
+    gradOther.style.background = createLegendGradient(colorTableOther);
+}
+
+function createLegendGradient(gradTable) {
     const interval = 100 / gradTable.length;
     var gradCalc = '';
     for (let i = 0; i < gradTable.length; i++) {
@@ -577,8 +442,7 @@ async function redrawGeoJson() {
             interval * (i + 1) +
             '%';
     }
-    gradDisplay.style.background =
-        'linear-gradient(to right, ' + gradCalc + ')';
+    return 'linear-gradient(to right, ' + gradCalc + ')';
 }
 
 colorInterval.addEventListener('input', () => {
@@ -600,11 +464,15 @@ marginalWinValue.addEventListener('input', () => {
 });
 minValueSlider.addEventListener('input', async (e) => {
     redrawGeoJson();
-    minValueText.innerHTML = minValueSlider.value + '%';
+    for (let i = 0; i < minValueTexts.length; i++) {
+        minValueTexts[i].innerHTML = minValueSlider.value + '%<';
+    }
 });
 maxValueSlider.addEventListener('input', async (e) => {
     redrawGeoJson();
-    maxValueText.innerHTML = maxValueSlider.value + '%';
+    for (let i = 0; i < maxValueTexts.length; i++) {
+        maxValueTexts[i].innerHTML = '<' + maxValueSlider.value + '%';
+    }
 });
 
 document.getElementById('refreshDisplay').addEventListener('click', () => {

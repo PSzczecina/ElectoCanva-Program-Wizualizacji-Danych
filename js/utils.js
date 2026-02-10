@@ -76,7 +76,7 @@ export function colorRegion(
             value < 0.5 + marginalWinsValue / 2 / 100
         ) {
             //console.log(marginalWinsValue, 0.5 + marginalWinsValue / 100);
-            return '#ffffff';
+            return '#ff9100';
         }
         for (var i = 0; i < relativeStages - 1; i++) {
             if (value <= min + (diff / relativeStages) * (i + 1)) {

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Ogólnie to renderowanie lubi czasem wybuchać. Trzeba się tym zająć-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <title>Piękno, Radość, Szczęście</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Strona Główna</a>
+      <a href="mapaAnaliza.html">Mapa - analizy</a>
+      <a class="disabled">Mapa - porównania</a>
+      <a href="wykresy.html">Wykresy</a>
+      <a href="dopobrania.html">Do Pobrania</a>
+    </nav>
+    <section>
+      <div class="mapAndLegendDisplay">
+        <h4>Ustawienia Mapy</h4>
+        <div class="legendSegment">
+          <label for="intervalCount">liczba przedziałów: </label>
+          <input id="intervalCount" type="number" value="4" min="2" max="12" />
+          <div id="turnoutColorSegment" style="display: none">
+            <div class="colorPicker">
+              <input type="color" id="colorBegin" value="#aa0000" />
+              <h6><< Wybierz kolory na krańcach przedziału >></h6>
+              <input type="color" id="colorEnd" value="#00ff00" />
+            </div>
+            <div id="gradientLegend">
+              <p class="precentageMinValue">x</p>
+              <p class="precentageMaxValue">y</p>
+              <div id="negativeLegend"></div>
+            </div>
+          </div>
+        </div>
+        <input
+          id="precentageMinSlide"
+          type="range"
+          step="1"
+          value="45"
+          min="0"
+          max="100"
+        />
+        <input
+          id="precentageMaxSlide"
+          type="range"
+          step="1"
+          value="75"
+          min="0"
+          max="100"
+        />
+        <div id="map"></div>
+        <button id="refreshDisplay">Odśwież Mapę</button>
+      </div>
+      <article>
+        <div id="detailsDisplay"></div>
+        <div class="lockedDisplayInfo">
+          Kliknij na region, by zatrzymać na nim widok. <br />Aby odznaczyć
+          region, kliknij gdziekolwiek na mapie.
+        </div>
+      </article>
+      <menu>
+        <h4>Kontrolki Danych</h4>
+        <label for="electionType">Wybory nr 1:</label>
+        <div class="electionDetailSelects">
+          <select id="electionType">
+            <option selected value="prezy">Prezydenckie</option>
+            <option value="parla">Parlamentarne</option>
+          </select>
+          <select id="electionYear"></select>
+          <select id="electionRound">
+            <option value="1">1 Tura</option>
+            <option selected value="2">2 Tura</option>
+          </select>
+        </div>
+        <label for="electionTypeSecond">Wybory nr 2:</label>
+        <div class="electionDetailSelects">
+          <select id="electionTypeSecond">
+            <option selected value="prezy">Prezydenckie</option>
+            <option value="parla">Parlamentarne</option>
+          </select>
+          <select id="electionYearSecond"></select>
+          <select id="electionRoundSecond">
+            <option value="1">1 Tura</option>
+            <option selected value="2">2 Tura</option>
+          </select>
+        </div>
+        <h4>wyświetlane dane to zmiany w wyborach 1 względem wyborów 2</h4>
+        <label for="administrativeDivision">Podział administracyjny</label>
+        <select id="administrativeDivision">
+          <option value="gminy">Gminy</option>
+          <option selected value="powiaty">Powiaty</option>
+          <option value="wojewodztwa">Województwa</option>
+        </select>
+        <label for="dataType">dane do porównania:</label>
+        <select id="dataType">
+          <option selected value="turnout">Zmiany w frekwencji</option>
+          <option value="results">Zmiany w poparciu</option>
+          <!--option value="population">Populacja</option-->
+        </select>
+        <button id="refresh">Załaduj dane</button>
+        <!--wyświetlanie wyników i ustalanie grup-->
+
+        <div id="marginContainer" style="display: none">
+          <label for="marginalWinMerging">podkreśl marginalne różnice</label>
+          <input type="checkbox" id="marginalWinMerging" />
+          <input
+            id="marginalWinValue"
+            type="range"
+            min=".5"
+            max="5"
+            step="0.5"
+          />
+          <label for="marginalWinValue" id="marginValueDisplay"></label>
+        </div>
+        <div id="turnoutColorSegment" style="display: none">
+          <h5>kolor legendy</h5>
+          <input type="color" id="colorBegin" value="#ffffff" />
+          <input type="color" id="colorEnd" value="#aa0000" />
+          <div id="gradientLegend"></div>
+        </div>
+        <div id="candidateList"></div>
+      </menu>
+    </section>
+  </body>
+  <script type="module" src="js/mapComparisonControler.js"></script>
+</html>

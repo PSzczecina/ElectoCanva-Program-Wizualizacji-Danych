@@ -41,6 +41,9 @@ export async function calculateMinMaxValue(electionData) {
 export function createGroupCandidatesSection(electionData, electionData2) {
     //console.log(electionData, electionData2);
     var candidateListHtml = document.createElement('table');
+    var title = document.createElement('h4');
+    title.innerHTML = '<h4>grupowanie kandydatów</h4>';
+    candidateListHtml.appendChild(title);
     if (electionData2) {
         candidateListHtml.className = 'compare';
         candidateListHtml.innerHTML +=

@@ -2,11 +2,11 @@
   --background-light-color: #414647;
   --background-dark-color: #242834;
   --background-third-color: #3c3f3f;
-  --border-color: #004f52;
+  --border-color: #264f51;
 
   --ui-color: #4a4a66;
   --ui-hover-color: #72729b;
-  --text-color: #dddddd;
+  --text-color: #ffffff;
 }
 
 h5 {
@@ -16,7 +16,7 @@ h5 {
 }
 
 html {
-  --s: 75px; /* control the size*/
+  --s: 50px; /* control the size*/
   --c1: var(--background-light-color);
   --c2: var(--background-third-color);
 
@@ -33,6 +33,50 @@ html {
       var(--c1);
   color: var(--text-color);
 }
+
+button {
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--border-color);
+  border: 3px outset var(--background-dark-color);
+  &:hover {
+    background-color: var(--ui-hover-color);
+    cursor: pointer;
+  }
+  &:active {
+    background-color: #242834;
+    border: inset;
+  }
+}
+
+#refresh {
+  font-size: 15px;
+  height: 40px;
+  width: 100%;
+}
+#refreshDisplay {
+  font-size: 15px;
+  height: 40px;
+  width: 50%;
+  margin: 5px 25%;
+}
+
+input[type='range'] {
+  appearance: none;
+  background: var(--background-dark-color);
+  height: 20px;
+  width: 100%;
+  border-radius: 15px;
+}
+input[type='range']::-webkit-slider-thumb {
+  appearance: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
 body {
   font-family:
     system-ui,
@@ -49,61 +93,175 @@ body {
   margin: 0;
   padding: 0;
 }
-#map {
-  background-color: rgba(74, 74, 74, 0.7);
-  float: left;
+
+section {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  justify-content: start;
+}
+
+.mapAndLegendDisplay {
+  display: block;
   min-height: 500px;
   min-width: 500px;
-  height: 80vh;
-  width: 80vh;
-  margin: 30px;
   margin-bottom: 0;
-  margin-right: 3px;
-  margin-left: 5%;
+  margin-left: 50px;
+  h4 {
+    margin: 0;
+    font-size: 25px;
+  }
+}
+
+.legendSegment {
+  min-height: 90px;
+}
+
+#turnoutColorSegment {
+  width: 100%;
+  .colorPicker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    h6 {
+      flex-basis: 60%;
+    }
+    input[type='color'] {
+      flex-basis: 20%;
+      height: 35px;
+      background-color: var(--border-color);
+    }
+  }
+}
+.precentageMinValue {
+  left: -20px;
+}
+.precentageMaxValue {
+  right: -20px;
+}
+#groupingGradients {
+  position: relative;
+  border: 3px outset var(--border-color);
+  div {
+    background-color: black;
+    margin: 0;
+    height: 15px;
+  }
+  p {
+    position: absolute;
+    margin: 0;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+
+input[type='number'] {
+  width: 40px;
+}
+#gradientLegend {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  height: 30px;
+  border: 5px outset var(--border-color);
+  background-color: black;
+  #negativeLegend {
+    width: 100%;
+    position: absolute;
+    height: 10px;
+    bottom: 0;
+  }
+  p {
+    z-index: 99;
+    position: absolute;
+    margin: 0;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+
+article {
+  border: 1px solid black;
+  flex-basis: 20%;
+  min-width: 375px;
+  background-color: #66339922;
+  position: relative;
+  .lockedDisplayInfo {
+    color: #aaa;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 97%;
+    text-align: center;
+    background-color: #2f00ff44;
+  }
+  h4 {
+    margin-top: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  table {
+    width: 90%;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 30px;
+    padding: 0;
+  }
+  th,
+  td {
+    width: 80%;
+    text-align: left;
+    height: 20px;
+    padding: 0 0px;
+    border-bottom: 1px solid black;
+  }
+  .tabNum {
+    width: 20%;
+    text-align: right;
+  }
+}
+#map {
+  background-color: rgba(74, 74, 74, 0.7);
+  min-height: 500px;
+  min-width: 500px;
+  height: 65vh;
+  width: 75vh;
   border: 6px outset var(--border-color);
 }
 
 menu {
   margin-left: 0;
   padding: 0;
-  float: left;
   min-width: 250px;
-  width: 10vw;
+  flex-basis: 20%;
 
   h4 {
     margin: 15px 0;
   }
 
-  button {
-    font-weight: bold;
-    color: var(--text-color);
-    background-color: var(--ui-color);
-    border: 3px outset var(--border-color);
-    &:hover {
-      background-color: var(--ui-hover-color);
-      cursor: pointer;
-    }
-  }
-
-  #refresh {
-    margin: 20px 0;
-    font-size: 15px;
-    height: 40px;
-    width: 100%;
-  }
-  #refreshDisplay {
-    position: fixed;
-    bottom: 40px;
-    right: 10px;
-    height: 50px;
-    width: 80px;
-  }
   label {
     text-align: center;
   }
   select {
     display: block;
-    width: 90%;
+    width: 100%;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     padding: 2px;
@@ -115,26 +273,15 @@ menu {
       background-color: var(--ui-hover-color);
       cursor: pointer;
     }
+    border: 1px inset var(--border-color);
   }
-  input[type='range'] {
-    appearance: none;
-    background: var(--background-dark-color);
-    height: 20px;
-    width: 100%;
-    border-radius: 15px;
-  }
-  input[type='range']::-webkit-slider-thumb {
-    appearance: none;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    background-color: white;
-    cursor: pointer;
-  }
-  #precentageMinValue,
-  #precentageMaxValue {
-    width: 70%;
-    text-align: center;
+  .electionDetailSelects {
+    display: flex;
+    select {
+      flex-grow: 1;
+      flex-basis: 33%;
+      width: auto;
+    }
   }
 
   label[for='secondElectionCheckbox'] {
@@ -159,18 +306,50 @@ menu {
       }
     }
   }
+  table {
+    float: left;
+    font-size: 0.8rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: rgba(74, 74, 74, 0.4);
+  }
+  th,
+  td {
+    height: 20px;
+    padding: 0 0px;
+    border: 1px solid black;
+    user-select: none;
+    white-space: nowrap;
+  }
+  tr:not(:has(input[type='radio']:checked)) .candiate-name {
+    color: gray;
+  }
 
-  input[type='color'] {
-    background-color: var(--background-dark-color);
+  table.compare tr td input[type='radio']:checked {
+    background-color: darkgreen;
+  }
+  table.compare tr td input[type='radio']:checked::before {
+    content: '✅️';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
+
 nav {
   overflow-x: hidden;
+  overflow-y: hidden;
   width: 100%;
-  min-height: 90px;
+  height: 70px;
   background-color: var(--background-dark-color);
   a {
-    margin: 20px max(3vw, 30px);
+    margin: 5px 30px;
     padding: 10px 0;
     text-align: center;
     display: border-box;
@@ -179,7 +358,7 @@ nav {
     background-color: var(--background-light-color);
     font-size: 30px;
     min-width: 200px;
-    width: 15vw;
+
     text-decoration: none;
     border: 1px solid var(--background-light-color);
     border-radius: 15px;
@@ -197,21 +376,6 @@ nav {
       }
     }
   }
-}
-
-#gradientLegend {
-  margin: 10px 0;
-  width: 150px;
-  height: 30px;
-  border: 5px outset var(--border-color);
-  background-color: black;
-}
-
-#groupingGradients div {
-  background-color: black;
-  margin: 10px 0;
-  width: 150px;
-  height: 20px;
 }
 
 input:not(:checked) + .secondElectionContainer {
@@ -246,12 +410,10 @@ ul {
   margin: 30px 100px;
 }
 h6 {
+  margin: 10px 0;
   font-weight: normal;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  letter-spacing: 1px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .info {
@@ -283,42 +445,6 @@ h6 {
     padding-left: 10px;
     font-size: 18px;
   }
-}
-
-table {
-  float: left;
-  font-size: 0.8rem;
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 5px;
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: 10px;
-  margin-top: 30px;
-  padding: 5px;
-  background-color: rgba(74, 74, 74, 0.4);
-}
-th,
-td {
-  height: 25px;
-  padding: 0;
-  border: 1px solid black;
-  user-select: none;
-  white-space: nowrap;
-}
-tr:not(:has(input[type='radio']:checked)) .candiate-name {
-  color: gray;
-}
-
-table.compare tr td input[type='radio']:checked {
-  background-color: darkgreen;
-}
-table.compare tr td input[type='radio']:checked::before {
-  content: '✅️';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 input[type='radio'] {
@@ -375,7 +501,7 @@ input:not(:checked) + .specificRegionContainer {
   }
 }
 
-input:not(:checked) + input[type='range'] {
+input[type='checkbox']:not(:checked) + input[type='range'] {
   background-color: black;
   &::-webkit-slider-thumb {
     background-color: dimgray;
@@ -400,4 +526,27 @@ input[type='text'] {
   height: 30px;
   width: 90%;
   margin: 0 auto;
+}
+
+main {
+  h3,
+  h4 {
+    margin: 20px 50px;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    color: skyblue;
+    &:visited {
+      color: violet;
+    }
+    &:hover {
+      color: aqua;
+    }
+  }
 }
